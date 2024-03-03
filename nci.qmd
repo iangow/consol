@@ -110,7 +110,7 @@ Parent Ltd applied a 20% depreciation rate to this type of plant.
 |                     | Debit  | Credit |
 |---------------------|:-------|--------|
 | Accounts receivable | 10,000 |        |
-|   Sales             |        | 10,000 |
+|  Sales              |        | 10,000 |
 
 (1) BCVR entry
 
@@ -124,9 +124,9 @@ See [here](https://docs.google.com/spreadsheets/d/1jSdsHErn91AqXO4gSpduw7I0NHwxW
 |  BCVR                            |        | 35 000 |
 |                                  |        |        |
 | Inventory                        | 10 000 |        |
-|   Deferred tax liability         |        |  3 000 |
-|   BCVR                           |        |  7 000 |
+|  Deferred tax liability          |        |  3 000 |
+|  BCVR                            |        |  7 000 |
 |                                  |        |        |
 | Land                             | 60 000 |        |
-|   Deferred tax liability         |        | 18 000 |
-|   BCVR                           |        | 42 000 |
+|  Deferred tax liability          |        | 18 000 |
+|  BCVR                            |        | 42 000 |
