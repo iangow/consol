@@ -1,0 +1,132 @@
+---
+title: "Noncontrolling interest"
+author: "Ian D. Gow"
+format: 
+  html:
+    toc: true
+    code-fold: true
+  pdf:
+    colorlinks: true
+    geometry:
+      - left=2.5cm
+      - right=2.5cm
+    papersize: a4
+    mainfont: TeX Gyre Pagella
+    mathfont: TeX Gyre Pagella Math
+    csl: journal-of-financial-economics.csl
+---
+
+NCI arises when entities other than the parent entity own shares in members of the group (other than the parent).
+Typically NCI will represent a minority interest in a subsidiary that is controlled by the parent (directly or indirectly) through a majority interest.
+In general the existence of NCI does not affect the processes of preparing consolidated accounts at a group level.
+Rather NCI is part of the presentation of group equity as comprising the interest of shareholders in the parent and NCI.
+
+NCI at time of acquisition may be measured in either of two ways:
+ - NCI’s proportionate share of the acquiree’s net assets
+ - Fair value of NCI
+Under the first method, there is no goodwill associated with NCI. 
+Goodwill will be the difference between the purchase consideration paid by the parent and the parent’s proportionate share of the fair value of identifiable net assets (FVINA).
+This is the **partial goodwill method**.
+
+Under the second method, goodwill will be the difference between the purchase consideration paid by the parent and the parent's proportionate share of FVINA plus the difference between the fair value of NCI and the NCI's proportionate share of FVINA. 
+This is the **full goodwill method**.
+Both methods allowed under *AASB3 Business combinations*.
+In some cases, it can be costly to measure NCI fair value.
+But NCI can be measured easily in some cases, such as when the subsidiary is publicly traded.
+*We focus on the partial goodwill method in ACCT 90012.*
+
+From the perspective of the subsidiary, NCIs have an interest in the subsidiary's profit and net assets.
+However, from the perspective of the group, NCIs have an interest in the *subsidiary's contribution* to the group's profit and net assets.
+
+## NCI: Steps
+
+NCI's share of equity at the end of the current period can be partitioned into three components.
+
+  1. Share of equity recorded at acquisition date
+  2. Share of change in equity from acquisition date to beginning of current period
+  3. Share of change in equity in the current period
+  
+Accounting for each of these components can be viewed as a step in the preparation of NCI.
+
+## Consolidation with NCI
+
+Fair value increments are applied to identifiable net assets, which are unaffected by the existence of NCI.
+Thus, the BCVR entry is unaffected by NCI.
+However, offsets to BCVR---typically debits---can affect Step 2 and Step 3 elements of NCI.
+
+With NCI, the elimination entry is applied in two parts.
+First, we eliminate the parent's interest in pre-acquisition equity.
+Second, we eliminate the NCI in pre-acquisition equity; this is Step 1.
+
+The remaining group consolidation entries are largely unaffected.
+However, each consolidation entry we make needs be examined for effects on beginning-of-period NCI (Step 2) and current period changes in NCI (Step 3).
+
+In the presentation in this chapter, the consolidation worksheet is expanded to include a section for NCI.
+The NCI portion of the worksheet functions much like group portion introduced in previous chapters.
+
+## Comprehensive example
+
+On 1 July 2013, Parent Ltd acquired control of Subsidiary Ltd by purchasing 80% of its share capital  for $300,000. At this date, the equity of Subsidiary Ltd was:
+
+| | |
+|------|------:|
+| Share capital |	 $130,000 |
+| General reserve	| 70,000 |
+| Retained earnings	| 50,000 |
+
+All the identifiable assets and liabilities were recorded at FV except for the following:
+
+| | CA | FV |
+|------|------:|------:|
+| Inventory	| 80,000 | 90,000 |
+| Plant (cost $160,000)	| 130,000	| 180,000 |
+| Land | 60,000	| 120,000 |
+
+The plant had a remaining useful life of 10 years, with benefits to be received evenly over this period.
+
+All the inventory on hand at 1 July 2013 was sold by 30 June 2014.
+Subsidiary Ltd made a profit of \$40,000 for the year ended 30 June 2014. 
+No other changes occurred in equity.
+
+At 1 July 2016, there was \$15,000 profit in the inventories of Parent Ltd from goods acquired from Subsidiary Ltd for \$45,000.
+
+During the year ended 30 June 2017, Subsidiary Ltd sold inventory costing $15,000 to Parent Ltd for \$30,000. 
+On 30 June 2017, \$6,000 of inventory was still on hand in Parent's books.
+
+On 1 April 2017, Subsidiary Ltd sold an item of plant with a carrying amount of \$40,000 (cost \$160,000, accumulated depreciation \$120,000) to Parent Ltd for \$60,000.
+The item was still on hand at the end of the year.
+Parent Ltd applied a 20% depreciation rate to this type of plant.
+
+**Required**
+
+1. Prepare the acquisition analysis at acquisition date
+2. Prepare the consolidation worksheet entries at acquisition date
+3. Prepare the consolidation worksheet entries for year ended 30 June 2014
+4. Prepare the consolidation worksheet entries for year ended 30 June 2017
+5. Prepare the consolidated financial statements for year ended 30 June 2017
+
+<!--# <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTTGJb_jYaVeHqxqKuciigBsfw1exnII9t_GUTXKOvhxXn1vaU2MOPe-9XJrvVLQiDLsMWpfsLZqYjA/pubhtml?gid=1700611393&amp;range=A46:D59&amp;single=false&amp;widget=true&amp;headers=true" height="400" width="550"></iframe>  -->
+
+|                     | Debit  | Credit |
+|---------------------|:-------|--------|
+| Accounts receivable | 10,000 |        |
+|   Sales             |        | 10,000 |
+
+(1) BCVR entry
+
+See [here](https://docs.google.com/spreadsheets/d/1jSdsHErn91AqXO4gSpduw7I0NHwxWD-Cra6qRIovrYc/edit#gid=1700611393&range=A46:D59).
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Acc. dep. -- Plant and equipment | 30 000 |        |
+| Plant                            | 20 000 |        |
+|  Deferred tax liability          |        | 15 000 |
+|  BCVR                            |        | 35 000 |
+|                                  |        |        |
+| Inventory                        | 10 000 |        |
+|   Deferred tax liability         |        |  3 000 |
+|   BCVR                           |        |  7 000 |
+|                                  |        |        |
+| Land                             | 60 000 |        |
+|   Deferred tax liability         |        | 18 000 |
+|   BCVR                           |        | 42 000 |
