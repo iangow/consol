@@ -1,0 +1,35 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Consolidation accounting"
+  reader-mode: true
+  site-url: https://iangow.github.io/consol
+  author:
+  - name: Ian D. Gow
+    id: idg
+    orcid: 0000-0002-6243-8409
+    email: ian.gow@unimelb.edu.au
+    affiliation:
+    - id: unimelb
+      name: University of Melbourne
+      city: Melbourne
+      state: Victoria
+      country: Australia
+  language: en-GB
+  date: today
+  date-format: "DD MMM YYYY"
+  description: "Course book for accounting research"
+  chapters:
+    - "index.qmd"
+    - bus-combs.qmd
+    - "nci.qmd"
+format:
+  html:
+    code-link: true
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    keep-tex: true

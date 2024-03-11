@@ -1,0 +1,182 @@
+# Business combinations {#sec-bus-combs}
+
+This chapter introduces the accounting for **business combinations**.
+The relevant accounting standard is [AASB 3](https://www.aasb.gov.au/admin/file/content105/c9/AASB3_08-15_COMPdec22_01-23.pdf) (IFRS 3) *Business Combinations*.
+
+::: {.callout-tip}
+## Control (paragraph 6 of AASB 10)
+An investor controls an investee when it is exposed, or has rights, to variable returns from its involvement with the investee and has the ability to affect those returns through its power over the investee.
+:::
+
+1. **Direct acquisition**: An acquisition in which the acquirer purchases the underlying assets and liabilities of a business or purchases an entire entity comprising a business and then liquidates that entity.
+ - Accounting at time of acquisition allocates purchase consideration to assets and liabilities acquired.
+2. **Indirect acquisition**: An acquisition in which the acquirer purchases sufficient shares in another entity to obtain control of that entity and hence control that entity's business.
+ - Accounting at time of acquisition allocates purchase consideration to assets and
+liabilities acquired.
+ - Because the acquired entity continues to produce its own accounts, consolidation
+accounting entries are required in each subsequent period.
+
+Paragraph 5 of AASB 3/IFRS 3 lists four steps:
+1. Identify the acquirer
+2. Determine the acquisition date
+3. Recognize and measure the identifiable assets acquired (and liabilities assumed)
+4. Measure and recognize either goodwill or a gain from bargain purchase
+
+::: {.callout-tip}
+## Fair value of identifiable net assets (FVINA)
+
+The difference between the fair value of identifiable assets acquired and the fair value of liabilities assumed.
+:::
+
+
+## Step 1: Identifying the acquirer
+
+The guidance in [AASB 10](https://www.aasb.gov.au/admin/file/content105/c9/AASB10_07-15_ACOMPdec21_01-22.pdf) (IFRS 10) *Consolidated Financial Statements* shall be used to identify the acquirer (the entity that obtains control of the acquiree). 
+
+An investor controls an investee when the investor is exposed to (or has rights to) variable returns from the investee and has the ability to affect those returns through its power over the investee.
+
+
+If applying the guidance in AASB 10 does not clearly indicate which entity is the acquirer, IFRS 3 outlines factors in
+to be considered in making that determination.
+
+In a business combination effected primarily by transferring cash or other assets or by incurring liabilities,
+the acquirer is usually the entity that transfers the cash or other assets or incurs the liabilities.
+
+In a business combination effected primarily by exchanging equity interests, the acquirer is usually the
+entity that issues its equity interests. 
+However, in some business combinations, commonly called 'reverse acquisitions', the acquiree is issuing entity.
+Other facts and circumstances to be considered in identifying the acquirer in a business combination effected by exchanging equity interests, include:
+(a) *Relative voting rights in the combined entity after the business combination.* 
+The acquirer is usually the combining entity whose owners as a group retain or receive the largest portion of the
+voting rights in the combined entity. 
+(b) *Existence of a large minority voting interest in the combined entity* (if no other owner or
+organised group of owners has a significant voting interest).
+The acquirer is usually the entity that holds the largest non-controlling voting interest in the combined entity.
+(c) *Composition of the governing body of the combined entity.*
+The acquirer is usually the combining entity whose owners have the ability to elect, appoint or remove a majority of the members of the governing body of the combined entity.
+(d) *Composition of the senior management of the combined entity*
+The acquirer is usually the combining entity whose (former) management dominates the management of the combined entity.
+(e) *Terms of the exchange of equity interests.*
+The acquirer is usually the combining entity that pays a premium over the pre-combination fair value of the equity interests of the other combining entity or entities.
+
+Other indicators to be considered include:
+
+ - *Relative size.* The acquirer is usually the combining entity whose relative size is significantly greater than that of the other combining entity or entities.
+ - *Who initiated the combination.* Typically the acquirer will instigate the business combination.
+ 
+## Step 2: Determining the acquisition date
+
+Paragraph 9 of AASB 3 (IFRS 3) requires the acquirer to identify the **acquisition date**, which is the date on which it obtains control of the acquiree.
+Generally the **closing date**---the date on which the acquirer legally transfers the consideration, acquires the assets and assumes the liabilities of the acquiree---is the acquisition date.
+However, the acquirer might obtain control on another date that is either earlier or later than the
+closing date. 
+For example, if a written agreement provides that the acquirer obtains control of the acquiree on a date before the closing date.
+
+One reason that identification of the acquisition date is important is that it is the measurement date for items such as 
+ - the fair value of identifiable net assets acquired
+ - the fair value of purchase consideration
+ - the non-controlling interesting in the acquiree
+ 
+## Step 3: Recognising and measuring the identifiable net assets acquired
+ 
+Paragraph 10 of AASB 3 (IFRS 3) says: "As of the acquisition date, the acquirer shall recognise, separately from goodwill, the identifiable
+assets acquired, the liabilities assumed and any non-controlling interest in the acquiree."
+To be recognised on acquisition, the identifiable assets acquired and liabilities assumed must meet the definitions of assets and liabilities in the Conceptual Framework .
+However, the application of the recognition principle may result in recognising some assets and liabilities that the acquiree had not previously recognised as assets and liabilities in its financial statements.
+For example, the acquirer recognises the acquired identifiable intangible assets, such as a brand name, a patent or a customer relationship, which the acquiree did not recognise as assets because it developed them internally and charged the related costs to expense.
+
+Paragraph 18 of AASB 3 (IFRS 3) says: "The acquirer shall measure the identifiable assets acquired and the liabilities assumed at their acquisition-date fair values."
+The principles of fair value measurement are spelt out in AASB 13 (IFRS 13) *Fair Value Measurement*.
+
+## Step 4: Measuring and recognizing goodwill (or a gain from bargain purchase)
+
+Paragraph 32 says:
+
+The acquirer shall recognise **goodwill** as of the acquisition date measured as the excess of (A) over (B) below:
+  
+A. the aggregate of:
+
+   i. the consideration transferred generally measured at acquisition-date fair value
+   ii. the amount of any non-controlling interest in the acquiree measured in accordance with this IFRS 3, and
+   iii. in a business combination achieved in stages, the acquisition-date fair value of the acquirer's previously held equity interest in the acquiree.
+ 
+B. the net of the acquisition-date amounts of the identifiable assets acquired and the liabilities assumed (FVINA)
+
+If (B) exceeds (A), then the difference gives rise to a **gain on bargain purchase** that is recognized in profit or loss on the acquisition date and attributed to the acquirer.
+Paragraph 36 of AASB 3 (IFRS 3) requires that, "before recognising a gain on a bargain purchase, the acquirer shall reassess whether it has correctly identified all of the assets acquired and all of the liabilities assumed and shall recognise any additional assets or liabilities that are identified in that review."
+The implication is that gains on bargain purchase should be very rare.
+
+In many acquisitions, goodwill is the largest asset acquired.
+
+## Example: Direct acquisition
+
+Justin Ltd made an extremely attractive offer for Patrick Ltd was approved by the board of directors of Patrick Ltd. 
+After the takeover, Justin Ltd would liquidate Patrick Ltd and incorporate its business into Justin Ltd's.
+Purchase consideration comprises:
+
+ - Three shares in Justin Ltd for four shares in Patrick Ltd, of which 200,000 are outstanding
+ - Transfer of an antique toy to the founder of Patrick Ltd
+ - Antique has fair value of \$20,000 and is recorded in books of Justin Ltd at \$13,000
+ - Payment of sufficient additional cash to pay off Patrick Ltd's liabilities prior to liquidation and to cover liquidation costs of \$5,500
+ - Issuance of shares for the acquisition will cost Justin Ltd \$650 and Justin Ltd’s legal costs associated with the acquisition are \$1,500
+
+|                          |          |          |
+| ------------------------ | --------:| --------:|
+| Land & buildings         |          | 180,000  |
+| Plant & machinery        | 150,000  |          |
+| Accumulated depreciation | (30,000) | 120,000  |
+| Inventories              |          | 40,000   |
+| Accounts receivable      |          | 30,000   |
+| Cash                     |          | 35,000   |
+|                          |          |          |
+| Accounts payable         | (30,000) |          |
+| Provisions & Accruals    | (20,000) |          |
+| Loans payable            | (45,000) |          |
+| Liabilities              |          | (95,000) |
+| **Net assets**           |          |**310,000**|
+|                          |          |          |
+| Ordinary shares          |          | 200,000  |
+| Retained profits         |          | 110,000  |
+| **Shareholders' equity** |          |**310,000**|
+
+Assets with acquisition-date fair value different from book value:	
+
+|                    |          |
+|:------------------ | --------:|
+| Land & buildings	 | 200,000  |
+| Plant & machinery	 |  90,000  |
+| Inventories	       |  45,000  |
+
+Prior to acquisition, Patrick Ltd had not recorded:	
+
+|                                                 |          |
+|:----------------------------------------------- | --------:|
+| Interest on loans payable	                      |  15,000  |
+| Provision for annual leave                      |  25,000  |
+| Internally generated brand with fair value      |  50,000  |
+	
+The purchase agreement between Patrick Ltd and Justin Ltd follows:	
+Justin Ltd takes over all the assets of Patrick Ltd except for cash.	
+The purchase consideration would be settled as	
+
+|                                                 |          |
+|:----------------------------------------------- | --------:|	
+| Shares in Justin Ltd given	                    |       3  |
+| The fair value of Justin Ltd shares at the transfer date |	2.20 |
+| Shares in Patrick Ltd obtained	                |       4  |
+| Shares in Patrick outstanding	                  |  200,000 |
+
+An antique toy in Justin Ltd’s books would be transferred to the founder of Patrick Ltd.	
+
+|                    |          |
+|:------------------ | --------:|
+| Fair value	       |   20,000 |
+| Current book value |   13,000 |
+	
+Sufficient additional cash to enable Patrick Ltd to settle its liabilities.	
+
+|                          |         |
+|:------------------------ | -------:|
+| Liquidation costs	       |   5,500 |
+| Justin Ltd's legal costs |   1,500 |
+| Share issue costs	       |     650 |

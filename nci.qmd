@@ -1,20 +1,4 @@
----
-title: "Noncontrolling interest"
-author: "Ian D. Gow"
-format: 
-  html:
-    toc: true
-    code-fold: true
-  pdf:
-    colorlinks: true
-    geometry:
-      - left=2.5cm
-      - right=2.5cm
-    papersize: a4
-    mainfont: TeX Gyre Pagella
-    mathfont: TeX Gyre Pagella Math
-    csl: journal-of-financial-economics.csl
----
+# Noncontrolling interest {#sec-nci}
 
 NCI arises when entities other than the parent entity own shares in members of the group (other than the parent).
 Typically NCI will represent a minority interest in a subsidiary that is controlled by the parent (directly or indirectly) through a majority interest.
