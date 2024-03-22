@@ -1,0 +1,264 @@
+# Consolidation: Wholly owned entities
+
+The initial portion of this chapter continues the discussion of the accounting for business combinations, but in the context of an indirect acquisition.
+The relevant accounting standard is [AASB 3](https://www.aasb.gov.au/admin/file/content105/c9/AASB3_08-15_COMPdec22_01-23.pdf) (IFRS 3) *Business Combinations*.
+
+## Example 2: Parent-Subsidiary
+
+On 1 July 2016, Parent Ltd acquired 100% of the issue shares of Subsidiary Ltd on a cum dividend basis (**cum dividend** means that the acquirer of the shares is entitled to receive declared dividends).
+The consideration paid for Subsidiary Ltd was $480,000.
+On acquisition date the records of Subsidiary Ltd included:
+	
+|                   |          |
+|-------------------|---------:|
+| Share capital     |  250,000 |
+| General reserve   |	  10,000 |
+| Retained earnings |  160,000 |
+| Dividend payable	|   25,000 |
+| Goodwill	        |    8,000 |
+
+The dividend payable was paid on 30 July 2016.
+
+All identifiable assets and liabilities were recorded in Subsidiary Ltd’s books at fair value except
+
+|                       | Carrying amount | Fair value |
+|-----------------------|----------------:|-----------:|
+| Plant (cost $260,000)	|         190,000 |	   210,000 |
+| Inventories           |          50,000 |     56,000 |
+
+ - All inventories at acquisition were sold to external parties by 30 June 2017.
+ - The plant had five years of remaining life and is depreciated on a straight-line basis.
+ - The tax rate is 30%.
+ - A transfer to general reserve was made in the year ended 30 June 2018 from pre-acquisition profits.
+ - The accounts of Parent and Subsidiary as of 30 June 2018 are shown in @fig-ex-2.
+
+![Books as of 30 June 2018](example_2.pdf){#fig-ex-2 width=6in}
+
+### Requirements
+
+- Prepare journal entries at time of acquisition, after 1 year, and after 2 years
+  - Fair value adjustments at acquisition date
+  - Elimination entry
+- Prepare the consolidation worksheet for the period ending 2 years after acquisition
+  - Also prepare balance sheet and income statement for the same period
+  
+### Answer
+
+***Entries at time of acquisition***
+
+**1. BCVR entries**
+
+We first do the fair value adjustments at the acquisition date.
+We need to increase inventories by \$6,000.
+However, increasing inventories in the consolidated books does not change the tax base.
+As we learnt in studying IAS 12, *Income Taxes*, a positive difference between the carrying amount of an asset and its tax base gives rise to a taxable temporary difference, which in turn results in a deferred tax liability.
+With a tax rate of 30%, we will recognize a deferred tax liability equal to $0.3 \times 6000 = \$1,800$.
+
+The net (after-tax) increase in fair value for various assets are accumulated in a special bookkeeping account called the **business combination valuation reserve** or **BCVR** for short.
+In this case, we have a net (after-tax) increase of $6000 - 1800 = \$4,200$.
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Inventories                      |  6 000 |        |
+|  Deferred tax liability          |        |  1 800 |
+|  BCVR                            |        |  4 200 |
+
+We need to increase plant by \$20,000 ($210,000 - 190,000$).
+However, because the plant is "new" to the entity, we also need to "reset" accumulated depreciation of \$70,000 ($260,000 - 190,000$), making an offsetting adjustment to original cost.
+
+Again, increasing plant in the consolidated books does not change the tax base.
+With a tax rate of 30%, we will recognize a deferred tax liability equal to $0.3 \times 20000 = \$6,000$.
+The net (after-tax) increase in fair value for various assets are accumulated in a special bookkeeping account called the **business combination valuation reserve** or **BCVR** for short.
+In this case, we BCVR of $20000 - 6000 = \$14,000$.
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Accumulated depreciation         | 70 000 |        |
+|  Plant                           |        | 70 000 |
+|                                  |        |        |
+| Plant.                           | 20 000 |        |
+|  Deferred tax liability          |        |  6 000 |
+|  BCVR                            |        | 14 000 |
+
+Alternatively, we could combine the effects on Plant to create the following entry.
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Accumulated depreciation         | 70 000 |        |
+|  Plant                           |        | 50 000 |
+|  Deferred tax liability          |        |  6 000 |
+|  BCVR                            |        | 14 000 |
+
+**(2) Elimination of parent's investment**
+
+To complete the elimination of the parent's investment, we need to conduct an **acquisition analysis**.
+The involves calculating the fair value of the consideration transferred and the net fair value of the identifiable assets and liabilities of the subsidiary at acquisition date.
+We can write FVINA as an abbreviation for "fair value of identifiable net assets".
+
+A shortcut approach to calculating FVINA starts with the carrying amount of equity and adds the after-tax fair value adjustments to the assets.
+We already calculated and accumulated these adjustments in BCVR in the entry above.
+Thus we have FVINA equal to $428,200, as calculated below.
+
+|                    |          |
+|--------------------|---------:|
+| Share capital      |  250 000 |
+| General reserve    |	 10 000 |
+| Retained earnings  |  160 000 |
+| BCVR (inventories) |   14 000 |
+| BCVR (plant)	     |    4 200 |
+| **FVINA**          | **438 200** |
+
+The amount paid of \$480,000 actually related to two distinct assets.
+First, all the shares in Subsidiary Ltd.
+Second, the dividend payable of \$25,000.
+Thus only \$455,000 ($480000 - 25000$) represents the consideration applicable to the acquisition of Subsidiary Ltd.
+
+With purchase consideration of \$455,000 in excess of FVINA, we will record **goodwill** equal to the difference \$16,800 ($455000 - 438200$).
+Combining this information into a single entry yields the following elimination entry.
+
+|                                 |   Debit | Credit |
+|---------------------------------|--------:|-------:|
+| Share capital                   | 250 000 |        |
+| General reserve                 |  10 000 |        |
+| Retained earnings               | 160 000 |        |
+| BCVR                            |  18 200 |        |
+| Goodwill                        |  16 800 |        |
+|  Shares in Subsidiary Ltd       |         | 455 000|
+
+**(3) Eliminate intra-group dividends receivable and payable**
+
+At the time of acquisition, there is a dividend payable on the books of Subsidiary and a dividend receivable on the books of Parent.
+However, from the perspective of the group there is neither a liability nor an asset, so we need to eliminate these items.
+The following entry achieves this.
+We will study more on intra-group balances and transactions later in the course.
+
+|                                 |   Debit | Credit |
+|---------------------------------|--------:|-------:|
+| Dividend payable                |  25 000 |        |
+|  Dividend receivable            |         |  25 000|
+
+***Entries one year after acquisition***
+
+**1. BCVR entries**
+
+The totals amounts brought together in BCVR are unchanged.
+However, the entries brought for these amounts will change as the location of the valuation adjustments evolves.
+
+Take inventories.
+The net credit to BCVR of \$4,200 has not changed.
+But the inventories are no longer on hand.
+Rather they have been sold and the incremental valuation amounts will have been reflected as additional cost of sales at the time of sale.
+The additional cost of sales would have led to a reduction of income tax expense, and we also need to give effect to this in the consolidation entry.
+Our consolidation entry for the first year should give effect to these adjustments.
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Cost of sales                    |  6 000 |        |
+|  Income tax expense              |        |  1 800 |
+|  BCVR                            |        |  4 200 |
+
+For plant, the BCVR entry we made at the time of acquisition continues to be relevant.
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Accumulated depreciation         | 70 000 |        |
+|  Plant                           |        | 50 000 |
+|  Deferred tax liability          |        |  6 000 |
+|  BCVR                            |        | 14 000 |
+
+However, we need to make an adjustment to depreciation expense to reflect depreciation of the fair value increment.
+Given that the remaining useful life of the equipment is 5 years, we need to depreciate the pre-tax fair value increment of \$20,000 over that time, which implies \$4,000 incremental annual depreciation.
+We also need to account for the tax effects of the additional depreciation expense, which imply a reduction in income tax expense of \$1,200 ($30\% \times 4000$).
+The offsetting credit goes to the *Deferred tax liability* balance created when we established the BCVR entry for plant (see above).
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Depreciation expense             |  4 000 |        |
+|  Accumulated depreciation        |        |  4 000 |
+|                                  |        |        |
+| Deferred tax liability           |  1 200 |        |
+|  Income tax expense              |        |  1 200 |
+
+**(2) Elimination of parent's investment**
+
+This entry is unchanged from above.
+
+|                                 |   Debit | Credit |
+|---------------------------------|--------:|-------:|
+| Share capital                   | 250 000 |        |
+| General reserve                 |  10 000 |        |
+| Retained earnings               | 160 000 |        |
+| BCVR                            |  18 200 |        |
+| Goodwill                        |  16 800 |        |
+|  Shares in Subsidiary Ltd       |         | 455 000|
+
+**(3) Eliminate intra-group dividends receivable and payable**
+
+Note that, as the intra-group dividend amounts no longer appear on the balance sheets of the entities in the group, there is no longer a need for the elimination entry we made above.
+
+
+
+***Entries two years after acquisition***
+
+**1. BCVR entries**
+
+The totals amounts brought together in BCVR are unchanged.
+However, the entries brought for these amounts will have changed again as the location of the valuation adjustments continues to evolve.
+
+Take inventories.
+The net credit to BCVR of \$4,200 has not changed.
+But the inventories are no longer on hand and no longer affect current period income.
+Rather they have been sold and the incremental valuation amounts will now be reflected in the beginning balance of retained earnings.
+The same is true of the concomitant reduction of income tax expense.
+
+Our consolidation entry for the second year is thus as follows.
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Retained earnings--beginning     |  4 200 |        |
+|  BCVR                            |        |  4 200 |
+
+For plant, the BCVR entry we made at the time of acquisition continues to be relevant.
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Accumulated depreciation         | 70 000 |        |
+|  Plant                           |        | 50 000 |
+|  Deferred tax liability          |        |  6 000 |
+|  BCVR                            |        | 14 000 |
+
+However, we again need to make an adjustment to depreciation expense to reflect depreciation of the fair value increment (and its tax effects).
+But we also need to account for the adjustment to depreciation expense we made in the previous year.
+Again, the effects of that will be found in the beginning value of retained earnings.
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Depreciation expense             |  4 000 |        |
+| Retained earnings--beginning     |  4 000 |        |
+|  Accumulated depreciation        |        |  8 000 |
+|                                  |        |        |
+| Deferred tax liability           |  2 400 |        |
+|  Income tax expense              |        |  1 200 |
+|  Retained earnings--beginning    |        |  1 200 |
+
+**(2) Elimination of parent's investment**
+
+Again, this entry is unchanged from above.
+
+|                                 |   Debit | Credit |
+|---------------------------------|--------:|-------:|
+| Share capital                   | 250 000 |        |
+| General reserve                 |  10 000 |        |
+| Retained earnings               | 160 000 |        |
+| BCVR                            |  18 200 |        |
+| Goodwill                        |  16 800 |        |
+|  Shares in Subsidiary Ltd       |         | 455 000|
+
+**(3) Reversal of transfer from pre-acquisition retained earnings**
+
+|                                 |   Debit | Credit |
+|---------------------------------|--------:|-------:|
+| General reserve                 |  20 000 |        |
+|  Transfer to general reserve    |         | 20 000 |
+
+![Consolidation worksheet for year ending 30 June 2018](parent-sub-cws.pdf){#fig-cws fig-align="center" width=7in}

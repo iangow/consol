@@ -24,6 +24,7 @@ book:
   chapters:
     - "index.qmd"
     - bus-combs.qmd
+    - wholly-owned.qmd
     - "nci.qmd"
 format:
   html:
@@ -33,3 +34,10 @@ format:
     number-sections: true
     colorlinks: true
     keep-tex: true
+    format:
+    geometry:
+      - left=2.5cm
+      - right=2.5cm
+    papersize: a4
+    mainfont: TeX Gyre Pagella
+    mathfont: TeX Gyre Pagella Math
