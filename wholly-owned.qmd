@@ -8,14 +8,14 @@ The relevant accounting standard is [AASB 3](https://www.aasb.gov.au/admin/file/
 On 1 July 2016, Parent Ltd acquired 100% of the issue shares of Subsidiary Ltd on a cum dividend basis (**cum dividend** means that the acquirer of the shares is entitled to receive declared dividends).
 The consideration paid for Subsidiary Ltd was $480,000.
 On acquisition date the records of Subsidiary Ltd included:
-	
+
 |                   |          |
 |-------------------|---------:|
 | Share capital     |  250,000 |
-| General reserve   |	  10,000 |
+| General reserve   |   10,000 |
 | Retained earnings |  160,000 |
-| Dividend payable	|   25,000 |
-| Goodwill	        |    8,000 |
+| Dividend payable  |   25,000 |
+| Goodwill          |    8,000 |
 
 The dividend payable was paid on 30 July 2016.
 
@@ -23,7 +23,7 @@ All identifiable assets and liabilities were recorded in Subsidiary Ltd’s book
 
 |                       | Carrying amount | Fair value |
 |-----------------------|----------------:|-----------:|
-| Plant (cost $260,000)	|         190,000 |	   210,000 |
+| Plant (cost $260,000) |         190,000 |    210,000 |
 | Inventories           |          50,000 |     56,000 |
 
  - All inventories at acquisition were sold to external parties by 30 June 2017.
@@ -42,7 +42,7 @@ All identifiable assets and liabilities were recorded in Subsidiary Ltd’s book
 - Prepare the consolidation worksheet for the period ending 2 years after acquisition
   - Also prepare balance sheet and income statement for the same period
   
-### Answer
+### Answer: Consolidation journal entries
 
 ***Entries at time of acquisition***
 
@@ -102,10 +102,10 @@ Thus we have FVINA equal to $428,200, as calculated below.
 |                    |          |
 |--------------------|---------:|
 | Share capital      |  250 000 |
-| General reserve    |	 10 000 |
+| General reserve    |   10 000 |
 | Retained earnings  |  160 000 |
 | BCVR (inventories) |   14 000 |
-| BCVR (plant)	     |    4 200 |
+| BCVR (plant)       |    4 200 |
 | **FVINA**          | **438 200** |
 
 The amount paid of \$480,000 actually related to two distinct assets.
@@ -196,8 +196,6 @@ This entry is unchanged from above.
 
 Note that, as the intra-group dividend amounts no longer appear on the balance sheets of the entities in the group, there is no longer a need for the elimination entry we made above.
 
-
-
 ***Entries two years after acquisition***
 
 **1. BCVR entries**
@@ -215,7 +213,7 @@ Our consolidation entry for the second year is thus as follows.
 
 |                                  |  Debit | Credit |
 |----------------------------------|-------:|-------:|
-| Retained earnings--beginning     |  4 200 |        |
+| Retained earnings---beginning     |  4 200 |        |
 |  BCVR                            |        |  4 200 |
 
 For plant, the BCVR entry we made at the time of acquisition continues to be relevant.
@@ -234,12 +232,12 @@ Again, the effects of that will be found in the beginning value of retained earn
 |                                  |  Debit | Credit |
 |----------------------------------|-------:|-------:|
 | Depreciation expense             |  4 000 |        |
-| Retained earnings--beginning     |  4 000 |        |
+| Retained earnings---beginning    |  4 000 |        |
 |  Accumulated depreciation        |        |  8 000 |
 |                                  |        |        |
 | Deferred tax liability           |  2 400 |        |
 |  Income tax expense              |        |  1 200 |
-|  Retained earnings--beginning    |        |  1 200 |
+|  Retained earnings---beginning   |        |  1 200 |
 
 **(2) Elimination of parent's investment**
 
@@ -256,9 +254,41 @@ Again, this entry is unchanged from above.
 
 **(3) Reversal of transfer from pre-acquisition retained earnings**
 
+We need to reverse the transfer from pre-acquisition retained earnings of Subsidiary to general reserve, as pre-acquisition retained earnings simply do not exist from the perspective of the consolidated group.
+(Pre-acquisition retained earnings are eliminated in the entry above.)
+
 |                                 |   Debit | Credit |
 |---------------------------------|--------:|-------:|
 | General reserve                 |  20 000 |        |
 |  Transfer to general reserve    |         | 20 000 |
+
+Note that the credit here is effectively being made to retained earnings.
+In subsequent periods, this entry could be combined with the elimination entry above to create the following elimination entry.
+
+|                                 |   Debit | Credit |
+|---------------------------------|--------:|-------:|
+| Share capital                   | 250 000 |        |
+| General reserve                 |  30 000 |        |
+| Retained earnings               | 140 000 |        |
+| BCVR                            |  18 200 |        |
+| Goodwill                        |  16 800 |        |
+|  Shares in Subsidiary Ltd       |         | 455 000|
+
+### Consolidation worksheet
+
+To prepare the consolidated financial statements, we need to add the financial statements of Parent and Subsidiary then incorporate the effects of the consolidation journal entries above.
+
+The consolidation worksheet applicable to the Parent-Subsidiary group is provided in @fig-cws.
+The first column contains the account headings.
+These are as presented in the accounts of Parent and Subsidiary with the exception of BCVR, which is an account created for the consolidation process.
+The second and third columns represent the financial information for Parent and Subsidiary, respectively.
+
+The next three columns are headed "consolidation adjustments" and are used to post the debits and credits and (in between these) the references for each consolidation entry.
+The entries above have already been posted in @fig-cws.
+
+The final column of the consolidation worksheet is headed "Group" and represents the consolidated amounts for the group.
+These amounts are calculated as the sum of the amounts for Parent and Subsidiary plus the effects of the consolidation adjustments.
+As always, debit items decrease and credit items increase amounts related to total liabilities and shareholders' equity (including the income statement amounts, which flow via retained earnings).
+Similarly, debit items increase and credit items decrease amounts related to total assets.
 
 ![Consolidation worksheet for year ending 30 June 2018](parent-sub-cws.pdf){#fig-cws fig-align="center" width=7in}

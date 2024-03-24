@@ -3,11 +3,6 @@
 This chapter introduces the accounting for **business combinations**.
 The relevant accounting standard is [AASB 3](https://www.aasb.gov.au/admin/file/content105/c9/AASB3_08-15_COMPdec22_01-23.pdf) (IFRS 3) *Business Combinations*.
 
-::: {.callout-tip}
-## Control (paragraph 6 of AASB 10)
-An investor controls an investee when it is exposed, or has rights, to variable returns from its involvement with the investee and has the ability to affect those returns through its power over the investee.
-:::
-
 1. **Direct acquisition**: An acquisition in which the acquirer purchases the underlying assets and liabilities of a business or purchases an entire entity comprising a business and then liquidates that entity.
  - Accounting at time of acquisition allocates purchase consideration to assets and liabilities acquired.
 2. **Indirect acquisition**: An acquisition in which the acquirer purchases sufficient shares in another entity to obtain control of that entity and hence control that entity's business.
@@ -17,6 +12,7 @@ liabilities acquired.
 accounting entries are required in each subsequent period.
 
 Paragraph 5 of AASB 3/IFRS 3 lists four steps:
+
 1. Identify the acquirer
 2. Determine the acquisition date
 3. Recognize and measure the identifiable assets acquired (and liabilities assumed)
@@ -33,8 +29,10 @@ The difference between the fair value of identifiable assets acquired and the fa
 
 The guidance in [AASB 10](https://www.aasb.gov.au/admin/file/content105/c9/AASB10_07-15_ACOMPdec21_01-22.pdf) (IFRS 10) *Consolidated Financial Statements* shall be used to identify the acquirer (the entity that obtains control of the acquiree). 
 
-An investor controls an investee when the investor is exposed to (or has rights to) variable returns from the investee and has the ability to affect those returns through its power over the investee.
-
+::: {.callout-tip}
+## Control (paragraph 6 of AASB 10)
+An investor controls an investee when it is exposed, or has rights, to variable returns from its involvement with the investee and has the ability to affect those returns through its power over the investee.
+:::
 
 If applying the guidance in AASB 10 does not clearly indicate which entity is the acquirer, IFRS 3 outlines factors in
 to be considered in making that determination.
@@ -46,6 +44,7 @@ In a business combination effected primarily by exchanging equity interests, the
 entity that issues its equity interests. 
 However, in some business combinations, commonly called 'reverse acquisitions', the acquiree is issuing entity.
 Other facts and circumstances to be considered in identifying the acquirer in a business combination effected by exchanging equity interests, include:
+
 (a) *Relative voting rights in the combined entity after the business combination.* 
 The acquirer is usually the combining entity whose owners as a group retain or receive the largest portion of the
 voting rights in the combined entity. 
@@ -88,6 +87,11 @@ For example, the acquirer recognises the acquired identifiable intangible assets
 Paragraph 18 of AASB 3 (IFRS 3) says: "The acquirer shall measure the identifiable assets acquired and the liabilities assumed at their acquisition-date fair values."
 The principles of fair value measurement are spelt out in AASB 13 (IFRS 13) *Fair Value Measurement*.
 
+Many acquisitions will lead to the recognition of assets and liabilities that were not recognized in the books of the acquiree.
+For example, internally generated intangible assets such as brands are not recognized under AASB 138 (IAS 38), but are recognized at acquisition date fair value under AASB 3 (IFRS 3).
+
+Similarly under AASB 3 (IFRS 3), an acquirer shall recognise a contingent liability---as defined in AASB 137 (IAS 3) *Provisions, Contingent Liabilities and Contingent Assets*---assumed in a business combination at the acquisition date even if it is not probable that an outflow of resources embodying economic benefits will be required to settle the obligation.
+
 ## Step 4: Measuring and recognizing goodwill (or a gain from bargain purchase)
 
 Paragraph 32 says:
@@ -107,6 +111,50 @@ Paragraph 36 of AASB 3 (IFRS 3) requires that, "before recognising a gain on a b
 The implication is that gains on bargain purchase should be very rare.
 
 In many acquisitions, goodwill is the largest asset acquired.
+
+### Measurement period
+
+The **measurement period** is the period after the acquisition date during which the acquirer may adjust provisional amounts recognised for a business combination. 
+
+During the measurement period, provisional amounts recognised shall be retrospectively adjusted to reflect new information obtained about facts and circumstances as of the acquisition date that, if known, would have affected their measurement as of the acquisition date.
+The acquirer shall also recognise additional assets or liabilities if needed to reflect new information about facts and circumstances as of the acquisition date.
+
+The measurement period shall not exceed one year from the acquisition date.
+
+### Contingent consideration
+
+Appendix A of AASB 3 defines **contingent consideration** as "an obligation of the acquirer to transfer additional assets or equity interests to the former owners of an acquiree as part of the exchange for control of the acquiree if specified future events occur or conditions are met."
+
+For example, if part of the purchase consideration is in the form of shares in the acquirer, then additional shares may be required to be delivered if the acquirer's share price falls after the acquisition date.
+
+In other cases, additional consideration may be due if the acquired entity achieves certain levels of profitability.
+The kind of contingent consideration is called an **earnout**.
+
+Accounting for contingent consideration is outlined in paragraph 58 of AASB 3.
+
+Many changes in the fair value of contingent consideration will be considered as measurement period adjustments. 
+However, changes resulting from events after the acquisition date, such as meeting earnings targets or reaching a milestone on a research and
+development project, are not measurement period adjustments. 
+
+The accounting for such changes depends on the form of the contingent consideration.
+Contingent consideration classified as equity shall not be remeasured and subsequent settlement shall be accounted for within equity.
+Non-equity contingent consideration shall be measured at fair value at each reporting date with changes being recognised in profit or loss.
+
+### Acquisition-related costs
+
+Acquisition-related costs are costs incurred by an acquirer to effect a business combination.
+Costs such as finder's fees, advisory and other professional fees, and the costs an internal acquisitions department---shall be accounted for as expenses in the periods in which they are incurred and services are received.
+However the costs of registering and issuing debt and equity securities as part of the acquisition shall be recognised in accordance with AASB 132 (IAS 32) and AASB 9 (IFRS 9).
+
+### Gains on bargain purchase
+
+If FVINA exceeds the purchase consideration, then the acquirer will recognise a gain on bargain purchase in profit or loss on the acquisition date.
+
+Paragraph 36 of AASB 3 (IFRS 3) requires that "before recognising a gain on a bargain purchase, the acquirer shall reassess whether it has correctly identified all of the assets acquired and all of the liabilities assumed and shall recognise any additional assets or liabilities that are identified in that review."
+
+The acquirer shall then review the procedures used to measure the amounts that AASB 3 (IFRS 3) requires to be measured for each element of FVINA and purchase consideration.
+According to paragraph 36 of AASB 3 (IFRS 3), "the objective of the review is to ensure that the measurements appropriately reflect consideration of all available information as of the acquisition date."
+Implicit in the requirement for these reviews is the expectation that gains on bargain purchase will be very rare, but the paragraph 35 of AASB 3 (IFRS 3) does not that such gains might arise in "a forced sale in which the seller is acting under compulsion."
 
 ## Example: Direct acquisition
 
@@ -139,7 +187,7 @@ Purchase consideration comprises:
 | Retained profits         |          | 110,000  |
 | **Shareholders' equity** |          |**310,000**|
 
-Assets with acquisition-date fair value different from book value:	
+The assets with acquisition-date fair value different from book value are as follows:
 
 |                    |          |
 |:------------------ | --------:|
@@ -147,17 +195,16 @@ Assets with acquisition-date fair value different from book value:
 | Plant & machinery	 |  90,000  |
 | Inventories	       |  45,000  |
 
-Prior to acquisition, Patrick Ltd had not recorded:	
+Prior to acquisition, Patrick Ltd had not recorded the following items:	
 
 |                                                 |          |
 |:----------------------------------------------- | --------:|
 | Interest on loans payable	                      |  15,000  |
 | Provision for annual leave                      |  25,000  |
-| Internally generated brand with fair value      |  50,000  |
+| Internally generated brand (fair value)         |  50,000  |
 	
-The purchase agreement between Patrick Ltd and Justin Ltd follows:	
-Justin Ltd takes over all the assets of Patrick Ltd except for cash.	
-The purchase consideration would be settled as	
+The purchase agreement between Patrick Ltd and Justin Ltd specifies that Justin Ltd takes over all assets of Patrick Ltd except for cash.	
+The purchase consideration is to be settled as:
 
 |                                                 |          |
 |:----------------------------------------------- | --------:|	
@@ -173,10 +220,93 @@ An antique toy in Justin Ltd’s books would be transferred to the founder of Pa
 | Fair value	       |   20,000 |
 | Current book value |   13,000 |
 	
-Sufficient additional cash to enable Patrick Ltd to settle its liabilities.	
+Sufficient additional cash to enable Patrick Ltd to settle its liabilities will be delivered.
+In addition the following acquisition costs will be borne:
 
 |                          |         |
 |:------------------------ | -------:|
 | Liquidation costs	       |   5,500 |
 | Justin Ltd's legal costs |   1,500 |
 | Share issue costs	       |     650 |
+
+**Answer**
+
+We can calculate the total amount of liabilities of Patrick to be covered as follows.
+
+|                                             |          |
+|---------------------------------------------|---------:|
+| Accounts payable                            | 30,000   |
+| Provisions & Accruals                       | 20,000   |
+| Loans payable                               | 45,000   |
+| Interest on loans payable                   | 15,000   |
+| Provision for annual leave                  | 25,000   |
+| **Liabilities**                             |**135,000** |
+
+Adding the liquidation costs and offsetting the cash on hand yields the total amount that Justin Ltd needs to transfer to Patrick Ltd.
+
+|                                                 |             |
+|-------------------------------------------------|------------:|
+| Liabilities                                     |   135,000   |
+| Liquidation costs                               |     5,500   |
+| Cash on hand                                    |   (35,000)  |
+| **Cash to pay for liabilities and liquidation** | **105,500** |
+
+The purchase consideration is the sum of this cash amount, the fair value of the Justin Ltd shares, and the fair value of the antique toy.
+To get 200,000 Patrick shares, 150,000 ($= 3/4 \times 200000$) Justin Ltd shares need to be transferred.
+The fair value of Justin Ltd shares is \$330,000 ($150000 \times 2.2$).
+Summing up these components of the purchase consideration yields the following.
+
+|                                             |            |
+|---------------------------------------------|-----------:|
+| Shares in Justin Ltd                        |  330,000   |
+| Cash to pay for liabilities and liquidation |  105,500   |
+| Antique toy                                 |   20,000   |
+| **Purchase consideration**                  |**455,500** |
+
+| Fair value of identifiable net assets acquired |             |
+|------------------------------------------------|------------:|
+| Land & buildings                               |   200,000   |
+| Plant & machinery                              |    90,000   |
+| Inventories                                    |    45,000   |
+| Accounts receivable                            |    30,000   |
+| Brand                                          |    50,000   |
+| **FVINA**                                      | **415,000** |
+
+As we have purchase consideration in excess of FVINA, we will record goodwill for this acquisition.
+The amount of goodwill is \$40,500 ($455500 - 415000$).
+
+**Journal entries**
+
+We first need to recognize the gain on the antique clock before it is transferred as part of the purchase.
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Antique                         | 7 000   |         |
+|  Gain on asset revaluation      |         | 7 000   |
+
+We then make the entry to give effect to the acquisition.
+Because this is a direct acquisition, these entries are made in the books of Justin Ltd.
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Land & buildings                | 200 000 |         |
+| Plant & machinery               | 90 000  |         |
+| Inventories                     | 45 000  |         |
+| Accounts receivable             | 30 000  |         |
+| Brand                           | 50 000  |         |
+| Goodwill                        | 40 500  |         |
+|  Antique                        |         | 20 000  |
+|  Cash                           |         | 105 500 |
+|  Share capital                  |         | 330 000 |
+
+Finally, we recognize the acquisition costs.
+The costs associated with issuance of shares are recognised as a reduction in share capital.
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Acquisition expenses            | 1 500   |         |
+|  Cash                           |         | 1 500   |
+| Share capital                   |   650   |         |
+|  Cash                           |         |   650   |
+
+
