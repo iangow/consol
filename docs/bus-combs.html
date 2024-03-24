@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Course book for accounting research">
+
+<title>Consolidation accounting - 2&nbsp; Business combinations</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./wholly-owned.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./bus-combs.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Business combinations</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Consolidation accounting</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bus-combs.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Business combinations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./wholly-owned.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Consolidation: Wholly owned entities</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nci.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Noncontrolling interest</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#step-1-identifying-the-acquirer" id="toc-step-1-identifying-the-acquirer" class="nav-link active" data-scroll-target="#step-1-identifying-the-acquirer"><span class="header-section-number">2.1</span> Step 1: Identifying the acquirer</a></li>
+  <li><a href="#step-2-determining-the-acquisition-date" id="toc-step-2-determining-the-acquisition-date" class="nav-link" data-scroll-target="#step-2-determining-the-acquisition-date"><span class="header-section-number">2.2</span> Step 2: Determining the acquisition date</a></li>
+  <li><a href="#step-3-recognising-and-measuring-the-identifiable-net-assets-acquired" id="toc-step-3-recognising-and-measuring-the-identifiable-net-assets-acquired" class="nav-link" data-scroll-target="#step-3-recognising-and-measuring-the-identifiable-net-assets-acquired"><span class="header-section-number">2.3</span> Step 3: Recognising and measuring the identifiable net assets acquired</a></li>
+  <li><a href="#step-4-measuring-and-recognizing-goodwill-or-a-gain-from-bargain-purchase" id="toc-step-4-measuring-and-recognizing-goodwill-or-a-gain-from-bargain-purchase" class="nav-link" data-scroll-target="#step-4-measuring-and-recognizing-goodwill-or-a-gain-from-bargain-purchase"><span class="header-section-number">2.4</span> Step 4: Measuring and recognizing goodwill (or a gain from bargain purchase)</a>
+  <ul class="collapse">
+  <li><a href="#measurement-period" id="toc-measurement-period" class="nav-link" data-scroll-target="#measurement-period"><span class="header-section-number">2.4.1</span> Measurement period</a></li>
+  <li><a href="#contingent-consideration" id="toc-contingent-consideration" class="nav-link" data-scroll-target="#contingent-consideration"><span class="header-section-number">2.4.2</span> Contingent consideration</a></li>
+  <li><a href="#acquisition-related-costs" id="toc-acquisition-related-costs" class="nav-link" data-scroll-target="#acquisition-related-costs"><span class="header-section-number">2.4.3</span> Acquisition-related costs</a></li>
+  <li><a href="#gains-on-bargain-purchase" id="toc-gains-on-bargain-purchase" class="nav-link" data-scroll-target="#gains-on-bargain-purchase"><span class="header-section-number">2.4.4</span> Gains on bargain purchase</a></li>
+  </ul></li>
+  <li><a href="#example-direct-acquisition" id="toc-example-direct-acquisition" class="nav-link" data-scroll-target="#example-direct-acquisition"><span class="header-section-number">2.5</span> Example: Direct acquisition</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-bus-combs" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Business combinations</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This chapter introduces the accounting for <strong>business combinations</strong>. The relevant accounting standard is <a href="https://www.aasb.gov.au/admin/file/content105/c9/AASB3_08-15_COMPdec22_01-23.pdf">AASB 3</a> (IFRS 3) <em>Business Combinations</em>.</p>
+<ol type="1">
+<li><strong>Direct acquisition</strong>: An acquisition in which the acquirer purchases the underlying assets and liabilities of a business or purchases an entire entity comprising a business and then liquidates that entity.</li>
+</ol>
+<ul>
+<li>Accounting at time of acquisition allocates purchase consideration to assets and liabilities acquired.</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Indirect acquisition</strong>: An acquisition in which the acquirer purchases sufficient shares in another entity to obtain control of that entity and hence control that entity’s business.</li>
+</ol>
+<ul>
+<li>Accounting at time of acquisition allocates purchase consideration to assets and liabilities acquired.</li>
+<li>Because the acquired entity continues to produce its own accounts, consolidation accounting entries are required in each subsequent period.</li>
+</ul>
+<p>Paragraph 5 of AASB 3/IFRS 3 lists four steps:</p>
+<ol type="1">
+<li>Identify the acquirer</li>
+<li>Determine the acquisition date</li>
+<li>Recognize and measure the identifiable assets acquired (and liabilities assumed)</li>
+<li>Measure and recognize either goodwill or a gain from bargain purchase</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Fair value of identifiable net assets (FVINA)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The difference between the fair value of identifiable assets acquired and the fair value of liabilities assumed.</p>
+</div>
+</div>
+<section id="step-1-identifying-the-acquirer" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="step-1-identifying-the-acquirer"><span class="header-section-number">2.1</span> Step 1: Identifying the acquirer</h2>
+<p>The guidance in <a href="https://www.aasb.gov.au/admin/file/content105/c9/AASB10_07-15_ACOMPdec21_01-22.pdf">AASB 10</a> (IFRS 10) <em>Consolidated Financial Statements</em> shall be used to identify the acquirer (the entity that obtains control of the acquiree).</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Control (paragraph 6 of AASB 10)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>An investor controls an investee when it is exposed, or has rights, to variable returns from its involvement with the investee and has the ability to affect those returns through its power over the investee.</p>
+</div>
+</div>
+<p>If applying the guidance in AASB 10 does not clearly indicate which entity is the acquirer, IFRS 3 outlines factors in to be considered in making that determination.</p>
+<p>In a business combination effected primarily by transferring cash or other assets or by incurring liabilities, the acquirer is usually the entity that transfers the cash or other assets or incurs the liabilities.</p>
+<p>In a business combination effected primarily by exchanging equity interests, the acquirer is usually the entity that issues its equity interests. However, in some business combinations, commonly called ‘reverse acquisitions’, the acquiree is issuing entity. Other facts and circumstances to be considered in identifying the acquirer in a business combination effected by exchanging equity interests, include:</p>
+<ol type="a">
+<li><em>Relative voting rights in the combined entity after the business combination.</em> The acquirer is usually the combining entity whose owners as a group retain or receive the largest portion of the voting rights in the combined entity.</li>
+<li><em>Existence of a large minority voting interest in the combined entity</em> (if no other owner or organised group of owners has a significant voting interest). The acquirer is usually the entity that holds the largest non-controlling voting interest in the combined entity.</li>
+<li><em>Composition of the governing body of the combined entity.</em> The acquirer is usually the combining entity whose owners have the ability to elect, appoint or remove a majority of the members of the governing body of the combined entity.</li>
+<li><em>Composition of the senior management of the combined entity</em> The acquirer is usually the combining entity whose (former) management dominates the management of the combined entity.</li>
+<li><em>Terms of the exchange of equity interests.</em> The acquirer is usually the combining entity that pays a premium over the pre-combination fair value of the equity interests of the other combining entity or entities.</li>
+</ol>
+<p>Other indicators to be considered include:</p>
+<ul>
+<li><em>Relative size.</em> The acquirer is usually the combining entity whose relative size is significantly greater than that of the other combining entity or entities.</li>
+<li><em>Who initiated the combination.</em> Typically the acquirer will instigate the business combination.</li>
+</ul>
+</section>
+<section id="step-2-determining-the-acquisition-date" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="step-2-determining-the-acquisition-date"><span class="header-section-number">2.2</span> Step 2: Determining the acquisition date</h2>
+<p>Paragraph 9 of AASB 3 (IFRS 3) requires the acquirer to identify the <strong>acquisition date</strong>, which is the date on which it obtains control of the acquiree. Generally the <strong>closing date</strong>—the date on which the acquirer legally transfers the consideration, acquires the assets and assumes the liabilities of the acquiree—is the acquisition date. However, the acquirer might obtain control on another date that is either earlier or later than the closing date. For example, if a written agreement provides that the acquirer obtains control of the acquiree on a date before the closing date.</p>
+<p>One reason that identification of the acquisition date is important is that it is the measurement date for items such as - the fair value of identifiable net assets acquired - the fair value of purchase consideration - the non-controlling interesting in the acquiree</p>
+</section>
+<section id="step-3-recognising-and-measuring-the-identifiable-net-assets-acquired" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="step-3-recognising-and-measuring-the-identifiable-net-assets-acquired"><span class="header-section-number">2.3</span> Step 3: Recognising and measuring the identifiable net assets acquired</h2>
+<p>Paragraph 10 of AASB 3 (IFRS 3) says: “As of the acquisition date, the acquirer shall recognise, separately from goodwill, the identifiable assets acquired, the liabilities assumed and any non-controlling interest in the acquiree.” To be recognised on acquisition, the identifiable assets acquired and liabilities assumed must meet the definitions of assets and liabilities in the Conceptual Framework . However, the application of the recognition principle may result in recognising some assets and liabilities that the acquiree had not previously recognised as assets and liabilities in its financial statements. For example, the acquirer recognises the acquired identifiable intangible assets, such as a brand name, a patent or a customer relationship, which the acquiree did not recognise as assets because it developed them internally and charged the related costs to expense.</p>
+<p>Paragraph 18 of AASB 3 (IFRS 3) says: “The acquirer shall measure the identifiable assets acquired and the liabilities assumed at their acquisition-date fair values.” The principles of fair value measurement are spelt out in AASB 13 (IFRS 13) <em>Fair Value Measurement</em>.</p>
+<p>Many acquisitions will lead to the recognition of assets and liabilities that were not recognized in the books of the acquiree. For example, internally generated intangible assets such as brands are not recognized under AASB 138 (IAS 38), but are recognized at acquisition date fair value under AASB 3 (IFRS 3).</p>
+<p>Similarly under AASB 3 (IFRS 3), an acquirer shall recognise a contingent liability—as defined in AASB 137 (IAS 3) <em>Provisions, Contingent Liabilities and Contingent Assets</em>—assumed in a business combination at the acquisition date even if it is not probable that an outflow of resources embodying economic benefits will be required to settle the obligation.</p>
+</section>
+<section id="step-4-measuring-and-recognizing-goodwill-or-a-gain-from-bargain-purchase" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="step-4-measuring-and-recognizing-goodwill-or-a-gain-from-bargain-purchase"><span class="header-section-number">2.4</span> Step 4: Measuring and recognizing goodwill (or a gain from bargain purchase)</h2>
+<p>Paragraph 32 says:</p>
+<p>The acquirer shall recognise <strong>goodwill</strong> as of the acquisition date measured as the excess of (A) over (B) below:</p>
+<p>A. the aggregate of:</p>
+<ol type="i">
+<li>the consideration transferred generally measured at acquisition-date fair value</li>
+<li>the amount of any non-controlling interest in the acquiree measured in accordance with this IFRS 3, and</li>
+<li>in a business combination achieved in stages, the acquisition-date fair value of the acquirer’s previously held equity interest in the acquiree.</li>
+</ol>
+<p>B. the net of the acquisition-date amounts of the identifiable assets acquired and the liabilities assumed (FVINA)</p>
+<p>If (B) exceeds (A), then the difference gives rise to a <strong>gain on bargain purchase</strong> that is recognized in profit or loss on the acquisition date and attributed to the acquirer. Paragraph 36 of AASB 3 (IFRS 3) requires that, “before recognising a gain on a bargain purchase, the acquirer shall reassess whether it has correctly identified all of the assets acquired and all of the liabilities assumed and shall recognise any additional assets or liabilities that are identified in that review.” The implication is that gains on bargain purchase should be very rare.</p>
+<p>In many acquisitions, goodwill is the largest asset acquired.</p>
+<section id="measurement-period" class="level3" data-number="2.4.1">
+<h3 data-number="2.4.1" class="anchored" data-anchor-id="measurement-period"><span class="header-section-number">2.4.1</span> Measurement period</h3>
+<p>The <strong>measurement period</strong> is the period after the acquisition date during which the acquirer may adjust provisional amounts recognised for a business combination.</p>
+<p>During the measurement period, provisional amounts recognised shall be retrospectively adjusted to reflect new information obtained about facts and circumstances as of the acquisition date that, if known, would have affected their measurement as of the acquisition date. The acquirer shall also recognise additional assets or liabilities if needed to reflect new information about facts and circumstances as of the acquisition date.</p>
+<p>The measurement period shall not exceed one year from the acquisition date.</p>
+</section>
+<section id="contingent-consideration" class="level3" data-number="2.4.2">
+<h3 data-number="2.4.2" class="anchored" data-anchor-id="contingent-consideration"><span class="header-section-number">2.4.2</span> Contingent consideration</h3>
+<p>Appendix A of AASB 3 defines <strong>contingent consideration</strong> as “an obligation of the acquirer to transfer additional assets or equity interests to the former owners of an acquiree as part of the exchange for control of the acquiree if specified future events occur or conditions are met.”</p>
+<p>For example, if part of the purchase consideration is in the form of shares in the acquirer, then additional shares may be required to be delivered if the acquirer’s share price falls after the acquisition date.</p>
+<p>In other cases, additional consideration may be due if the acquired entity achieves certain levels of profitability. The kind of contingent consideration is called an <strong>earnout</strong>.</p>
+<p>Accounting for contingent consideration is outlined in paragraph 58 of AASB 3.</p>
+<p>Many changes in the fair value of contingent consideration will be considered as measurement period adjustments. However, changes resulting from events after the acquisition date, such as meeting earnings targets or reaching a milestone on a research and development project, are not measurement period adjustments.</p>
+<p>The accounting for such changes depends on the form of the contingent consideration. Contingent consideration classified as equity shall not be remeasured and subsequent settlement shall be accounted for within equity. Non-equity contingent consideration shall be measured at fair value at each reporting date with changes being recognised in profit or loss.</p>
+</section>
+<section id="acquisition-related-costs" class="level3" data-number="2.4.3">
+<h3 data-number="2.4.3" class="anchored" data-anchor-id="acquisition-related-costs"><span class="header-section-number">2.4.3</span> Acquisition-related costs</h3>
+<p>Acquisition-related costs are costs incurred by an acquirer to effect a business combination. Costs such as finder’s fees, advisory and other professional fees, and the costs an internal acquisitions department—shall be accounted for as expenses in the periods in which they are incurred and services are received. However the costs of registering and issuing debt and equity securities as part of the acquisition shall be recognised in accordance with AASB 132 (IAS 32) and AASB 9 (IFRS 9).</p>
+</section>
+<section id="gains-on-bargain-purchase" class="level3" data-number="2.4.4">
+<h3 data-number="2.4.4" class="anchored" data-anchor-id="gains-on-bargain-purchase"><span class="header-section-number">2.4.4</span> Gains on bargain purchase</h3>
+<p>If FVINA exceeds the purchase consideration, then the acquirer will recognise a gain on bargain purchase in profit or loss on the acquisition date.</p>
+<p>Paragraph 36 of AASB 3 (IFRS 3) requires that “before recognising a gain on a bargain purchase, the acquirer shall reassess whether it has correctly identified all of the assets acquired and all of the liabilities assumed and shall recognise any additional assets or liabilities that are identified in that review.”</p>
+<p>The acquirer shall then review the procedures used to measure the amounts that AASB 3 (IFRS 3) requires to be measured for each element of FVINA and purchase consideration. According to paragraph 36 of AASB 3 (IFRS 3), “the objective of the review is to ensure that the measurements appropriately reflect consideration of all available information as of the acquisition date.” Implicit in the requirement for these reviews is the expectation that gains on bargain purchase will be very rare, but the paragraph 35 of AASB 3 (IFRS 3) does not that such gains might arise in “a forced sale in which the seller is acting under compulsion.”</p>
+</section>
+</section>
+<section id="example-direct-acquisition" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="example-direct-acquisition"><span class="header-section-number">2.5</span> Example: Direct acquisition</h2>
+<p>Justin Ltd made an extremely attractive offer for Patrick Ltd was approved by the board of directors of Patrick Ltd.&nbsp; After the takeover, Justin Ltd would liquidate Patrick Ltd and incorporate its business into Justin Ltd’s. Purchase consideration comprises:</p>
+<ul>
+<li>Three shares in Justin Ltd for four shares in Patrick Ltd, of which 200,000 are outstanding</li>
+<li>Transfer of an antique toy to the founder of Patrick Ltd</li>
+<li>Antique has fair value of $20,000 and is recorded in books of Justin Ltd at $13,000</li>
+<li>Payment of sufficient additional cash to pay off Patrick Ltd’s liabilities prior to liquidation and to cover liquidation costs of $5,500</li>
+<li>Issuance of shares for the acquisition will cost Justin Ltd $650 and Justin Ltd’s legal costs associated with the acquisition are $1,500</li>
+</ul>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Land &amp; buildings</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">180,000</td>
+</tr>
+<tr class="even">
+<td>Plant &amp; machinery</td>
+<td style="text-align: right;">150,000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Accumulated depreciation</td>
+<td style="text-align: right;">(30,000)</td>
+<td style="text-align: right;">120,000</td>
+</tr>
+<tr class="even">
+<td>Inventories</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">40,000</td>
+</tr>
+<tr class="odd">
+<td>Accounts receivable</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">30,000</td>
+</tr>
+<tr class="even">
+<td>Cash</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">35,000</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Accounts payable</td>
+<td style="text-align: right;">(30,000)</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Provisions &amp; Accruals</td>
+<td style="text-align: right;">(20,000)</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Loans payable</td>
+<td style="text-align: right;">(45,000)</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Liabilities</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">(95,000)</td>
+</tr>
+<tr class="even">
+<td><strong>Net assets</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>310,000</strong></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Ordinary shares</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">200,000</td>
+</tr>
+<tr class="odd">
+<td>Retained profits</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">110,000</td>
+</tr>
+<tr class="even">
+<td><strong>Shareholders’ equity</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>310,000</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The assets with acquisition-date fair value different from book value are as follows:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Land &amp; buildings</td>
+<td style="text-align: right;">200,000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Plant &amp; machinery</td>
+<td style="text-align: right;">90,000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Inventories</td>
+<td style="text-align: right;">45,000</td>
+</tr>
+</tbody>
+</table>
+<p>Prior to acquisition, Patrick Ltd had not recorded the following items:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Interest on loans payable</td>
+<td style="text-align: right;">15,000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Provision for annual leave</td>
+<td style="text-align: right;">25,000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Internally generated brand (fair value)</td>
+<td style="text-align: right;">50,000</td>
+</tr>
+</tbody>
+</table>
+<p>The purchase agreement between Patrick Ltd and Justin Ltd specifies that Justin Ltd takes over all assets of Patrick Ltd except for cash.<br>
+The purchase consideration is to be settled as:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Shares in Justin Ltd given</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">The fair value of Justin Ltd shares at the transfer date</td>
+<td style="text-align: right;">2.20</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Shares in Patrick Ltd obtained</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Shares in Patrick outstanding</td>
+<td style="text-align: right;">200,000</td>
+</tr>
+</tbody>
+</table>
+<p>An antique toy in Justin Ltd’s books would be transferred to the founder of Patrick Ltd.&nbsp;</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Fair value</td>
+<td style="text-align: right;">20,000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Current book value</td>
+<td style="text-align: right;">13,000</td>
+</tr>
+</tbody>
+</table>
+<p>Sufficient additional cash to enable Patrick Ltd to settle its liabilities will be delivered. In addition the following acquisition costs will be borne:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Liquidation costs</td>
+<td style="text-align: right;">5,500</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Justin Ltd’s legal costs</td>
+<td style="text-align: right;">1,500</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Share issue costs</td>
+<td style="text-align: right;">650</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Answer</strong></p>
+<p>We can calculate the total amount of liabilities of Patrick to be covered as follows.</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Accounts payable</td>
+<td style="text-align: right;">30,000</td>
+</tr>
+<tr class="even">
+<td>Provisions &amp; Accruals</td>
+<td style="text-align: right;">20,000</td>
+</tr>
+<tr class="odd">
+<td>Loans payable</td>
+<td style="text-align: right;">45,000</td>
+</tr>
+<tr class="even">
+<td>Interest on loans payable</td>
+<td style="text-align: right;">15,000</td>
+</tr>
+<tr class="odd">
+<td>Provision for annual leave</td>
+<td style="text-align: right;">25,000</td>
+</tr>
+<tr class="even">
+<td><strong>Liabilities</strong></td>
+<td style="text-align: right;"><strong>135,000</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Adding the liquidation costs and offsetting the cash on hand yields the total amount that Justin Ltd needs to transfer to Patrick Ltd.</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Liabilities</td>
+<td style="text-align: right;">135,000</td>
+</tr>
+<tr class="even">
+<td>Liquidation costs</td>
+<td style="text-align: right;">5,500</td>
+</tr>
+<tr class="odd">
+<td>Cash on hand</td>
+<td style="text-align: right;">(35,000)</td>
+</tr>
+<tr class="even">
+<td><strong>Cash to pay for liabilities and liquidation</strong></td>
+<td style="text-align: right;"><strong>105,500</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The purchase consideration is the sum of this cash amount, the fair value of the Justin Ltd shares, and the fair value of the antique toy. To get 200,000 Patrick shares, 150,000 (<span class="math inline">\(= 3/4 \times 200000\)</span>) Justin Ltd shares need to be transferred. The fair value of Justin Ltd shares is $330,000 (<span class="math inline">\(150000 \times 2.2\)</span>). Summing up these components of the purchase consideration yields the following.</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Shares in Justin Ltd</td>
+<td style="text-align: right;">330,000</td>
+</tr>
+<tr class="even">
+<td>Cash to pay for liabilities and liquidation</td>
+<td style="text-align: right;">105,500</td>
+</tr>
+<tr class="odd">
+<td>Antique toy</td>
+<td style="text-align: right;">20,000</td>
+</tr>
+<tr class="even">
+<td><strong>Purchase consideration</strong></td>
+<td style="text-align: right;"><strong>455,500</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Fair value of identifiable net assets acquired</th>
+<th style="text-align: right;"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Land &amp; buildings</td>
+<td style="text-align: right;">200,000</td>
+</tr>
+<tr class="even">
+<td>Plant &amp; machinery</td>
+<td style="text-align: right;">90,000</td>
+</tr>
+<tr class="odd">
+<td>Inventories</td>
+<td style="text-align: right;">45,000</td>
+</tr>
+<tr class="even">
+<td>Accounts receivable</td>
+<td style="text-align: right;">30,000</td>
+</tr>
+<tr class="odd">
+<td>Brand</td>
+<td style="text-align: right;">50,000</td>
+</tr>
+<tr class="even">
+<td><strong>FVINA</strong></td>
+<td style="text-align: right;"><strong>415,000</strong></td>
+</tr>
+</tbody>
+</table>
+<p>As we have purchase consideration in excess of FVINA, we will record goodwill for this acquisition. The amount of goodwill is $40,500 (<span class="math inline">\(455500 - 415000\)</span>).</p>
+<p><strong>Journal entries</strong></p>
+<p>We first need to recognize the gain on the antique clock before it is transferred as part of the purchase.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Antique</td>
+<td style="text-align: right;">7 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Gain on asset revaluation</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">7 000</td>
+</tr>
+</tbody>
+</table>
+<p>We then make the entry to give effect to the acquisition. Because this is a direct acquisition, these entries are made in the books of Justin Ltd.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Land &amp; buildings</td>
+<td style="text-align: right;">200 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Plant &amp; machinery</td>
+<td style="text-align: right;">90 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Inventories</td>
+<td style="text-align: right;">45 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Accounts receivable</td>
+<td style="text-align: right;">30 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Brand</td>
+<td style="text-align: right;">50 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Goodwill</td>
+<td style="text-align: right;">40 500</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Antique</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">20 000</td>
+</tr>
+<tr class="even">
+<td> Cash</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">105 500</td>
+</tr>
+<tr class="odd">
+<td> Share capital</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">330 000</td>
+</tr>
+</tbody>
+</table>
+<p>Finally, we recognize the acquisition costs. The costs associated with issuance of shares are recognised as a reduction in share capital.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Acquisition expenses</td>
+<td style="text-align: right;">1 500</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Cash</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">1 500</td>
+</tr>
+<tr class="odd">
+<td>Share capital</td>
+<td style="text-align: right;">650</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Cash</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">650</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/iangow\.github\.io\/consol");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Preface">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./wholly-owned.html" class="pagination-link" aria-label="Consolidation: Wholly owned entities">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Consolidation: Wholly owned entities</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

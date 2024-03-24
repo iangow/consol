@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Course book for accounting research">
+
+<title>Consolidation accounting - 3&nbsp; Consolidation: Wholly owned entities</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./nci.html" rel="next">
+<link href="./bus-combs.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./wholly-owned.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Consolidation: Wholly owned entities</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Consolidation accounting</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bus-combs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Business combinations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./wholly-owned.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Consolidation: Wholly owned entities</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nci.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Noncontrolling interest</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#example-2-parent-subsidiary" id="toc-example-2-parent-subsidiary" class="nav-link active" data-scroll-target="#example-2-parent-subsidiary"><span class="header-section-number">3.1</span> Example 2: Parent-Subsidiary</a>
+  <ul class="collapse">
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements"><span class="header-section-number">3.1.1</span> Requirements</a></li>
+  <li><a href="#answer-consolidation-journal-entries" id="toc-answer-consolidation-journal-entries" class="nav-link" data-scroll-target="#answer-consolidation-journal-entries"><span class="header-section-number">3.1.2</span> Answer: Consolidation journal entries</a></li>
+  <li><a href="#consolidation-worksheet" id="toc-consolidation-worksheet" class="nav-link" data-scroll-target="#consolidation-worksheet"><span class="header-section-number">3.1.3</span> Consolidation worksheet</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Consolidation: Wholly owned entities</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The initial portion of this chapter continues the discussion of the accounting for business combinations, but in the context of an indirect acquisition. The relevant accounting standard is <a href="https://www.aasb.gov.au/admin/file/content105/c9/AASB3_08-15_COMPdec22_01-23.pdf">AASB 3</a> (IFRS 3) <em>Business Combinations</em>.</p>
+<section id="example-2-parent-subsidiary" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="example-2-parent-subsidiary"><span class="header-section-number">3.1</span> Example 2: Parent-Subsidiary</h2>
+<p>On 1 July 2016, Parent Ltd acquired 100% of the issue shares of Subsidiary Ltd on a cum dividend basis (<strong>cum dividend</strong> means that the acquirer of the shares is entitled to receive declared dividends). The consideration paid for Subsidiary Ltd was $480,000. On acquisition date the records of Subsidiary Ltd included:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Share capital</td>
+<td style="text-align: right;">250,000</td>
+</tr>
+<tr class="even">
+<td>General reserve</td>
+<td style="text-align: right;">10,000</td>
+</tr>
+<tr class="odd">
+<td>Retained earnings</td>
+<td style="text-align: right;">160,000</td>
+</tr>
+<tr class="even">
+<td>Dividend payable</td>
+<td style="text-align: right;">25,000</td>
+</tr>
+<tr class="odd">
+<td>Goodwill</td>
+<td style="text-align: right;">8,000</td>
+</tr>
+</tbody>
+</table>
+<p>The dividend payable was paid on 30 July 2016.</p>
+<p>All identifiable assets and liabilities were recorded in Subsidiary Ltd’s books at fair value except</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Carrying amount</th>
+<th style="text-align: right;">Fair value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Plant (cost $260,000)</td>
+<td style="text-align: right;">190,000</td>
+<td style="text-align: right;">210,000</td>
+</tr>
+<tr class="even">
+<td>Inventories</td>
+<td style="text-align: right;">50,000</td>
+<td style="text-align: right;">56,000</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>All inventories at acquisition were sold to external parties by 30 June 2017.</li>
+<li>The plant had five years of remaining life and is depreciated on a straight-line basis.</li>
+<li>The tax rate is 30%.</li>
+<li>A transfer to general reserve was made in the year ended 30 June 2018 from pre-acquisition profits.</li>
+<li>The accounts of Parent and Subsidiary as of 30 June 2018 are shown in <a href="#fig-ex-2" class="quarto-xref">Figure&nbsp;<span>3.1</span></a>.</li>
+</ul>
+<div id="fig-ex-2" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ex-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<embed src="example_2.pdf" class="img-fluid" style="width:6in">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ex-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.1: Books as of 30 June 2018
+</figcaption>
+</figure>
+</div>
+<section id="requirements" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="requirements"><span class="header-section-number">3.1.1</span> Requirements</h3>
+<ul>
+<li>Prepare journal entries at time of acquisition, after 1 year, and after 2 years
+<ul>
+<li>Fair value adjustments at acquisition date</li>
+<li>Elimination entry</li>
+</ul></li>
+<li>Prepare the consolidation worksheet for the period ending 2 years after acquisition
+<ul>
+<li>Also prepare balance sheet and income statement for the same period</li>
+</ul></li>
+</ul>
+</section>
+<section id="answer-consolidation-journal-entries" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="answer-consolidation-journal-entries"><span class="header-section-number">3.1.2</span> Answer: Consolidation journal entries</h3>
+<p><strong><em>Entries at time of acquisition</em></strong></p>
+<p><strong>1. BCVR entries</strong></p>
+<p>We first do the fair value adjustments at the acquisition date. We need to increase inventories by $6,000. However, increasing inventories in the consolidated books does not change the tax base. As we learnt in studying IAS 12, <em>Income Taxes</em>, a positive difference between the carrying amount of an asset and its tax base gives rise to a taxable temporary difference, which in turn results in a deferred tax liability. With a tax rate of 30%, we will recognize a deferred tax liability equal to <span class="math inline">\(0.3 \times 6000 = \$1,800\)</span>.</p>
+<p>The net (after-tax) increase in fair value for various assets are accumulated in a special bookkeeping account called the <strong>business combination valuation reserve</strong> or <strong>BCVR</strong> for short. In this case, we have a net (after-tax) increase of <span class="math inline">\(6000 - 1800 = \$4,200\)</span>.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Inventories</td>
+<td style="text-align: right;">6 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Deferred tax liability</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">1 800</td>
+</tr>
+<tr class="odd">
+<td> BCVR</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">4 200</td>
+</tr>
+</tbody>
+</table>
+<p>We need to increase plant by $20,000 (<span class="math inline">\(210,000 - 190,000\)</span>). However, because the plant is “new” to the entity, we also need to “reset” accumulated depreciation of $70,000 (<span class="math inline">\(260,000 - 190,000\)</span>), making an offsetting adjustment to original cost.</p>
+<p>Again, increasing plant in the consolidated books does not change the tax base. With a tax rate of 30%, we will recognize a deferred tax liability equal to <span class="math inline">\(0.3 \times 20000 = \$6,000\)</span>. The net (after-tax) increase in fair value for various assets are accumulated in a special bookkeeping account called the <strong>business combination valuation reserve</strong> or <strong>BCVR</strong> for short. In this case, we BCVR of <span class="math inline">\(20000 - 6000 = \$14,000\)</span>.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Accumulated depreciation</td>
+<td style="text-align: right;">70 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Plant</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">70 000</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Plant.</td>
+<td style="text-align: right;">20 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Deferred tax liability</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">6 000</td>
+</tr>
+<tr class="even">
+<td> BCVR</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">14 000</td>
+</tr>
+</tbody>
+</table>
+<p>Alternatively, we could combine the effects on Plant to create the following entry.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Accumulated depreciation</td>
+<td style="text-align: right;">70 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Plant</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">50 000</td>
+</tr>
+<tr class="odd">
+<td> Deferred tax liability</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">6 000</td>
+</tr>
+<tr class="even">
+<td> BCVR</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">14 000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>(2) Elimination of parent’s investment</strong></p>
+<p>To complete the elimination of the parent’s investment, we need to conduct an <strong>acquisition analysis</strong>. The involves calculating the fair value of the consideration transferred and the net fair value of the identifiable assets and liabilities of the subsidiary at acquisition date. We can write FVINA as an abbreviation for “fair value of identifiable net assets”.</p>
+<p>A shortcut approach to calculating FVINA starts with the carrying amount of equity and adds the after-tax fair value adjustments to the assets. We already calculated and accumulated these adjustments in BCVR in the entry above. Thus we have FVINA equal to $428,200, as calculated below.</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Share capital</td>
+<td style="text-align: right;">250 000</td>
+</tr>
+<tr class="even">
+<td>General reserve</td>
+<td style="text-align: right;">10 000</td>
+</tr>
+<tr class="odd">
+<td>Retained earnings</td>
+<td style="text-align: right;">160 000</td>
+</tr>
+<tr class="even">
+<td>BCVR (inventories)</td>
+<td style="text-align: right;">14 000</td>
+</tr>
+<tr class="odd">
+<td>BCVR (plant)</td>
+<td style="text-align: right;">4 200</td>
+</tr>
+<tr class="even">
+<td><strong>FVINA</strong></td>
+<td style="text-align: right;"><strong>438 200</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The amount paid of $480,000 actually related to two distinct assets. First, all the shares in Subsidiary Ltd. Second, the dividend payable of $25,000. Thus only $455,000 (<span class="math inline">\(480000 - 25000\)</span>) represents the consideration applicable to the acquisition of Subsidiary Ltd.</p>
+<p>With purchase consideration of $455,000 in excess of FVINA, we will record <strong>goodwill</strong> equal to the difference $16,800 (<span class="math inline">\(455000 - 438200\)</span>). Combining this information into a single entry yields the following elimination entry.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Share capital</td>
+<td style="text-align: right;">250 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>General reserve</td>
+<td style="text-align: right;">10 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Retained earnings</td>
+<td style="text-align: right;">160 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>BCVR</td>
+<td style="text-align: right;">18 200</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Goodwill</td>
+<td style="text-align: right;">16 800</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Shares in Subsidiary Ltd</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">455 000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>(3) Eliminate intra-group dividends receivable and payable</strong></p>
+<p>At the time of acquisition, there is a dividend payable on the books of Subsidiary and a dividend receivable on the books of Parent. However, from the perspective of the group there is neither a liability nor an asset, so we need to eliminate these items. The following entry achieves this. We will study more on intra-group balances and transactions later in the course.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dividend payable</td>
+<td style="text-align: right;">25 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Dividend receivable</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">25 000</td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>Entries one year after acquisition</em></strong></p>
+<p><strong>1. BCVR entries</strong></p>
+<p>The totals amounts brought together in BCVR are unchanged. However, the entries brought for these amounts will change as the location of the valuation adjustments evolves.</p>
+<p>Take inventories. The net credit to BCVR of $4,200 has not changed. But the inventories are no longer on hand. Rather they have been sold and the incremental valuation amounts will have been reflected as additional cost of sales at the time of sale. The additional cost of sales would have led to a reduction of income tax expense, and we also need to give effect to this in the consolidation entry. Our consolidation entry for the first year should give effect to these adjustments.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cost of sales</td>
+<td style="text-align: right;">6 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Income tax expense</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">1 800</td>
+</tr>
+<tr class="odd">
+<td> BCVR</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">4 200</td>
+</tr>
+</tbody>
+</table>
+<p>For plant, the BCVR entry we made at the time of acquisition continues to be relevant.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Accumulated depreciation</td>
+<td style="text-align: right;">70 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Plant</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">50 000</td>
+</tr>
+<tr class="odd">
+<td> Deferred tax liability</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">6 000</td>
+</tr>
+<tr class="even">
+<td> BCVR</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">14 000</td>
+</tr>
+</tbody>
+</table>
+<p>However, we need to make an adjustment to depreciation expense to reflect depreciation of the fair value increment. Given that the remaining useful life of the equipment is 5 years, we need to depreciate the pre-tax fair value increment of $20,000 over that time, which implies $4,000 incremental annual depreciation. We also need to account for the tax effects of the additional depreciation expense, which imply a reduction in income tax expense of $1,200 (<span class="math inline">\(30\% \times 4000\)</span>). The offsetting credit goes to the <em>Deferred tax liability</em> balance created when we established the BCVR entry for plant (see above).</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Depreciation expense</td>
+<td style="text-align: right;">4 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Accumulated depreciation</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">4 000</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Deferred tax liability</td>
+<td style="text-align: right;">1 200</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Income tax expense</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">1 200</td>
+</tr>
+</tbody>
+</table>
+<p><strong>(2) Elimination of parent’s investment</strong></p>
+<p>This entry is unchanged from above.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Share capital</td>
+<td style="text-align: right;">250 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>General reserve</td>
+<td style="text-align: right;">10 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Retained earnings</td>
+<td style="text-align: right;">160 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>BCVR</td>
+<td style="text-align: right;">18 200</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Goodwill</td>
+<td style="text-align: right;">16 800</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Shares in Subsidiary Ltd</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">455 000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>(3) Eliminate intra-group dividends receivable and payable</strong></p>
+<p>Note that, as the intra-group dividend amounts no longer appear on the balance sheets of the entities in the group, there is no longer a need for the elimination entry we made above.</p>
+<p><strong><em>Entries two years after acquisition</em></strong></p>
+<p><strong>1. BCVR entries</strong></p>
+<p>The totals amounts brought together in BCVR are unchanged. However, the entries brought for these amounts will have changed again as the location of the valuation adjustments continues to evolve.</p>
+<p>Take inventories. The net credit to BCVR of $4,200 has not changed. But the inventories are no longer on hand and no longer affect current period income. Rather they have been sold and the incremental valuation amounts will now be reflected in the beginning balance of retained earnings. The same is true of the concomitant reduction of income tax expense.</p>
+<p>Our consolidation entry for the second year is thus as follows.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Retained earnings—beginning</td>
+<td style="text-align: right;">4 200</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> BCVR</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">4 200</td>
+</tr>
+</tbody>
+</table>
+<p>For plant, the BCVR entry we made at the time of acquisition continues to be relevant.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Accumulated depreciation</td>
+<td style="text-align: right;">70 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Plant</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">50 000</td>
+</tr>
+<tr class="odd">
+<td> Deferred tax liability</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">6 000</td>
+</tr>
+<tr class="even">
+<td> BCVR</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">14 000</td>
+</tr>
+</tbody>
+</table>
+<p>However, we again need to make an adjustment to depreciation expense to reflect depreciation of the fair value increment (and its tax effects). But we also need to account for the adjustment to depreciation expense we made in the previous year. Again, the effects of that will be found in the beginning value of retained earnings.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Depreciation expense</td>
+<td style="text-align: right;">4 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Retained earnings—beginning</td>
+<td style="text-align: right;">4 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Accumulated depreciation</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">8 000</td>
+</tr>
+<tr class="even">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Deferred tax liability</td>
+<td style="text-align: right;">2 400</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Income tax expense</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">1 200</td>
+</tr>
+<tr class="odd">
+<td> Retained earnings—beginning</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">1 200</td>
+</tr>
+</tbody>
+</table>
+<p><strong>(2) Elimination of parent’s investment</strong></p>
+<p>Again, this entry is unchanged from above.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Share capital</td>
+<td style="text-align: right;">250 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>General reserve</td>
+<td style="text-align: right;">10 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Retained earnings</td>
+<td style="text-align: right;">160 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>BCVR</td>
+<td style="text-align: right;">18 200</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Goodwill</td>
+<td style="text-align: right;">16 800</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Shares in Subsidiary Ltd</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">455 000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>(3) Reversal of transfer from pre-acquisition retained earnings</strong></p>
+<p>We need to reverse the transfer from pre-acquisition retained earnings of Subsidiary to general reserve, as pre-acquisition retained earnings simply do not exist from the perspective of the consolidated group. (Pre-acquisition retained earnings are eliminated in the entry above.)</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>General reserve</td>
+<td style="text-align: right;">20 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Transfer to general reserve</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">20 000</td>
+</tr>
+</tbody>
+</table>
+<p>Note that the credit here is effectively being made to retained earnings. In subsequent periods, this entry could be combined with the elimination entry above to create the following elimination entry.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Share capital</td>
+<td style="text-align: right;">250 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>General reserve</td>
+<td style="text-align: right;">30 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Retained earnings</td>
+<td style="text-align: right;">140 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>BCVR</td>
+<td style="text-align: right;">18 200</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Goodwill</td>
+<td style="text-align: right;">16 800</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Shares in Subsidiary Ltd</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">455 000</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="consolidation-worksheet" class="level3" data-number="3.1.3">
+<h3 data-number="3.1.3" class="anchored" data-anchor-id="consolidation-worksheet"><span class="header-section-number">3.1.3</span> Consolidation worksheet</h3>
+<p>To prepare the consolidated financial statements, we need to add the financial statements of Parent and Subsidiary then incorporate the effects of the consolidation journal entries above.</p>
+<p>The consolidation worksheet applicable to the Parent-Subsidiary group is provided in <a href="#fig-cws" class="quarto-xref">Figure&nbsp;<span>3.2</span></a>. The first column contains the account headings. These are as presented in the accounts of Parent and Subsidiary with the exception of BCVR, which is an account created for the consolidation process. The second and third columns represent the financial information for Parent and Subsidiary, respectively.</p>
+<p>The next three columns are headed “consolidation adjustments” and are used to post the debits and credits and (in between these) the references for each consolidation entry. The entries above have already been posted in <a href="#fig-cws" class="quarto-xref">Figure&nbsp;<span>3.2</span></a>.</p>
+<p>The final column of the consolidation worksheet is headed “Group” and represents the consolidated amounts for the group. These amounts are calculated as the sum of the amounts for Parent and Subsidiary plus the effects of the consolidation adjustments. As always, debit items decrease and credit items increase amounts related to total liabilities and shareholders’ equity (including the income statement amounts, which flow via retained earnings). Similarly, debit items increase and credit items decrease amounts related to total assets.</p>
+<div id="fig-cws" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cws-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<embed src="parent-sub-cws.pdf" class="img-fluid quarto-figure quarto-figure-center" style="width:7in">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cws-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.2: Consolidation worksheet for year ending 30 June 2018
+</figcaption>
+</figure>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/iangow\.github\.io\/consol");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./bus-combs.html" class="pagination-link" aria-label="Business combinations">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Business combinations</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./nci.html" class="pagination-link" aria-label="Noncontrolling interest">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Noncontrolling interest</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
