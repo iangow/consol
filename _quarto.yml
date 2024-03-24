@@ -20,7 +20,7 @@ book:
   language: en-GB
   date: today
   date-format: "DD MMM YYYY"
-  description: "Course book for accounting research"
+  description: "Course materials for consolidations module of *Corporate Reporting*"
   chapters:
     - "index.qmd"
     - bus-combs.qmd
