@@ -54,17 +54,17 @@ On 1 July 2013, Parent Ltd acquired control of Subsidiary Ltd by purchasing 80% 
 
 | | |
 |------|------:|
-| Share capital |	 $130,000 |
-| General reserve	| 70,000 |
-| Retained earnings	| 50,000 |
+| Share capital     |  $130,000 |
+| General reserve   | 70,000 |
+| Retained earnings | 50,000 |
 
 All the identifiable assets and liabilities were recorded at FV except for the following:
 
 | | CA | FV |
 |------|------:|------:|
-| Inventory	| 80,000 | 90,000 |
-| Plant (cost $160,000)	| 130,000	| 180,000 |
-| Land | 60,000	| 120,000 |
+| Inventory | 80,000 | 90,000 |
+| Plant (cost $160,000) | 130,000 | 180,000 |
+| Land | 60,000 | 120,000 |
 
 The plant had a remaining useful life of 10 years, with benefits to be received evenly over this period.
 
