@@ -63,8 +63,8 @@ In this case, we have a net (after-tax) increase of $6000 - 1800 = \$4,200$.
 |  Deferred tax liability          |        |  1 800 |
 |  BCVR                            |        |  4 200 |
 
-We need to increase plant by \$20,000 ($210,000 - 190,000$).
-However, because the plant is "new" to the entity, we also need to "reset" accumulated depreciation of \$70,000 ($260,000 - 190,000$), making an offsetting adjustment to original cost.
+We need to increase plant by \$20,000 ($210000 - 190000$).
+However, because the plant is "new" to the entity, we also need to "reset" accumulated depreciation of \$70,000 ($260000 - 190000$), making an offsetting adjustment to original cost.
 
 Again, increasing plant in the consolidated books does not change the tax base.
 With a tax rate of 30%, we will recognize a deferred tax liability equal to $0.3 \times 20000 = \$6,000$.

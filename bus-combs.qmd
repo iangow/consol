@@ -168,40 +168,40 @@ Purchase consideration comprises:
  - Payment of sufficient additional cash to pay off Patrick Ltd's liabilities prior to liquidation and to cover liquidation costs of \$5,500
  - Issuance of shares for the acquisition will cost Justin Ltd \$650 and Justin Ltd’s legal costs associated with the acquisition are \$1,500
 
-|                          |          |          |
-| ------------------------ | --------:| --------:|
-| Land & buildings         |          | 180,000  |
-| Plant & machinery        | 150,000  |          |
-| Accumulated depreciation | (30,000) | 120,000  |
-| Inventories              |          | 40,000   |
-| Accounts receivable      |          | 30,000   |
-| Cash                     |          | 35,000   |
-|                          |          |          |
-| Accounts payable         | (30,000) |          |
-| Provisions & Accruals    | (20,000) |          |
-| Loans payable            | (45,000) |          |
-| Liabilities              |          | (95,000) |
-| **Net assets**           |          |**310,000**|
-|                          |          |          |
-| Ordinary shares          |          | 200,000  |
-| Retained profits         |          | 110,000  |
-| **Shareholders' equity** |          |**310,000**|
+|                          |          |           |
+| -------------------------|---------:|----------:|
+| Land & buildings         |          |  180 000  |
+| Plant & machinery        | 150 000  |           |
+| Accumulated depreciation | (30 000) |  120 000  |
+| Inventories              |          |   40 000  |
+| Accounts receivable      |          |   30 000  |
+| Cash                     |          |   35 000  |
+|                          |          |           |
+| Accounts payable         | (30 000) |           |
+| Provisions & Accruals    | (20 000) |           |
+| Loans payable            | (45 000) |           |
+| Liabilities              |          |  (95 000) |
+| **Net assets**           |          |**310 000**|
+|                          |          |           |
+| Ordinary shares          |          |  200 000  |
+| Retained profits         |          |  110 000  |
+| **Shareholders' equity** |          |**310 000**|
 
 The assets with acquisition-date fair value different from book value are as follows:
 
 |                    |          |
-|:------------------ | --------:|
-| Land & buildings	 | 200,000  |
-| Plant & machinery	 |  90,000  |
-| Inventories	       |  45,000  |
+|:-------------------|---------:|
+| Land & buildings	 | 200 000  |
+| Plant & machinery	 |  90 000  |
+| Inventories	       |  45 000  |
 
 Prior to acquisition, Patrick Ltd had not recorded the following items:	
 
 |                                                 |          |
-|:----------------------------------------------- | --------:|
-| Interest on loans payable	                      |  15,000  |
-| Provision for annual leave                      |  25,000  |
-| Internally generated brand (fair value)         |  50,000  |
+|:----------------------------------------------- |---------:|
+| Interest on loans payable	                      |  15 000  |
+| Provision for annual leave                      |  25 000  |
+| Internally generated brand (fair value)         |  50 000  |
 	
 The purchase agreement between Patrick Ltd and Justin Ltd specifies that Justin Ltd takes over all assets of Patrick Ltd except for cash.	
 The purchase consideration is to be settled as:
@@ -211,45 +211,45 @@ The purchase consideration is to be settled as:
 | Shares in Justin Ltd given	                    |       3  |
 | The fair value of Justin Ltd shares at the transfer date |	2.20 |
 | Shares in Patrick Ltd obtained	                |       4  |
-| Shares in Patrick outstanding	                  |  200,000 |
+| Shares in Patrick outstanding	                  |  200 000 |
 
 An antique toy in Justin Ltd’s books would be transferred to the founder of Patrick Ltd.	
 
 |                    |          |
 |:------------------ | --------:|
-| Fair value	       |   20,000 |
-| Current book value |   13,000 |
+| Fair value	       |   20 000 |
+| Current book value |   13 000 |
 	
 Sufficient additional cash to enable Patrick Ltd to settle its liabilities will be delivered.
 In addition the following acquisition costs will be borne:
 
 |                          |         |
 |:------------------------ | -------:|
-| Liquidation costs	       |   5,500 |
-| Justin Ltd's legal costs |   1,500 |
+| Liquidation costs	       |   5 500 |
+| Justin Ltd's legal costs |   1 500 |
 | Share issue costs	       |     650 |
 
 **Answer**
 
 We can calculate the total amount of liabilities of Patrick to be covered as follows.
 
-|                                             |          |
-|---------------------------------------------|---------:|
-| Accounts payable                            | 30,000   |
-| Provisions & Accruals                       | 20,000   |
-| Loans payable                               | 45,000   |
-| Interest on loans payable                   | 15,000   |
-| Provision for annual leave                  | 25,000   |
-| **Liabilities**                             |**135,000** |
+|                                             |            |
+|---------------------------------------------|-----------:|
+| Accounts payable                            |   30 000   |
+| Provisions & Accruals                       |   20 000   |
+| Loans payable                               |   45 000   |
+| Interest on loans payable                   |   15 000   |
+| Provision for annual leave                  |   25 000   |
+| **Liabilities**                             |**135 000** |
 
 Adding the liquidation costs and offsetting the cash on hand yields the total amount that Justin Ltd needs to transfer to Patrick Ltd.
 
 |                                                 |             |
 |-------------------------------------------------|------------:|
-| Liabilities                                     |   135,000   |
-| Liquidation costs                               |     5,500   |
-| Cash on hand                                    |   (35,000)  |
-| **Cash to pay for liabilities and liquidation** | **105,500** |
+| Liabilities                                     |   135 000   |
+| Liquidation costs                               |     5 500   |
+| Cash on hand                                    |   (35 000)  |
+| **Cash to pay for liabilities and liquidation** | **105 500** |
 
 The purchase consideration is the sum of this cash amount, the fair value of the Justin Ltd shares, and the fair value of the antique toy.
 To get 200,000 Patrick shares, 150,000 ($= 3/4 \times 200000$) Justin Ltd shares need to be transferred.
@@ -258,19 +258,19 @@ Summing up these components of the purchase consideration yields the following.
 
 |                                             |            |
 |---------------------------------------------|-----------:|
-| Shares in Justin Ltd                        |  330,000   |
-| Cash to pay for liabilities and liquidation |  105,500   |
-| Antique toy                                 |   20,000   |
-| **Purchase consideration**                  |**455,500** |
+| Shares in Justin Ltd                        |  330 000   |
+| Cash to pay for liabilities and liquidation |  105 500   |
+| Antique toy                                 |   20 000   |
+| **Purchase consideration**                  |**455 500** |
 
 | Fair value of identifiable net assets acquired |             |
 |------------------------------------------------|------------:|
-| Land & buildings                               |   200,000   |
-| Plant & machinery                              |    90,000   |
-| Inventories                                    |    45,000   |
-| Accounts receivable                            |    30,000   |
-| Brand                                          |    50,000   |
-| **FVINA**                                      | **415,000** |
+| Land & buildings                               |   200 000   |
+| Plant & machinery                              |    90 000   |
+| Inventories                                    |    45 000   |
+| Accounts receivable                            |    30 000   |
+| Brand                                          |    50 000   |
+| **FVINA**                                      | **415 000** |
 
 As we have purchase consideration in excess of FVINA, we will record goodwill for this acquisition.
 The amount of goodwill is \$40,500 ($455500 - 415000$).
