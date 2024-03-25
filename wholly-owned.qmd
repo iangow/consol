@@ -97,7 +97,7 @@ We can write FVINA as an abbreviation for "fair value of identifiable net assets
 
 A shortcut approach to calculating FVINA starts with the carrying amount of equity and adds the after-tax fair value adjustments to the assets.
 We already calculated and accumulated these adjustments in BCVR in the entry above.
-Thus we have FVINA equal to $428,200, as calculated below.
+Thus we have FVINA equal to \$438,200, as calculated below.
 
 |                    |          |
 |--------------------|---------:|
