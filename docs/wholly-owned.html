@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -322,7 +322,7 @@ Figure&nbsp;3.1: Books as of 30 June 2018
 </tr>
 </tbody>
 </table>
-<p>We need to increase plant by $20,000 (<span class="math inline">\(210,000 - 190,000\)</span>). However, because the plant is “new” to the entity, we also need to “reset” accumulated depreciation of $70,000 (<span class="math inline">\(260,000 - 190,000\)</span>), making an offsetting adjustment to original cost.</p>
+<p>We need to increase plant by $20,000 (<span class="math inline">\(210000 - 190000\)</span>). However, because the plant is “new” to the entity, we also need to “reset” accumulated depreciation of $70,000 (<span class="math inline">\(260000 - 190000\)</span>), making an offsetting adjustment to original cost.</p>
 <p>Again, increasing plant in the consolidated books does not change the tax base. With a tax rate of 30%, we will recognize a deferred tax liability equal to <span class="math inline">\(0.3 \times 20000 = \$6,000\)</span>. The net (after-tax) increase in fair value for various assets are accumulated in a special bookkeeping account called the <strong>business combination valuation reserve</strong> or <strong>BCVR</strong> for short. In this case, we BCVR of <span class="math inline">\(20000 - 6000 = \$14,000\)</span>.</p>
 <table class="table">
 <thead>
@@ -399,7 +399,7 @@ Figure&nbsp;3.1: Books as of 30 June 2018
 </table>
 <p><strong>(2) Elimination of parent’s investment</strong></p>
 <p>To complete the elimination of the parent’s investment, we need to conduct an <strong>acquisition analysis</strong>. The involves calculating the fair value of the consideration transferred and the net fair value of the identifiable assets and liabilities of the subsidiary at acquisition date. We can write FVINA as an abbreviation for “fair value of identifiable net assets”.</p>
-<p>A shortcut approach to calculating FVINA starts with the carrying amount of equity and adds the after-tax fair value adjustments to the assets. We already calculated and accumulated these adjustments in BCVR in the entry above. Thus we have FVINA equal to $428,200, as calculated below.</p>
+<p>A shortcut approach to calculating FVINA starts with the carrying amount of equity and adds the after-tax fair value adjustments to the assets. We already calculated and accumulated these adjustments in BCVR in the entry above. Thus we have FVINA equal to $438,200, as calculated below.</p>
 <table class="table">
 <tbody>
 <tr class="odd">
@@ -953,24 +953,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/iangow\.github\.io\/consol");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -1005,11 +987,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -1285,12 +1263,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./bus-combs.html" class="pagination-link" aria-label="Business combinations">
+      <a href="./bus-combs.html" class="pagination-link  aria-label=" &lt;span="" combinations&lt;="" span&gt;"="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Business combinations</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./nci.html" class="pagination-link" aria-label="Noncontrolling interest">
+      <a href="./nci.html" class="pagination-link" aria-label="<span class='chapter-number'>4</span>&nbsp; <span class='chapter-title'>Noncontrolling interest</span>">
         <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Noncontrolling interest</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
