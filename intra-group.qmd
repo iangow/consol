@@ -16,15 +16,15 @@ The plant had a further 5-year life and is expected to be used evenly over that 
 
 **Additional information**
 
-1. On 1 January 2017, Sleet Ltd sold inventories costing $30,000 to Petal Ltd for $40,000. 80% of these  inventories were sold to external parties for $52,000 by 30 June 2017.
+1. On 1 January 2017, Sleet Ltd sold inventories costing \$30,000 to Petal Ltd for $40,000. 80% of these  inventories were sold to external parties for $52,000 by 30 June 2017.
 
-2. At 1 July 2016, there was $12,000 profit in the inventories of Petal Ltd from goods acquired from Sleet  Ltd for $32,000.
+2. At 1 July 2016, there was \$12,000 profit in the inventories of Petal Ltd from goods acquired from Sleet  Ltd for \$32,000.
 
-3. On 1 January 2016, Sleet Ltd sold inventory item costing $13,000 to Petal Ltd for $17,000. Petal Ltd  classified this inventory as equipment and depreciated it on a straight-line basis at 5% per year.
+3. On 1 January 2016, Sleet Ltd sold inventory item costing \$13,000 to Petal Ltd for $17,000. Petal Ltd  classified this inventory as equipment and depreciated it on a straight-line basis at 5% per year.
 
-4. Dividends of $7,000 were paid by Sleet Ltd in the year ended 30 June 2017.
+4. Dividends of \$7,000 were paid by Sleet Ltd in the year ended 30 June 2017.
 
-5. There is an intergroup loan of $15,000.
+5. There is an intra-group loan of \$15,000.
 
 6. The tax rate is 30%.
 
