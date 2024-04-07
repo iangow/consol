@@ -25,6 +25,7 @@ book:
     - "index.qmd"
     - bus-combs.qmd
     - wholly-owned.qmd
+    - intra-group.qmd
     - "nci.qmd"
 format:
   html:

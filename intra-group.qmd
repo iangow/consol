@@ -1,0 +1,161 @@
+# Consolidation: Intra-group transactions
+
+## Example 2: Parent-Subsidiary
+
+On 1 July 2015, Petal Ltd acquired 100% of the shares of Sleet Ltd for $600,000. At that date, Sleet Ltd’s  equity comprised the following:
+
+|                   |          |
+|-------------------|---------:|
+| Share capital     |  400,000 |
+| General reserve   |  110,000 |
+| Retained earnings |   60,000 |
+
+At 1 July 2015, all the identifiable assets and liabilities of Sleet Ltd were recorded at fair value except for Plant, which had a carrying value of $150,000 (original cost $180,000) and a fair value of $170,000.
+
+The plant had a further 5-year life and is expected to be used evenly over that time.
+
+**Additional information**
+
+1. On 1 January 2017, Sleet Ltd sold inventories costing $30,000 to Petal Ltd for $40,000. 80% of these  inventories were sold to external parties for $52,000 by 30 June 2017.
+
+2. At 1 July 2016, there was $12,000 profit in the inventories of Petal Ltd from goods acquired from Sleet  Ltd for $32,000.
+
+3. On 1 January 2016, Sleet Ltd sold inventory item costing $13,000 to Petal Ltd for $17,000. Petal Ltd  classified this inventory as equipment and depreciated it on a straight-line basis at 5% per year.
+
+4. Dividends of $7,000 were paid by Sleet Ltd in the year ended 30 June 2017.
+
+5. There is an intergroup loan of $15,000.
+
+6. The tax rate is 30%.
+
+### Requirements
+
+- Prepare consolidated financial statements for the period ended 30 June 2017.
+  
+### Answer: Consolidation journal entries
+
+*1. On 1 January 2017, Sleet Ltd sold inventories costing $30,000 to Petal Ltd for $40,000. 80% of these  inventories were sold to external parties for $52,000 by 30 June 2017.*
+
+Let's first focus on the 20% that were unsold.
+In the books of Sleet, these would have been accounted for at the time of sale as:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Cash                            | 8 000   |         |
+|  Revenue                        |         | 8 000   |
+|                                 |         |         |
+| Cost of sales                   | 6 000   |         |
+|  Inventory                      |         | 6 000   |
+
+In the books of Petal, the accounting at time of sale would be
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Inventory                       | 6 000   |         |
+|  Cash                           |         | 6 000   |
+
+But there is no transaction here from a consolidated perspective, so we need to reverse the effect of these entries:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Revenue                         | 8 000   |         |
+|  Cost of sales                  |         | 6 000   |
+|  Inventory                      |         | 2 000   |
+
+
+Now let's address the 80% that were sold outside the group.
+In the books of Sleet, these would have been accounted for at the time of intra-group sale as:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Cash                            | 32 000  |         |
+|  Revenue                        |         | 32 000  |
+|                                 |         |         |
+| Cost of sales                   | 24 000  |         |
+|  Inventory                      |         | 24 000  |
+
+In the books of Petal, the accounting at time of the intra-group sale would be:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Inventory                       | 32 000  |         |
+|  Cash                           |         | 32 000  |
+
+At the time of the external sale, one entry would be:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Cost of sales                   | 32 000  |         |
+|  Inventory                      |         | 32 000  |
+
+If we combine all of the entries above, we see that we have cost of sales twice and revenue recognised on an intra-group sales.
+Regarding cost of sales, only the \$24,000 reflects true costs to the group.
+To correctly record the effects of the above from a group perspective, we need to reverse the intra-group revenue and reverse the *Cost of sales* at \$32,000.
+This results in the following consolidation entry:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Revenue                         | 32 000  |         |
+|  Cost of sales                  |         | 32 000  |
+
+The entries above apply to the year ending 30 June 2017.
+For the year ending 30 June 2018, as far as the above is concerned, we would need to adjust *Retained earnings--beginning* to reflect the overstatement of income for the year ending 30 June 2017 in the books of Sleet of \$2,000 ($8000 - 6000$).
+This overstatement is reflected in the books of Petal as an overstatement of inventory.
+(**Note**: We are temporarily ignoring tax effects. We will return to those in a moment.)
+
+Thus the consolidation journal entry would be:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Retained earnings--beginning    | 2 000   |         |
+|  Inventory                      |         | 2 000   |
+
+When preparing consolidation journal entries, one always needs to be alert to potential tax effects.
+Tax effects will arise when the entries have an impact on accounting income.
+The second consolidation journal entry above has no effect on accounting income (revenues and expenses are equally affected), but the first entry results in a decrease in accounting income of \$2,000 ($8000 - 6000$).
+
+Because the consolidation entry above results in a decrease in accounting income, it also implies a decrease in income tax expense of \$600 ($2000 \times 30\%$).
+As we have seen before, this does not affect income tax payable, so we will create a deferred tax asset of \$600 to reflect the decreased income tax expense.
+
+For the year ending 30 June 2018, we would also need to adjust *Retained earnings--beginning* to reflect this adjustment for taxes.
+Repeating the entry we discussed above and adding the tax entry would give us the following consolidation journal entries for the year ending 30 June 2018 for the unsold portion of intra-group sales for the year ending 30 June 2017.
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Retained earnings--beginning    | 2 000   |         |
+|  Inventory                      |         | 2 000   |
+|                                 |         |         |
+| Deferred tax asset              |   600   |         |
+|  Retained earnings--beginning   |         |   600   |
+
+At the end of the period, the inventory would have been sold externally and this would require the following consolidation journal entries:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Inventory                       | 2 000   |         |
+|  Cost of sales                  |         | 2 000   |
+|                                 |         |         |
+| Income tax expense              |   600   |         |
+|  Deferred tax asset             |         |   600   |
+
+In reality, we would likely just prepare a consolidated balance sheet at the end of that period, so we can prepare a simpler entry combining the two entries above:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Retained earnings--beginning    | 1 400   |         |
+| Income tax expense              |   600   |         |
+|  Cost of sales                  |         | 2 000   |
+
+These entries may be a little puzzling at first.
+So it is important to think about the following as you work through these kinds of exercises:
+ 
+ - What is the impact of the consolidation entries on tax expense in each period?
+ - What is the impact of these entries on total tax expense over the two periods?
+
+You may wonder how we can debit deferred tax assets in one period, but not credit it in the next period.
+The answer is that these are consolidation journal entries, which means that the deferred tax asset created on consolidation for the year ending 30 June 2017 does not persist in the way that a similar entry would if made in the books of Petal or Sleet.
+Because the deferred tax asset is "consumed" in the year ending 30 June 2018, there is no need to re-create it in preparing consolidation journal entries for that period.
+
+*2. At 1 July 2016, there was \$12,000 profit in the inventories of Petal Ltd from goods acquired from Sleet Ltd for \$32,000.*
+
+
