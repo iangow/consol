@@ -1,4 +1,4 @@
-# Consolidation: Intra-group transactions
+# Consolidation: Intragroup transactions
 
 The core idea of consolidation accounting under AASB 10 is to present financial statements of the group as a single economic entity.
 @fig-entity depicts the representation of a simple economic group comprising Parent and Subsidiary.
@@ -13,7 +13,7 @@ But this elimination entry relates to the economic circumstances of the group at
 In many cases, entities that form part of a group will interact with each other after acquisition.
 For example, Subsidiary might produce goods that are sold to Parent.
 Or Parent might lend money to Subsidiary.
-This chapter focuses on these **intra-group transactions** and the accounting for them as part of preparing consolidated accounts.
+This chapter focuses on these **intragroup transactions** and the accounting for them as part of preparing consolidated accounts.
 
 ![A group comprising a parent and a subsidiary](entity.png){#fig-entity}
 
@@ -42,7 +42,7 @@ The plant had a further 5-year life and is expected to be used evenly over that 
 
 4. Dividends of \$7,000 were paid by Sleet Ltd in the year ended 30 June 2017.
 
-5. There is an intra-group loan of \$15,000.
+5. There is an intragroup loan of \$15,000.
 
 6. The tax rate is 30%.
 
@@ -82,7 +82,7 @@ But there is no transaction here from a consolidated perspective, so we need to 
 
 
 Now let's address the 80% that were sold outside the group.
-In the books of Sleet, these would have been accounted for at the time of intra-group sale as:
+In the books of Sleet, these would have been accounted for at the time of intragroup sale as:
 
 |                                 |  Debit  |  Credit |
 |---------------------------------|--------:|--------:|
@@ -92,7 +92,7 @@ In the books of Sleet, these would have been accounted for at the time of intra-
 | Cost of sales                   | 24 000  |         |
 |  Inventory                      |         | 24 000  |
 
-In the books of Petal, the accounting at time of the intra-group sale would be:
+In the books of Petal, the accounting at time of the intragroup sale would be:
 
 |                                 |  Debit  |  Credit |
 |---------------------------------|--------:|--------:|
@@ -106,9 +106,9 @@ At the time of the external sale, one entry would be:
 | Cost of sales                   | 32 000  |         |
 |  Inventory                      |         | 32 000  |
 
-If we combine all of the entries above, we see that we have cost of sales twice and revenue recognised on an intra-group sales.
+If we combine all of the entries above, we see that we have cost of sales twice and revenue recognised on an intragroup sales.
 Regarding cost of sales, only the \$24,000 reflects true costs to the group.
-To correctly record the effects of the above from a group perspective, we need to reverse the intra-group revenue and reverse the *Cost of sales* at \$32,000.
+To correctly record the effects of the above from a group perspective, we need to reverse the intragroup revenue and reverse the *Cost of sales* at \$32,000.
 This results in the following consolidation entry:
 
 |                                 |  Debit  |  Credit |
@@ -136,7 +136,7 @@ Because the consolidation entry above results in a decrease in accounting income
 As we have seen before, this does not affect income tax payable, so we will create a deferred tax asset of \$600 to reflect the decreased income tax expense.
 
 For the year ending 30 June 2018, we would also need to adjust *Retained earnings--beginning* to reflect this adjustment for taxes.
-Repeating the entry we discussed above and adding the tax entry would give us the following consolidation journal entries for the year ending 30 June 2018 for the unsold portion of intra-group sales for the year ending 30 June 2017.
+Repeating the entry we discussed above and adding the tax entry would give us the following consolidation journal entries for the year ending 30 June 2018 for the unsold portion of intragroup sales for the year ending 30 June 2017.
 
 |                                 |  Debit  |  Credit |
 |---------------------------------|--------:|--------:|
