@@ -1,4 +1,4 @@
-# Consolidation: Wholly owned entities
+# Consolidation: Wholly owned entities {#sec-wholly-owned}
 
 The initial portion of this chapter continues the discussion of the accounting for business combinations, but in the context of an indirect acquisition.
 The relevant accounting standard is [AASB 3](https://www.aasb.gov.au/admin/file/content105/c9/AASB3_08-15_COMPdec22_01-23.pdf) (IFRS 3) *Business Combinations*.

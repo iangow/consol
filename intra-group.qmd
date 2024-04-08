@@ -1,5 +1,23 @@
 # Consolidation: Intra-group transactions
 
+The core idea of consolidation accounting under AASB 10 is to present financial statements of the group as a single economic entity.
+@fig-entity depicts the representation of a simple economic group comprising Parent and Subsidiary.
+The assets of Subsidiary are controlled by the group, so need to be reported on group's balance sheet
+But simply summing the accounts Parent and Subsidiary would be problematic.
+First, the books of Parent would include an amount for *Investment in Subsidiary* or something similar.
+Second, the books of Subsidiary would include shareholders' equity, even though there are no outside shareholders in Subsidiary.
+
+In @sec-wholly-owned, we saw that it is necessary to record an elimination entry as part of the consolidation process.
+But this elimination entry relates to the economic circumstances of the group at the time of acquisition.
+
+In many cases, entities that form part of a group will interact with each other after acquisition.
+For example, Subsidiary might produce goods that are sold to Parent.
+Or Parent might lend money to Subsidiary.
+This chapter focuses on these **intra-group transactions** and the accounting for them as part of preparing consolidated accounts.
+
+![A group comprising a parent and a subsidiary](entity.png){#fig-entity}
+
+
 ## Example 2: Parent-Subsidiary
 
 On 1 July 2015, Petal Ltd acquired 100% of the shares of Sleet Ltd for $600,000. At that date, Sleet Ltd’s  equity comprised the following:
@@ -159,3 +177,4 @@ Because the deferred tax asset is "consumed" in the year ending 30 June 2018, th
 *2. At 1 July 2016, there was \$12,000 profit in the inventories of Petal Ltd from goods acquired from Sleet Ltd for \$32,000.*
 
 
+![Picture](intragroup_loan.png){#fig-loan}
