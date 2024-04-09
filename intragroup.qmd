@@ -2,10 +2,12 @@
 
 The core idea of consolidation accounting under AASB 10 is to present financial statements of the group as a single economic entity.
 @fig-entity depicts the representation of a simple economic group comprising Parent and Subsidiary.
-The assets of Subsidiary are controlled by the group, so need to be reported on group's balance sheet
+The assets of Subsidiary are controlled by the group, so need to be reported on group's balance sheet.
 But simply summing the accounts Parent and Subsidiary would be problematic.
 First, the books of Parent would include an amount for *Investment in Subsidiary* or something similar.
 Second, the books of Subsidiary would include shareholders' equity, even though there are no outside shareholders in Subsidiary.
+
+![A group comprising a parent and a subsidiary](entity.png){#fig-entity}
 
 In @sec-wholly-owned, we saw that it is necessary to record an elimination entry as part of the consolidation process.
 But this elimination entry relates to the economic circumstances of the group at the time of acquisition.
@@ -15,20 +17,36 @@ For example, Subsidiary might produce goods that are sold to Parent.
 Or Parent might lend money to Subsidiary.
 This chapter focuses on these **intragroup transactions** and the accounting for them as part of preparing consolidated accounts.
 
-![A group comprising a parent and a subsidiary](entity.png){#fig-entity}
+Paragraph B86(c) of AASB 10 requires groups to "eliminate in full intragroup assets and liabilities, equity, income, expenses and cash flows relating to transactions between entities of the group (profits or losses resulting from intragroup transactions that are recognised in assets, such as inventory and fixed assets, are eliminated in full)."
+The goal of this chapter is to illustrate the process for eliminating such transactions using a single detailed example.
 
+The "eliminate in full" wording may seem mysterious at this point, as it is not clear what other kind of elimination would make sense, given the focus in this chapter and the previous on wholly owned subsidiaries.
+But in @sec-nci, we consider situations where the parent does not own 100\% of the shares in a subsidiary and see there that the "eliminate in full" has more significance there.
 
-## Example 2: Parent-Subsidiary
+## The elimination process
+
+In this chapter we assume that we are handling the consolidation for a group comprising a parent and a wholly owned subsidiary, each of which records transactions and adjusting entries in its own books.
+As such, the correct accounting for consolidated financial statements will require analysis of the following:
+
+1. How is the transaction recorded in the separate books of the parent and the subsidiary?
+2. How should the transaction be recorded from a group perspective?
+3. What consolidation entries are required to move from (1) to (2)?
+
+Because consolidation journal entries are posted to a consolidation worksheet that starts in each period from the separate accounts of the parent and subsidiary, it is often necessary to adjust for the effects of prior period transactions and events in the consolidation journal entries.
+This stands in contrast to entries made in the separate books, which naturally carry over from one period to the next.
+We will see how to address these issues in the following example.
+
+## Example: Petal-Sleet
 
 On 1 July 2015, Petal Ltd acquired 100% of the shares of Sleet Ltd for $600,000. At that date, Sleet Ltd’s  equity comprised the following:
 
 |                   |          |
 |-------------------|---------:|
-| Share capital     |  400,000 |
-| General reserve   |  110,000 |
-| Retained earnings |   60,000 |
+| Share capital     |  400 000 |
+| General reserve   |  110 000 |
+| Retained earnings |   60 000 |
 
-At 1 July 2015, all the identifiable assets and liabilities of Sleet Ltd were recorded at fair value except for Plant, which had a carrying value of $150,000 (original cost $180,000) and a fair value of $170,000.
+At 1 July 2015, all the identifiable assets and liabilities of Sleet Ltd were recorded at fair value except for Plant, which had a carrying value of \$150,000 (original cost \$180,000) and a fair value of \$170,000.
 
 The plant had a further 5-year life and is expected to be used evenly over that time.
 
@@ -52,7 +70,94 @@ The plant had a further 5-year life and is expected to be used evenly over that 
   
 ### Answer: Consolidation journal entries
 
-*1. On 1 January 2017, Sleet Ltd sold inventories costing $30,000 to Petal Ltd for $40,000. 80% of these  inventories were sold to external parties for $52,000 by 30 June 2017.*
+***Entries at time of acquisition***
+
+**1. BCVR entries**
+
+We first do the fair value adjustments at the acquisition date.
+We need to increase plant by \$20,000 ($17000 - 150000$).
+However, because the plant is "new" to the entity, we also need to "reset" accumulated depreciation of \$30,000 ($180000 - 150000$), making an offsetting adjustment to original cost.
+
+Again, increasing plant in the consolidated books does not change the tax base.
+With a tax rate of 30%, we will recognize a deferred tax liability equal to $0.3 \times 20000 = \$6,000$.
+The net (after-tax) increase in fair value for various assets are accumulated in a special bookkeeping account called the **business combination valuation reserve** or **BCVR** for short.
+In this case, we BCVR of $20000 - 6000 = \$14,000$.
+
+As discussed in @sec-wholly-owned, we can use the following entry to account for fair value adjustments to plant.
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Accumulated depreciation         | 30 000 |        |
+|  Plant                           |        | 10 000 |
+|  Deferred tax liability          |        |  6 000 |
+|  BCVR                            |        | 14 000 |
+
+**(2) Elimination of parent's investment**
+
+To complete the elimination of the parent's investment, we need to conduct an **acquisition analysis**.
+The involves calculating the fair value of the consideration transferred and the FVINA of the subsidiary at acquisition date.
+
+A shortcut approach to calculating FVINA starts with the carrying amount of equity and adds the after-tax fair value adjustments to the assets.
+We already calculated and accumulated these adjustments in BCVR in the entry above.
+Thus we have FVINA equal to \$584,000, as calculated below.
+
+|                    |          |
+|--------------------|---------:|
+| Share capital      |  400 000 |
+| General reserve    |  110 000 |
+| Retained earnings  |   60 000 |
+| BCVR (plant)       |   14 000 |
+| **FVINA**          | **584 000** |
+
+With purchase consideration of \$600,000 in excess of FVINA, we will record **goodwill** equal to the difference \$16,000 ($600000 - 584000$).
+Combining this information into a single entry yields the following elimination entry.
+
+|                                 |   Debit | Credit |
+|---------------------------------|--------:|-------:|
+| Share capital                   | 400 000 |        |
+| General reserve                 | 110 000 |        |
+| Retained earnings               |  60 000 |        |
+| BCVR                            |  14 000 |        |
+| Goodwill                        |  16 000 |        |
+|  Shares in Subsidiary Ltd       |         | 600 000|
+
+
+Having address the acquisition-date entries, we can move forward two years to address the intragroup transactions outlined in the *Additional information*.
+Before doing so, we recapitulate the entries for BCVR and elimination of Petal's investment.
+Here we can start with the same entry that we made above.
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Accumulated depreciation         | 30 000 |        |
+|  Plant                           |        | 10 000 |
+|  Deferred tax liability          |        |  6 000 |
+|  BCVR                            |        | 14 000 |
+
+However, we need to account for two years of depreciation of the fair value increment.
+One year will be in *Retained earnings--beginning* and one year will be the current period's depreciation expense.
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Retained earnings--beginning     |  4 000 |        |
+| Depreciation expense             |  4 000 |        |
+|  Accumulated depreciation - plant|        |  8 000 |
+
+As always, we need to account for the tax effects of items that have a net effect on revenue and expenses.
+
+|                                  |  Debit | Credit |
+|----------------------------------|-------:|-------:|
+| Deferred tax liability           |  2 400 |        |
+|  Retained earnings--beginning    |        |  1 200 |
+|  Income tax expense              |        |  1 200 |
+
+The entry for elimination of Petal's investment would be unchanged from that above.
+
+With those entries out of the way, we move onto the "additional information" entries.
+We take each item of additional information in turn.
+
+### Intragroup sales of inventory: Current period
+
+*1. On 1 January 2017, Sleet Ltd sold inventories costing \$30,000 to Petal Ltd for \$40,000. 80% of these inventories were sold to external parties for \$52,000 by 30 June 2017.*
 
 Let's first focus on the 20% that were unsold.
 In the books of Sleet, these would have been accounted for at the time of sale as:
@@ -80,6 +185,18 @@ But there is no transaction here from a consolidated perspective, so we need to 
 |  Cost of sales                  |         | 6 000   |
 |  Inventory                      |         | 2 000   |
 
+When preparing consolidation journal entries, one always needs to be alert to potential tax effects.
+Tax effects will arise when the entries have an impact on accounting income.
+The above entry results in a decrease in accounting income of \$2,000 ($8000 - 6000$).
+
+Because the consolidation entry above results in a decrease in accounting income, it also implies a decrease in income tax expense of \$600 ($2000 \times 30\%$).
+As we have seen before, this does not affect income tax payable, so we will create a deferred tax asset of \$600 to reflect the decreased income tax expense.
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+|                                 |         |         |
+| Deferred tax asset              |   600   |         |
+|  Income tax expense             |         |   600   |
 
 Now let's address the 80% that were sold outside the group.
 In the books of Sleet, these would have been accounted for at the time of intragroup sale as:
@@ -106,7 +223,7 @@ At the time of the external sale, one entry would be:
 | Cost of sales                   | 32 000  |         |
 |  Inventory                      |         | 32 000  |
 
-If we combine all of the entries above, we see that we have cost of sales twice and revenue recognised on an intragroup sales.
+If we combine all of the entries above related to the 80% that were sold outside the group, we see that we have cost of sales twice and revenue recognised on an intragroup sales.
 Regarding cost of sales, only the \$24,000 reflects true costs to the group.
 To correctly record the effects of the above from a group perspective, we need to reverse the intragroup revenue and reverse the *Cost of sales* at \$32,000.
 This results in the following consolidation entry:
@@ -116,24 +233,30 @@ This results in the following consolidation entry:
 | Revenue                         | 32 000  |         |
 |  Cost of sales                  |         | 32 000  |
 
-The entries above apply to the year ending 30 June 2017.
-For the year ending 30 June 2018, as far as the above is concerned, we would need to adjust *Retained earnings--beginning* to reflect the overstatement of income for the year ending 30 June 2017 in the books of Sleet of \$2,000 ($8000 - 6000$).
-This overstatement is reflected in the books of Petal as an overstatement of inventory.
-(**Note**: We are temporarily ignoring tax effects. We will return to those in a moment.)
+Because there is no net effect on revenues and expenses, there is no need to account for taxes.
 
-Thus the consolidation journal entry would be:
+If we combine the entries for both the unsold and sold portions of inventory we would have the following entry:
 
 |                                 |  Debit  |  Credit |
 |---------------------------------|--------:|--------:|
-| Retained earnings--beginning    | 2 000   |         |
-|  Inventory                      |         | 2 000   |
+| Revenue                         | 40 000  |         |
+|  Cost of sales                  |         | 38 000  |
+|  Inventory                      |         |  2 000  |
+|                                 |         |         |
+| Deferred tax asset              |    600  |         |
+|  Income tax expense             |         |    600  |
 
-When preparing consolidation journal entries, one always needs to be alert to potential tax effects.
-Tax effects will arise when the entries have an impact on accounting income.
-The second consolidation journal entry above has no effect on accounting income (revenues and expenses are equally affected), but the first entry results in a decrease in accounting income of \$2,000 ($8000 - 6000$).
+A shortcut to this combined entry is to note that all sales need to be reversed (hence we debit \$40,000) and that the ending inventory is 20\% of the total, for which there was \$10,000 in profit, so we need to eliminate \$2,000 of profit from ending inventory.
+The cost of sales amount is then a plug.
+Finally the tax effect relates to the credit to inventory.
 
-Because the consolidation entry above results in a decrease in accounting income, it also implies a decrease in income tax expense of \$600 ($2000 \times 30\%$).
-As we have seen before, this does not affect income tax payable, so we will create a deferred tax asset of \$600 to reflect the decreased income tax expense.
+### Intragroup sales of inventory: Prior period
+
+*1. On 1 January 2017, Sleet Ltd sold inventories costing \$30,000 to Petal Ltd for \$40,000. 80% of these inventories were sold to external parties for \$52,000 by 30 June 2017.*
+
+The entries above apply to the year ending 30 June 2017.
+For the year ending 30 June 2018, as far as the above is concerned, we would need to adjust *Retained earnings--beginning* to reflect the overstatement of income for the year ending 30 June 2017 in the books of Sleet of \$2,000 ($8000 - 6000$).
+This overstatement is reflected in the books of Petal as an overstatement of inventory.
 
 For the year ending 30 June 2018, we would also need to adjust *Retained earnings--beginning* to reflect this adjustment for taxes.
 Repeating the entry we discussed above and adding the tax entry would give us the following consolidation journal entries for the year ending 30 June 2018 for the unsold portion of intragroup sales for the year ending 30 June 2017.
@@ -176,5 +299,219 @@ Because the deferred tax asset is "consumed" in the year ending 30 June 2018, th
 
 *2. At 1 July 2016, there was \$12,000 profit in the inventories of Petal Ltd from goods acquired from Sleet Ltd for \$32,000.*
 
+This is similar to the item above as applied to the unsold portion of inventories.
+There we saw a need to eliminate the unrealised profit and a similar entry would have been made for the year ended 30 June 2016.
+This consolidation journal entry would have reduced the ending amount of retained earnings.
+Because such consolidation journal entries to retained earnings are made in a consolidation worksheet, they do not *automatically* carry over from one period to the next and we need to address them in the consolidation worksheet.
 
-![Picture](intragroup_loan.png){#fig-loan}
+In this case, we need to reduce both *Inventory* and *Retained earnings--beginning* by the \$12,000.
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Retained earnings--beginning    | 12 000  |         |
+|  Inventory                      |         | 12 000  |
+
+We also need to adjust the entry made by Petal when the goods were sold.
+Because the inventory value in the books of Petal is (from the group perspective) overstated by \$12,000, cost of sales will also be overstated.
+The following entry reverses this effect.
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Inventory                       | 12 000  |         |
+|  Cost of sales                  |         | 12 000  |
+
+Of course, we could combine the two entries above into a single entry:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Retained earnings--beginning    | 12 000  |         |
+|  Cost of sales                  |         | 12 000  |
+
+As always, when we are making consolidation entries that have a net effect on revenues and expenses, we need to be thinking about AASB 112 *Income Taxes*.
+Based on the analysis above, when we reduced the value of inventory, we would have recognized reduced income tax expense and a corresponding deferred tax asset of \$3,600 $(12000 \times 30\%)$.
+In principle, we should make an adjustment for this prior-period item:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Deferred tax asset              | 3 600   |         |
+|  Retained earnings--beginning   |         | 3 600   |
+
+To reflect the elimination related to the sale of inventory, we would recognize the consumption of the deferred tax asset.
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Income tax expense              | 3 600   |         |
+|  Deferred tax asset             |         | 3 600   |
+
+Again, we could combine the two entries above into a single entry:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Income tax expense              | 3 600   |         |
+|  Retained earnings--beginning   |         |  3 600  |
+
+In practice, we could go directly the combined entry above to the entry here by multiplying the pre-tax amounts by 30\%.
+More specifically, we could infer the following entry from the \$12,000 overstatement of beginning inventory: *Retained earnings--beginning* is overstated by \$12,000 and the credit will apply to *Cost of sales* because the inventory has been sold.
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Retained earnings--beginning    | 12 000  |         |
+|  Cost of sales                  |         | 12 000  |
+
+We could then go from this entry to the following directly.
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Income tax expense              | 3 600   |         |
+|  Retained earnings--beginning   |         |  3 600  |
+
+
+
+### Intragroup sales of inventory as PP&E
+
+*3. On 1 January 2016, Sleet Ltd sold inventory item costing \$13,000 to Petal Ltd for $17,000. Petal Ltd classified this inventory as equipment and depreciated it on a straight-line basis at 5% per year.*
+
+In Sleet's books we would have 
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Cash                            | 17 000  |         |
+|  Sales revenue                  |         | 17 000  |
+|                                 |         |         |
+| Cost of sales                   | 13 000  |         |
+|  Inventory                      |         | 13 000  |
+
+In Petal's books we would have (at the time of purchase):
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Equipment                       | 17 000  |         |
+|  Cash                           |         | 17 000  |
+
+In the first year, Petal would record six months of depreciation (or 2.5\%):
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Depreciation expense            |   425   |         |
+|  Accumulated depreciation       |         |    425  |
+
+In the second year, Petal would record a full year's depreciation (or 5\%):
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Depreciation expense            |   850   |         |
+|  Accumulated depreciation       |         |    850  |
+
+The reclassification of the item from inventory to PP&E is real and should not be reversed.
+While inventory will be expensed as cost of sales, PP&E will be expensed as depreciation.
+
+We first need to reverse the effects on asset values of the initial transaction.
+In the year of sale, this would mean eliminating the \$4,000 of pre-tax profit (and associated tax effects).
+In subsequent periods, this mean eliminating the \$4,000 (before tax) and associated tax effects from beginning retained earnings.
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Retained earnings--beginning    | 4 000   |         |
+|  Equipment                      |         |  4 000  |
+|                                 |         |         |
+| Deferred tax asset              |  1 200  |         |
+|  Retained earnings--beginning   |         |  1 200  |
+
+However the depreciation in the books of Petal Ltd will be based on the "inflated" value it paid for it, not the original cost to the group.
+So we need to reverse the portion of depreciation related to the increase in value from the internal sale.
+For the first year, this "excess" depreciation would be \$100 ($4000 \times 2.5\%$).
+For the second year, this "excess" depreciation would be \$200 ($4000 \times 5\%$).
+
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Accumulated depreciation        |   300   |         |
+|  Retained earnings--beginning   |         |    100  |
+|  Depreciation expense           |         |    200  |
+
+Because these entries affect income, we need to account for their tax effects.
+Intuitively, the two debits are just 30\% of the two credits in the entry above.
+The credit can be thought of as the amount of the deferred tax asset that has been used up by the debits.
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Retained earnings--beginning    |     30  |         |
+| Income tax expense              |     60  |         |
+|  Deferred tax asset             |         |     90  |
+
+*4. Dividends of \$7,000 were paid by Sleet Ltd in the year ended 30 June 2017.*
+
+As @fig-divs makes clear, nothing has happened from a group perspective.
+No cash has been moved out of the larger (blue) box and, while the equity claim of Petal in Sleet has decreased in value, this equity claim does not appear in the consolidated accounts as it does not represent an interest of parties outside the larger (blue) box.
+
+![Dividends paid](dividends.png){#fig-divs}
+
+Note that there are no intragroup assets or liabilities related to the dividends at the end of the period, so there is nothing to eliminate on the balance sheet.
+
+The only entries we need are those related to reversal of the payment of the dividend.
+Paragraph 12 of AASB 127 (IAS 27) *Separate Financial Statements* says:
+
+> An entity shall recognise a dividend from a subsidiary, a joint
+venture or an associate in profit or loss in its separate financial
+statements when its right to receive the dividend is established.
+
+As such, the entry in the books of Petal would be:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Cash                            |  7 000  |         |
+|  Dividend revenue               |         |  7 000  |
+
+As such, the entry in the books of Petal would be:
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Dividends paid                  |  7 000  |         |
+|  Cash                           |         |  7 000  |
+
+
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Dividend revenue                | 7 000   |         |
+|  Dividends paid                 |         | 7 000   |
+
+The *Dividends paid* account for Sleet would likely be closed against its retained earnings.
+At the end of the period the *Dividend revenue* account for Petal would be closed against its retained earnings.
+Because there is no net effect on the consolidated balance sheet, there is no need to make adjustments in subsequent periods.
+
+Note also that we assume that intragroup dividends have no tax consequences (for example, in Australia they might be fully franked) and for this reason there is no need to concern ourselves with tax effects of dividends.
+
+*5. There is an intra-group loan of \$15,000.*
+
+Here we assume that Petal lent money to Sleet and that this loan was made under a formal contract.
+This loan gives rise to a financial asset for Petal and a financial liability for Sleet.
+Sleet has "a contractual right to receive cash ... from another entity" (Petal), which meets the definition of a financial asset in paragraph 11 of AASB 132 (IAS 32) *Financial Instruments: Disclosure and Presentation*.
+Petal has a "contractual obligation to deliver cash ... to another entity" (Sleet), which meets the definition of a financial liability in paragraph 11 of AASB 132 (IAS 32).
+
+![Intragroup loan](intragroup_loan.png){#fig-loan}
+
+However, as is clear in @fig-loan, there is neither a financial asset nor a financial liability from a group perspective.
+There is no "other entity" outside the group to which amounts are owed to or by.
+Here we simply need to eliminate the asset and liability using the following entry.
+
+|                                 |  Debit  |  Credit |
+|---------------------------------|--------:|--------:|
+| Loan payable                    | 15 000  |         |
+|  Loan receivable                |         | 15 000  |
+
+## Other situations
+
+### Intragroup services
+
+With intragroup sales of goods, we saw above that there will be unrealised profits in inventory.
+While intragroup sales of services will give rise to profits to the seller, there is generally no store of these on the balance sheet of the buyer and hence no profits to be eliminated.
+All we need to do is eliminate the revenue and expenses much like we did for inventory that has been sold externally.
+Because there is no net effect on retained earnings of the group, there is no need to make adjustments in subsequent periods.
+
+Note that if the payments by the buyer somehow end up on the balance sheet of the buyer (e.g., the expenditures are capitalised), there may be a need to eliminate unrealised profit from the balance sheet.
+
+### Interest on intragroup borrowing
+
+This is very much like intragroup services.
+So long as the interest costs of the borrower are expensed and not capitalised and the interest inflows to the lender are recognised as revenue, then there is no need to eliminate profits from the balance sheet.
