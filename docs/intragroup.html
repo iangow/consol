@@ -1,0 +1,1797 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Course materials for consolidations module of Corporate Reporting">
+
+<title>Consolidation accounting - 4&nbsp; Consolidation: Intragroup transactions</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./nci.html" rel="next">
+<link href="./wholly-owned.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./intragroup.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Consolidation: Intragroup transactions</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Consolidation accounting</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./bus-combs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Business combinations</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./wholly-owned.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Consolidation: Wholly owned entities</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intragroup.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Consolidation: Intragroup transactions</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./nci.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Noncontrolling interest</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#the-elimination-process" id="toc-the-elimination-process" class="nav-link active" data-scroll-target="#the-elimination-process"><span class="header-section-number">4.1</span> The elimination process</a></li>
+  <li><a href="#example-petal-sleet" id="toc-example-petal-sleet" class="nav-link" data-scroll-target="#example-petal-sleet"><span class="header-section-number">4.2</span> Example: Petal-Sleet</a>
+  <ul class="collapse">
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements"><span class="header-section-number">4.2.1</span> Requirements</a></li>
+  <li><a href="#answer-consolidation-journal-entries" id="toc-answer-consolidation-journal-entries" class="nav-link" data-scroll-target="#answer-consolidation-journal-entries"><span class="header-section-number">4.2.2</span> Answer: Consolidation journal entries</a></li>
+  <li><a href="#intragroup-sales-of-inventory-current-period" id="toc-intragroup-sales-of-inventory-current-period" class="nav-link" data-scroll-target="#intragroup-sales-of-inventory-current-period"><span class="header-section-number">4.2.3</span> Intragroup sales of inventory: Current period</a></li>
+  <li><a href="#intragroup-sales-of-inventory-prior-period" id="toc-intragroup-sales-of-inventory-prior-period" class="nav-link" data-scroll-target="#intragroup-sales-of-inventory-prior-period"><span class="header-section-number">4.2.4</span> Intragroup sales of inventory: Prior period</a></li>
+  <li><a href="#intragroup-sales-of-inventory-as-ppe" id="toc-intragroup-sales-of-inventory-as-ppe" class="nav-link" data-scroll-target="#intragroup-sales-of-inventory-as-ppe"><span class="header-section-number">4.2.5</span> Intragroup sales of inventory as PP&amp;E</a></li>
+  </ul></li>
+  <li><a href="#other-situations" id="toc-other-situations" class="nav-link" data-scroll-target="#other-situations"><span class="header-section-number">4.3</span> Other situations</a>
+  <ul class="collapse">
+  <li><a href="#intragroup-services" id="toc-intragroup-services" class="nav-link" data-scroll-target="#intragroup-services"><span class="header-section-number">4.3.1</span> Intragroup services</a></li>
+  <li><a href="#interest-on-intragroup-borrowing" id="toc-interest-on-intragroup-borrowing" class="nav-link" data-scroll-target="#interest-on-intragroup-borrowing"><span class="header-section-number">4.3.2</span> Interest on intragroup borrowing</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Consolidation: Intragroup transactions</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The core idea of consolidation accounting under AASB 10 is to present financial statements of the group as a single economic entity. <a href="#fig-entity" class="quarto-xref">Figure&nbsp;<span>4.1</span></a> depicts the representation of a simple economic group comprising Parent and Subsidiary. The assets of Subsidiary are controlled by the group, so need to be reported on group’s balance sheet. But simply summing the accounts Parent and Subsidiary would be problematic. First, the books of Parent would include an amount for <em>Investment in Subsidiary</em> or something similar. Second, the books of Subsidiary would include shareholders’ equity, even though there are no outside shareholders in Subsidiary.</p>
+<div id="fig-entity" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-entity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="entity.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-entity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.1: A group comprising a parent and a subsidiary
+</figcaption>
+</figure>
+</div>
+<p>In <a href="wholly-owned.html" class="quarto-xref"><span>Chapter 3</span></a>, we saw that it is necessary to record an elimination entry as part of the consolidation process. But this elimination entry relates to the economic circumstances of the group at the time of acquisition.</p>
+<p>In many cases, entities that form part of a group will interact with each other after acquisition. For example, Subsidiary might produce goods that are sold to Parent. Or Parent might lend money to Subsidiary. This chapter focuses on these <strong>intragroup transactions</strong> and the accounting for them as part of preparing consolidated accounts.</p>
+<p>Paragraph B86(c) of AASB 10 requires groups to “eliminate in full intragroup assets and liabilities, equity, income, expenses and cash flows relating to transactions between entities of the group (profits or losses resulting from intragroup transactions that are recognised in assets, such as inventory and fixed assets, are eliminated in full).” The goal of this chapter is to illustrate the process for eliminating such transactions using a single detailed example.</p>
+<p>The “eliminate in full” wording may seem mysterious at this point, as it is not clear what other kind of elimination would make sense, given the focus in this chapter and the previous on wholly owned subsidiaries. But in <a href="nci.html" class="quarto-xref"><span>Chapter 5</span></a>, we consider situations where the parent does not own 100% of the shares in a subsidiary and see there that the “eliminate in full” has more significance there.</p>
+<section id="the-elimination-process" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="the-elimination-process"><span class="header-section-number">4.1</span> The elimination process</h2>
+<p>In this chapter we assume that we are handling the consolidation for a group comprising a parent and a wholly owned subsidiary, each of which records transactions and adjusting entries in its own books. As such, the correct accounting for consolidated financial statements will require analysis of the following:</p>
+<ol type="1">
+<li>How is the transaction recorded in the separate books of the parent and the subsidiary?</li>
+<li>How should the transaction be recorded from a group perspective?</li>
+<li>What consolidation entries are required to move from (1) to (2)?</li>
+</ol>
+<p>Because consolidation journal entries are posted to a consolidation worksheet that starts in each period from the separate accounts of the parent and subsidiary, it is often necessary to adjust for the effects of prior period transactions and events in the consolidation journal entries. This stands in contrast to entries made in the separate books, which naturally carry over from one period to the next. We will see how to address these issues in the following example.</p>
+</section>
+<section id="example-petal-sleet" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="example-petal-sleet"><span class="header-section-number">4.2</span> Example: Petal-Sleet</h2>
+<p>On 1 July 2015, Petal Ltd acquired 100% of the shares of Sleet Ltd for $600,000. At that date, Sleet Ltd’s equity comprised the following:</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Share capital</td>
+<td style="text-align: right;">400 000</td>
+</tr>
+<tr class="even">
+<td>General reserve</td>
+<td style="text-align: right;">110 000</td>
+</tr>
+<tr class="odd">
+<td>Retained earnings</td>
+<td style="text-align: right;">60 000</td>
+</tr>
+</tbody>
+</table>
+<p>At 1 July 2015, all the identifiable assets and liabilities of Sleet Ltd were recorded at fair value except for Plant, which had a carrying value of $150,000 (original cost $180,000) and a fair value of $170,000.</p>
+<p>The plant had a further 5-year life and is expected to be used evenly over that time.</p>
+<p><strong>Additional information</strong></p>
+<ol type="1">
+<li><p>On 1 January 2017, Sleet Ltd sold inventories costing $30,000 to Petal Ltd for $40,000. 80% of these inventories were sold to external parties for $52,000 by 30 June 2017.</p></li>
+<li><p>At 1 July 2016, there was $12,000 profit in the inventories of Petal Ltd from goods acquired from Sleet Ltd for $32,000.</p></li>
+<li><p>On 1 January 2016, Sleet Ltd sold inventory item costing $13,000 to Petal Ltd for $17,000. Petal Ltd classified this inventory as equipment and depreciated it on a straight-line basis at 5% per year.</p></li>
+<li><p>Dividends of $7,000 were paid by Sleet Ltd in the year ended 30 June 2017.</p></li>
+<li><p>There is an intragroup loan of $15,000.</p></li>
+<li><p>The tax rate is 30%.</p></li>
+</ol>
+<section id="requirements" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="requirements"><span class="header-section-number">4.2.1</span> Requirements</h3>
+<ul>
+<li>Prepare consolidated financial statements for the period ended 30 June 2017.</li>
+</ul>
+</section>
+<section id="answer-consolidation-journal-entries" class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="answer-consolidation-journal-entries"><span class="header-section-number">4.2.2</span> Answer: Consolidation journal entries</h3>
+<p><strong><em>Entries at time of acquisition</em></strong></p>
+<p><strong>1. BCVR entries</strong></p>
+<p>We first do the fair value adjustments at the acquisition date. We need to increase plant by $20,000 (<span class="math inline">\(17000 - 150000\)</span>). However, because the plant is “new” to the entity, we also need to “reset” accumulated depreciation of $30,000 (<span class="math inline">\(180000 - 150000\)</span>), making an offsetting adjustment to original cost.</p>
+<p>Again, increasing plant in the consolidated books does not change the tax base. With a tax rate of 30%, we will recognize a deferred tax liability equal to <span class="math inline">\(0.3 \times 20000 = \$6,000\)</span>. The net (after-tax) increase in fair value for various assets are accumulated in a special bookkeeping account called the <strong>business combination valuation reserve</strong> or <strong>BCVR</strong> for short. In this case, we BCVR of <span class="math inline">\(20000 - 6000 = \$14,000\)</span>.</p>
+<p>As discussed in <a href="wholly-owned.html" class="quarto-xref"><span>Chapter 3</span></a>, we can use the following entry to account for fair value adjustments to plant.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Accumulated depreciation</td>
+<td style="text-align: right;">30 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Plant</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">10 000</td>
+</tr>
+<tr class="odd">
+<td> Deferred tax liability</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">6 000</td>
+</tr>
+<tr class="even">
+<td> BCVR</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">14 000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>(2) Elimination of parent’s investment</strong></p>
+<p>To complete the elimination of the parent’s investment, we need to conduct an <strong>acquisition analysis</strong>. The involves calculating the fair value of the consideration transferred and the FVINA of the subsidiary at acquisition date.</p>
+<p>A shortcut approach to calculating FVINA starts with the carrying amount of equity and adds the after-tax fair value adjustments to the assets. We already calculated and accumulated these adjustments in BCVR in the entry above. Thus we have FVINA equal to $584,000, as calculated below.</p>
+<table class="table">
+<tbody>
+<tr class="odd">
+<td>Share capital</td>
+<td style="text-align: right;">400 000</td>
+</tr>
+<tr class="even">
+<td>General reserve</td>
+<td style="text-align: right;">110 000</td>
+</tr>
+<tr class="odd">
+<td>Retained earnings</td>
+<td style="text-align: right;">60 000</td>
+</tr>
+<tr class="even">
+<td>BCVR (plant)</td>
+<td style="text-align: right;">14 000</td>
+</tr>
+<tr class="odd">
+<td><strong>FVINA</strong></td>
+<td style="text-align: right;"><strong>584 000</strong></td>
+</tr>
+</tbody>
+</table>
+<p>With purchase consideration of $600,000 in excess of FVINA, we will record <strong>goodwill</strong> equal to the difference $16,000 (<span class="math inline">\(600000 - 584000\)</span>). Combining this information into a single entry yields the following elimination entry.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Share capital</td>
+<td style="text-align: right;">400 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>General reserve</td>
+<td style="text-align: right;">110 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Retained earnings</td>
+<td style="text-align: right;">60 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>BCVR</td>
+<td style="text-align: right;">14 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Goodwill</td>
+<td style="text-align: right;">16 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Shares in Subsidiary Ltd</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">600 000</td>
+</tr>
+</tbody>
+</table>
+<p>Having address the acquisition-date entries, we can move forward two years to address the intragroup transactions outlined in the <em>Additional information</em>. Before doing so, we recapitulate the entries for BCVR and elimination of Petal’s investment. Here we can start with the same entry that we made above.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Accumulated depreciation</td>
+<td style="text-align: right;">30 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Plant</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">10 000</td>
+</tr>
+<tr class="odd">
+<td> Deferred tax liability</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">6 000</td>
+</tr>
+<tr class="even">
+<td> BCVR</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">14 000</td>
+</tr>
+</tbody>
+</table>
+<p>However, we need to account for two years of depreciation of the fair value increment. One year will be in <em>Retained earnings–beginning</em> and one year will be the current period’s depreciation expense.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Retained earnings–beginning</td>
+<td style="text-align: right;">4 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Depreciation expense</td>
+<td style="text-align: right;">4 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Accumulated depreciation - plant</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">8 000</td>
+</tr>
+</tbody>
+</table>
+<p>As always, we need to account for the tax effects of items that have a net effect on revenue and expenses.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Deferred tax liability</td>
+<td style="text-align: right;">2 400</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Retained earnings–beginning</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">1 200</td>
+</tr>
+<tr class="odd">
+<td> Income tax expense</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">1 200</td>
+</tr>
+</tbody>
+</table>
+<p>The entry for elimination of Petal’s investment would be unchanged from that above.</p>
+<p>With those entries out of the way, we move onto the “additional information” entries. We take each item of additional information in turn.</p>
+</section>
+<section id="intragroup-sales-of-inventory-current-period" class="level3" data-number="4.2.3">
+<h3 data-number="4.2.3" class="anchored" data-anchor-id="intragroup-sales-of-inventory-current-period"><span class="header-section-number">4.2.3</span> Intragroup sales of inventory: Current period</h3>
+<p><em>1. On 1 January 2017, Sleet Ltd sold inventories costing $30,000 to Petal Ltd for $40,000. 80% of these inventories were sold to external parties for $52,000 by 30 June 2017.</em></p>
+<p>Let’s first focus on the 20% that were unsold. In the books of Sleet, these would have been accounted for at the time of sale as:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cash</td>
+<td style="text-align: right;">8 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Revenue</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">8 000</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Cost of sales</td>
+<td style="text-align: right;">6 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Inventory</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">6 000</td>
+</tr>
+</tbody>
+</table>
+<p>In the books of Petal, the accounting at time of sale would be</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Inventory</td>
+<td style="text-align: right;">6 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Cash</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">6 000</td>
+</tr>
+</tbody>
+</table>
+<p>But there is no transaction here from a consolidated perspective, so we need to reverse the effect of these entries:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Revenue</td>
+<td style="text-align: right;">8 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Cost of sales</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">6 000</td>
+</tr>
+<tr class="odd">
+<td> Inventory</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">2 000</td>
+</tr>
+</tbody>
+</table>
+<p>When preparing consolidation journal entries, one always needs to be alert to potential tax effects. Tax effects will arise when the entries have an impact on accounting income. The above entry results in a decrease in accounting income of $2,000 (<span class="math inline">\(8000 - 6000\)</span>).</p>
+<p>Because the consolidation entry above results in a decrease in accounting income, it also implies a decrease in income tax expense of $600 (<span class="math inline">\(2000 \times 30\%\)</span>). As we have seen before, this does not affect income tax payable, so we will create a deferred tax asset of $600 to reflect the decreased income tax expense.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Deferred tax asset</td>
+<td style="text-align: right;">600</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Income tax expense</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">600</td>
+</tr>
+</tbody>
+</table>
+<p>Now let’s address the 80% that were sold outside the group. In the books of Sleet, these would have been accounted for at the time of intragroup sale as:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cash</td>
+<td style="text-align: right;">32 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Revenue</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">32 000</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Cost of sales</td>
+<td style="text-align: right;">24 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Inventory</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">24 000</td>
+</tr>
+</tbody>
+</table>
+<p>In the books of Petal, the accounting at time of the intragroup sale would be:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Inventory</td>
+<td style="text-align: right;">32 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Cash</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">32 000</td>
+</tr>
+</tbody>
+</table>
+<p>At the time of the external sale, one entry would be:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cost of sales</td>
+<td style="text-align: right;">32 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Inventory</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">32 000</td>
+</tr>
+</tbody>
+</table>
+<p>If we combine all of the entries above related to the 80% that were sold outside the group, we see that we have cost of sales twice and revenue recognised on an intragroup sales. Regarding cost of sales, only the $24,000 reflects true costs to the group. To correctly record the effects of the above from a group perspective, we need to reverse the intragroup revenue and reverse the <em>Cost of sales</em> at $32,000. This results in the following consolidation entry:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Revenue</td>
+<td style="text-align: right;">32 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Cost of sales</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">32 000</td>
+</tr>
+</tbody>
+</table>
+<p>Because there is no net effect on revenues and expenses, there is no need to account for taxes.</p>
+<p>If we combine the entries for both the unsold and sold portions of inventory we would have the following entry:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Revenue</td>
+<td style="text-align: right;">40 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Cost of sales</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">38 000</td>
+</tr>
+<tr class="odd">
+<td> Inventory</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">2 000</td>
+</tr>
+<tr class="even">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td>Deferred tax asset</td>
+<td style="text-align: right;">600</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Income tax expense</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">600</td>
+</tr>
+</tbody>
+</table>
+<p>A shortcut to this combined entry is to note that all sales need to be reversed (hence we debit $40,000) and that the ending inventory is 20% of the total, for which there was $10,000 in profit, so we need to eliminate $2,000 of profit from ending inventory. The cost of sales amount is then a plug. Finally the tax effect relates to the credit to inventory.</p>
+</section>
+<section id="intragroup-sales-of-inventory-prior-period" class="level3" data-number="4.2.4">
+<h3 data-number="4.2.4" class="anchored" data-anchor-id="intragroup-sales-of-inventory-prior-period"><span class="header-section-number">4.2.4</span> Intragroup sales of inventory: Prior period</h3>
+<p><em>1. On 1 January 2017, Sleet Ltd sold inventories costing $30,000 to Petal Ltd for $40,000. 80% of these inventories were sold to external parties for $52,000 by 30 June 2017.</em></p>
+<p>The entries above apply to the year ending 30 June 2017. For the year ending 30 June 2018, as far as the above is concerned, we would need to adjust <em>Retained earnings–beginning</em> to reflect the overstatement of income for the year ending 30 June 2017 in the books of Sleet of $2,000 (<span class="math inline">\(8000 - 6000\)</span>). This overstatement is reflected in the books of Petal as an overstatement of inventory.</p>
+<p>For the year ending 30 June 2018, we would also need to adjust <em>Retained earnings–beginning</em> to reflect this adjustment for taxes. Repeating the entry we discussed above and adding the tax entry would give us the following consolidation journal entries for the year ending 30 June 2018 for the unsold portion of intragroup sales for the year ending 30 June 2017.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Retained earnings–beginning</td>
+<td style="text-align: right;">2 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Inventory</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">2 000</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Deferred tax asset</td>
+<td style="text-align: right;">600</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Retained earnings–beginning</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">600</td>
+</tr>
+</tbody>
+</table>
+<p>At the end of the period, the inventory would have been sold externally and this would require the following consolidation journal entries:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Inventory</td>
+<td style="text-align: right;">2 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Cost of sales</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">2 000</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Income tax expense</td>
+<td style="text-align: right;">600</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Deferred tax asset</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">600</td>
+</tr>
+</tbody>
+</table>
+<p>In reality, we would likely just prepare a consolidated balance sheet at the end of that period, so we can prepare a simpler entry combining the two entries above:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Retained earnings–beginning</td>
+<td style="text-align: right;">1 400</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Income tax expense</td>
+<td style="text-align: right;">600</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Cost of sales</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">2 000</td>
+</tr>
+</tbody>
+</table>
+<p>These entries may be a little puzzling at first. So it is important to think about the following as you work through these kinds of exercises:</p>
+<ul>
+<li>What is the impact of the consolidation entries on tax expense in each period?</li>
+<li>What is the impact of these entries on total tax expense over the two periods?</li>
+</ul>
+<p>You may wonder how we can debit deferred tax assets in one period, but not credit it in the next period. The answer is that these are consolidation journal entries, which means that the deferred tax asset created on consolidation for the year ending 30 June 2017 does not persist in the way that a similar entry would if made in the books of Petal or Sleet. Because the deferred tax asset is “consumed” in the year ending 30 June 2018, there is no need to re-create it in preparing consolidation journal entries for that period.</p>
+<p><em>2. At 1 July 2016, there was $12,000 profit in the inventories of Petal Ltd from goods acquired from Sleet Ltd for $32,000.</em></p>
+<p>This is similar to the item above as applied to the unsold portion of inventories. There we saw a need to eliminate the unrealised profit and a similar entry would have been made for the year ended 30 June 2016. This consolidation journal entry would have reduced the ending amount of retained earnings. Because such consolidation journal entries to retained earnings are made in a consolidation worksheet, they do not <em>automatically</em> carry over from one period to the next and we need to address them in the consolidation worksheet.</p>
+<p>In this case, we need to reduce both <em>Inventory</em> and <em>Retained earnings–beginning</em> by the $12,000.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Retained earnings–beginning</td>
+<td style="text-align: right;">12 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Inventory</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">12 000</td>
+</tr>
+</tbody>
+</table>
+<p>We also need to adjust the entry made by Petal when the goods were sold. Because the inventory value in the books of Petal is (from the group perspective) overstated by $12,000, cost of sales will also be overstated. The following entry reverses this effect.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Inventory</td>
+<td style="text-align: right;">12 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Cost of sales</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">12 000</td>
+</tr>
+</tbody>
+</table>
+<p>Of course, we could combine the two entries above into a single entry:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Retained earnings–beginning</td>
+<td style="text-align: right;">12 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Cost of sales</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">12 000</td>
+</tr>
+</tbody>
+</table>
+<p>As always, when we are making consolidation entries that have a net effect on revenues and expenses, we need to be thinking about AASB 112 <em>Income Taxes</em>. Based on the analysis above, when we reduced the value of inventory, we would have recognized reduced income tax expense and a corresponding deferred tax asset of $3,600 <span class="math inline">\((12000 \times 30\%)\)</span>. In principle, we should make an adjustment for this prior-period item:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Deferred tax asset</td>
+<td style="text-align: right;">3 600</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Retained earnings–beginning</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">3 600</td>
+</tr>
+</tbody>
+</table>
+<p>To reflect the elimination related to the sale of inventory, we would recognize the consumption of the deferred tax asset.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Income tax expense</td>
+<td style="text-align: right;">3 600</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Deferred tax asset</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">3 600</td>
+</tr>
+</tbody>
+</table>
+<p>Again, we could combine the two entries above into a single entry:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Income tax expense</td>
+<td style="text-align: right;">3 600</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Retained earnings–beginning</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">3 600</td>
+</tr>
+</tbody>
+</table>
+<p>In practice, we could go directly the combined entry above to the entry here by multiplying the pre-tax amounts by 30%. More specifically, we could infer the following entry from the $12,000 overstatement of beginning inventory: <em>Retained earnings–beginning</em> is overstated by $12,000 and the credit will apply to <em>Cost of sales</em> because the inventory has been sold.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Retained earnings–beginning</td>
+<td style="text-align: right;">12 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Cost of sales</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">12 000</td>
+</tr>
+</tbody>
+</table>
+<p>We could then go from this entry to the following directly.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Income tax expense</td>
+<td style="text-align: right;">3 600</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Retained earnings–beginning</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">3 600</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="intragroup-sales-of-inventory-as-ppe" class="level3" data-number="4.2.5">
+<h3 data-number="4.2.5" class="anchored" data-anchor-id="intragroup-sales-of-inventory-as-ppe"><span class="header-section-number">4.2.5</span> Intragroup sales of inventory as PP&amp;E</h3>
+<p><em>3. On 1 January 2016, Sleet Ltd sold inventory item costing $13,000 to Petal Ltd for $17,000. Petal Ltd classified this inventory as equipment and depreciated it on a straight-line basis at 5% per year.</em></p>
+<p>In Sleet’s books we would have</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cash</td>
+<td style="text-align: right;">17 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Sales revenue</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">17 000</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Cost of sales</td>
+<td style="text-align: right;">13 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Inventory</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">13 000</td>
+</tr>
+</tbody>
+</table>
+<p>In Petal’s books we would have (at the time of purchase):</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Equipment</td>
+<td style="text-align: right;">17 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Cash</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">17 000</td>
+</tr>
+</tbody>
+</table>
+<p>In the first year, Petal would record six months of depreciation (or 2.5%):</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Depreciation expense</td>
+<td style="text-align: right;">425</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Accumulated depreciation</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">425</td>
+</tr>
+</tbody>
+</table>
+<p>In the second year, Petal would record a full year’s depreciation (or 5%):</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Depreciation expense</td>
+<td style="text-align: right;">850</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Accumulated depreciation</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">850</td>
+</tr>
+</tbody>
+</table>
+<p>The reclassification of the item from inventory to PP&amp;E is real and should not be reversed. While inventory will be expensed as cost of sales, PP&amp;E will be expensed as depreciation.</p>
+<p>We first need to reverse the effects on asset values of the initial transaction. In the year of sale, this would mean eliminating the $4,000 of pre-tax profit (and associated tax effects). In subsequent periods, this mean eliminating the $4,000 (before tax) and associated tax effects from beginning retained earnings.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Retained earnings–beginning</td>
+<td style="text-align: right;">4 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Equipment</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">4 000</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Deferred tax asset</td>
+<td style="text-align: right;">1 200</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Retained earnings–beginning</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">1 200</td>
+</tr>
+</tbody>
+</table>
+<p>However the depreciation in the books of Petal Ltd will be based on the “inflated” value it paid for it, not the original cost to the group. So we need to reverse the portion of depreciation related to the increase in value from the internal sale. For the first year, this “excess” depreciation would be $100 (<span class="math inline">\(4000 \times 2.5\%\)</span>). For the second year, this “excess” depreciation would be $200 (<span class="math inline">\(4000 \times 5\%\)</span>).</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Accumulated depreciation</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Retained earnings–beginning</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">100</td>
+</tr>
+<tr class="odd">
+<td> Depreciation expense</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">200</td>
+</tr>
+</tbody>
+</table>
+<p>Because these entries affect income, we need to account for their tax effects. Intuitively, the two debits are just 30% of the two credits in the entry above. The credit can be thought of as the amount of the deferred tax asset that has been used up by the debits.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Retained earnings–beginning</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td>Income tax expense</td>
+<td style="text-align: right;">60</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="odd">
+<td> Deferred tax asset</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">90</td>
+</tr>
+</tbody>
+</table>
+<p><em>4. Dividends of $7,000 were paid by Sleet Ltd in the year ended 30 June 2017.</em></p>
+<p>As <a href="#fig-divs" class="quarto-xref">Figure&nbsp;<span>4.2</span></a> makes clear, nothing has happened from a group perspective. No cash has been moved out of the larger (blue) box and, while the equity claim of Petal in Sleet has decreased in value, this equity claim does not appear in the consolidated accounts as it does not represent an interest of parties outside the larger (blue) box.</p>
+<div id="fig-divs" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-divs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="dividends.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-divs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.2: Dividends paid
+</figcaption>
+</figure>
+</div>
+<p>Note that there are no intragroup assets or liabilities related to the dividends at the end of the period, so there is nothing to eliminate on the balance sheet.</p>
+<p>The only entries we need are those related to reversal of the payment of the dividend. Paragraph 12 of AASB 127 (IAS 27) <em>Separate Financial Statements</em> says:</p>
+<blockquote class="blockquote">
+<p>An entity shall recognise a dividend from a subsidiary, a joint venture or an associate in profit or loss in its separate financial statements when its right to receive the dividend is established.</p>
+</blockquote>
+<p>As such, the entry in the books of Petal would be:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cash</td>
+<td style="text-align: right;">7 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Dividend revenue</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">7 000</td>
+</tr>
+</tbody>
+</table>
+<p>As such, the entry in the books of Petal would be:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dividends paid</td>
+<td style="text-align: right;">7 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Cash</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">7 000</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dividend revenue</td>
+<td style="text-align: right;">7 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Dividends paid</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">7 000</td>
+</tr>
+</tbody>
+</table>
+<p>The <em>Dividends paid</em> account for Sleet would likely be closed against its retained earnings. At the end of the period the <em>Dividend revenue</em> account for Petal would be closed against its retained earnings. Because there is no net effect on the consolidated balance sheet, there is no need to make adjustments in subsequent periods.</p>
+<p>Note also that we assume that intragroup dividends have no tax consequences (for example, in Australia they might be fully franked) and for this reason there is no need to concern ourselves with tax effects of dividends.</p>
+<p><em>5. There is an intra-group loan of $15,000.</em></p>
+<p>Here we assume that Petal lent money to Sleet and that this loan was made under a formal contract. This loan gives rise to a financial asset for Petal and a financial liability for Sleet. Sleet has “a contractual right to receive cash … from another entity” (Petal), which meets the definition of a financial asset in paragraph 11 of AASB 132 (IAS 32) <em>Financial Instruments: Disclosure and Presentation</em>. Petal has a “contractual obligation to deliver cash … to another entity” (Sleet), which meets the definition of a financial liability in paragraph 11 of AASB 132 (IAS 32).</p>
+<div id="fig-loan" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-loan-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="intragroup_loan.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-loan-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4.3: Intragroup loan
+</figcaption>
+</figure>
+</div>
+<p>However, as is clear in <a href="#fig-loan" class="quarto-xref">Figure&nbsp;<span>4.3</span></a>, there is neither a financial asset nor a financial liability from a group perspective. There is no “other entity” outside the group to which amounts are owed to or by. Here we simply need to eliminate the asset and liability using the following entry.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: right;">Debit</th>
+<th style="text-align: right;">Credit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Loan payable</td>
+<td style="text-align: right;">15 000</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td> Loan receivable</td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;">15 000</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="other-situations" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="other-situations"><span class="header-section-number">4.3</span> Other situations</h2>
+<section id="intragroup-services" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="intragroup-services"><span class="header-section-number">4.3.1</span> Intragroup services</h3>
+<p>With intragroup sales of goods, we saw above that there will be unrealised profits in inventory. While intragroup sales of services will give rise to profits to the seller, there is generally no store of these on the balance sheet of the buyer and hence no profits to be eliminated. All we need to do is eliminate the revenue and expenses much like we did for inventory that has been sold externally. Because there is no net effect on retained earnings of the group, there is no need to make adjustments in subsequent periods.</p>
+<p>Note that if the payments by the buyer somehow end up on the balance sheet of the buyer (e.g., the expenditures are capitalised), there may be a need to eliminate unrealised profit from the balance sheet.</p>
+</section>
+<section id="interest-on-intragroup-borrowing" class="level3" data-number="4.3.2">
+<h3 data-number="4.3.2" class="anchored" data-anchor-id="interest-on-intragroup-borrowing"><span class="header-section-number">4.3.2</span> Interest on intragroup borrowing</h3>
+<p>This is very much like intragroup services. So long as the interest costs of the borrower are expensed and not capitalised and the interest inflows to the lender are recognised as revenue, then there is no need to eliminate profits from the balance sheet.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/iangow\.github\.io\/consol");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./wholly-owned.html" class="pagination-link" aria-label="Consolidation: Wholly owned entities">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Consolidation: Wholly owned entities</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./nci.html" class="pagination-link" aria-label="Noncontrolling interest">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Noncontrolling interest</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
