@@ -25,15 +25,49 @@ However, from the perspective of the group, NCIs have an interest in the *subsid
 
 ## NCI: Steps
 
-NCI's share of equity at the end of the current period can be partitioned into three components, which can be viewed as three *steps*.
+NCI's share of equity at the end of the current period can be partitioned into three components:
 
   1. Share of equity recorded at acquisition date
   2. Share of change in equity from acquisition date to beginning of current period
   3. Share of change in equity in the current period
   
-Accounting for each of these components can be viewed as a step in the preparation of NCI.
+Accounting for each of these components can be viewed as a *step* in the preparation of NCI and we will refer to these as Step 1, Step 2, and Step 3.
 
-## Consolidation with NCI
+The information for Step 1 comes from the consolidation journal entry eliminating the investment in the subsidiary.
+As we will see below, we can thing of this as a single entry eliminating the investments of both the parent and NCI in the subsidiary or as two entries, one for the parent and one for NCI.
+While either approach gets the same result as the other, for thinking about NCI, it can be helpful to use the second approach.^[If you are confused about what these two approaches at this point, don't worry. We will explain shortly.]
+
+The information for both Step 2 and Step 3 comes from two sources:
+
+ (a) The separate books of the subsidiary
+ (b) Consolidation journal entries
+ 
+Recall that the consolidation worksheet involves adding the amounts of the books of the parent to those in the books of the subsidiary, then including the effects of the consolidation journal entries.
+Because NCI relates to subsidiaries, not the parent, in a two-entity consolidation, the separate books of the subsidiary are relevant, not the separate books of the parent.
+
+In the example below, we will actually implement the three steps above as part of the consolidation process to yield the following processes.^[I use the term "processes" here simply because calling these "steps" would be confusing. To convey the idea that this term is simply for convenience here, I do not capitalise the word "process" here.]
+
+ A.  Prepare the group consolidation journal entries.
+   - This will involve some analysis of NCI as part of the acquisition analysis.
+   - Otherwise, the presence of NCI does not affect this step (see discussion in @sec-group-nci).
+
+ B.  Prepare the entry for the elimination of NCI in acquisition-date equity.
+ - In a sense, this could be considered part of "process A" but putting this here is helpful to line this up with the three steps above (this is Step 1).
+
+ C.  Analyse consolidation journal entries to identify changes in NCI between acquisition date and the start of the current period.
+
+ D.  Analyse consolidation journal entries to identify changes in NCI during the current period.
+
+ E.  Incorporate changes in NCI between acquisition date and the start of the current period arising from changes in the reported equity of the subsidiary.
+
+ F.  Incorporate changes in NCI during the current period arising from changes in the reported equity of the subsidiary.
+
+Process B is Step 1.
+Step 2 includes process C and process E.
+Step 3 includes process D and process F.
+
+
+## Group consolidation with NCI {#sec-group-nci}
 
 Fair value increments are applied to identifiable net assets, which are unaffected by the existence of NCI.
 Thus, the BCVR entry is unaffected by NCI.
@@ -343,3 +377,4 @@ This reduction gives rise to a deferred tax asset (intuitively, we need to debit
 |                                  |        |        |
 | Deferred tax asset               |    900 |        |
 |  Income tax expense              |        |    900 |
+
