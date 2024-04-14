@@ -1,4 +1,4 @@
-# Consolidation: Intragroup transactions
+# Consolidation: Intragroup transactions {#sec-intragroup}
 
 The core idea of consolidation accounting under AASB 10 is to present financial statements of the group as a single economic entity.
 @fig-entity depicts the representation of a simple economic group comprising Parent and Subsidiary.

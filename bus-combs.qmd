@@ -24,7 +24,6 @@ Paragraph 5 of AASB 3/IFRS 3 lists four steps:
 The difference between the fair value of identifiable assets acquired and the fair value of liabilities assumed.
 :::
 
-
 ## Step 1: Identifying the acquirer
 
 The guidance in [AASB 10](https://www.aasb.gov.au/admin/file/content105/c9/AASB10_07-15_ACOMPdec21_01-22.pdf) (IFRS 10) *Consolidated Financial Statements* shall be used to identify the acquirer (the entity that obtains control of the acquiree). 
