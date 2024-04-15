@@ -1,19 +1,15 @@
 # Non-controlling interest {#sec-nci}
 
 NCI arises when entities other than the parent entity own shares in members of the group (other than the parent).
-NCI is defined in Appendix A of AASB 10 (IFRS 10) *Consolidated Financial Statements* as "equity in a subsidiary not attributable, directly or indirectly, to a parent."
-Typically NCI will represent a minority interest in a subsidiary that is controlled by the parent (directly or indirectly) through a majority interest.
+NCI is defined in Appendix A of AASB 10 (IFRS 10) *Consolidated Financial Statements* as "equity in a subsidiary not attributable, directly or indirectly, to a parent." Typically NCI will represent a minority interest in a subsidiary that is controlled by the parent (directly or indirectly) through a majority interest.
 In general the existence of NCI does not affect the processes of preparing consolidated accounts at a group level.
 Rather NCI is part of the presentation of group equity as comprising the interest of shareholders in the parent and NCI.
 
-NCI at time of acquisition may be measured in either of two ways:
- - NCI’s proportionate share of the acquiree’s net assets
- - Fair value of NCI
-Under the first method, there is no goodwill associated with NCI. 
+NCI at time of acquisition may be measured in either of two ways: - NCI’s proportionate share of the acquiree’s net assets - Fair value of NCI Under the first method, there is no goodwill associated with NCI.
 Goodwill will be the difference between the purchase consideration paid by the parent and the parent’s proportionate share of the fair value of identifiable net assets (FVINA).
 This is the **partial goodwill method**.
 
-Under the second method, goodwill will be the difference between the purchase consideration paid by the parent and the parent's proportionate share of FVINA plus the difference between the fair value of NCI and the NCI's proportionate share of FVINA. 
+Under the second method, goodwill will be the difference between the purchase consideration paid by the parent and the parent's proportionate share of FVINA plus the difference between the fair value of NCI and the NCI's proportionate share of FVINA.
 This is the **full goodwill method**.
 Both methods allowed under *AASB3 Business combinations*.
 In some cases, it can be costly to measure NCI fair value.
@@ -27,45 +23,48 @@ However, from the perspective of the group, NCIs have an interest in the *subsid
 
 NCI's share of equity at the end of the current period can be partitioned into three components:
 
-  1. Share of equity recorded at acquisition date
-  2. Share of change in equity from acquisition date to beginning of current period
-  3. Share of change in equity in the current period
-  
+1.  Share of equity recorded at acquisition date
+2.  Share of change in equity from acquisition date to beginning of current period
+3.  Share of change in equity in the current period
+
 Accounting for each of these components can be viewed as a *step* in the preparation of NCI and we will refer to these as Step 1, Step 2, and Step 3.
 
 The information for Step 1 comes from the consolidation journal entry eliminating the investment in the subsidiary.
-As we will see below, we can thing of this as a single entry eliminating the investments of both the parent and NCI in the subsidiary or as two entries, one for the parent and one for NCI.
-While either approach gets the same result as the other, for thinking about NCI, it can be helpful to use the second approach.^[If you are confused about what these two approaches at this point, don't worry. We will explain shortly.]
+As we will see below, we can think of this as a single entry eliminating the investments of both the parent and NCI in the subsidiary or as two entries, one for the parent and one for NCI.
+While either approach gets the same result as the other, for thinking about NCI, it can be helpful to use the second approach.[^nci-1]
+
+[^nci-1]: If you are confused about what these two approaches mean at this point, don't worry.
+    We will explain shortly.
 
 The information for both Step 2 and Step 3 comes from two sources:
 
- (a) The separate books of the subsidiary
- (b) Consolidation journal entries
- 
+(a) The separate books of the subsidiary
+(b) Consolidation journal entries
+
 Recall that the consolidation worksheet involves adding the amounts of the books of the parent to those in the books of the subsidiary, then including the effects of the consolidation journal entries.
 Because NCI relates to subsidiaries, not the parent, in a two-entity consolidation, the separate books of the subsidiary are relevant, not the separate books of the parent.
 
-In the example below, we will actually implement the three steps above as part of the consolidation process to yield the following processes.^[I use the term "processes" here simply because calling these "steps" would be confusing. To convey the idea that this term is simply for convenience here, I do not capitalise the word "process" here.]
+In the example below, we will actually implement the three steps above as part of the consolidation process to yield the following processes.
 
- A.  Prepare the group consolidation journal entries.
-   - This will involve some analysis of NCI as part of the acquisition analysis.
-   - Otherwise, the presence of NCI does not affect this step (see discussion in @sec-group-nci).
+-   Prepare the group consolidation journal entries.
 
- B.  Prepare the entry for the elimination of NCI in acquisition-date equity.
- - In a sense, this could be considered part of "process A" but putting this here is helpful to line this up with the three steps above (this is Step 1).
+    -   This will involve some analysis of NCI as part of the acquisition analysis.
+    -   Otherwise, the presence of NCI does not affect this step (see discussion in @sec-group-nci).
 
- C.  Analyse consolidation journal entries to identify changes in NCI between acquisition date and the start of the current period.
+-   **Step 1.** Prepare the entry for the elimination of NCI in acquisition-date equity.[^nci-2]
 
- D.  Analyse consolidation journal entries to identify changes in NCI during the current period.
+-   **Step 2(a).** Analyse consolidation journal entries to identify changes in NCI between acquisition date and the start of the current period.
 
- E.  Incorporate changes in NCI between acquisition date and the start of the current period arising from changes in the reported equity of the subsidiary.
+-   **Step 2(b).** Incorporate changes in NCI between acquisition date and the start of the current period arising from changes in the reported equity of the subsidiary.
 
- F.  Incorporate changes in NCI during the current period arising from changes in the reported equity of the subsidiary.
+-   **Step 3(a).** Analyse consolidation journal entries to identify changes in NCI during the current period.
 
-Process B is Step 1.
-Step 2 includes process C and process E.
-Step 3 includes process D and process F.
+-   **Step 3(b).** Incorporate changes in NCI during the current period arising from changes in the reported equity of the subsidiary.
 
+[^nci-2]: Note that "elimination" here is different in that we are reclassifying equity, not removing an asset from the balance sheet.
+    However, the form of the entry is so similar that this terminology seems simpler.
+
+In preparing the analysis, it may be easier to do Steps 1, 2(a), and 3(a) before Steps 2(b) and 3(b), as this means that we process all entries related to consolidation journal entries separate from those drawing on the subsidiary's separate accounts.
 
 ## Group consolidation with NCI {#sec-group-nci}
 
@@ -85,62 +84,67 @@ The NCI portion of the worksheet functions much like group portion introduced in
 
 ## Comprehensive example
 
-On 1 July 2013, Parent Ltd acquired control of Subsidiary Ltd by purchasing 80% of its share capital  for $300,000. At this date, the equity of Subsidiary Ltd was:
+On 1 July 2013, Parent Ltd acquired control of Subsidiary Ltd by purchasing 80% of its share capital for \$300,000.
+At this date, the equity of Subsidiary Ltd was:
 
-| | |
-|------|------:|
-| Share capital     |  $130,000 |
-| General reserve   | 70,000 |
-| Retained earnings | 50,000 |
+|                   |           |
+|-------------------|----------:|
+| Share capital     | \$130,000 |
+| General reserve   |    70,000 |
+| Retained earnings |    50,000 |
 
 All the identifiable assets and liabilities were recorded at FV except for the following:
 
-| | CA | FV |
-|------|------:|------:|
-| Inventory | 80,000 | 90,000 |
-| Plant (cost $160,000) | 130,000 | 180,000 |
-| Land | 60,000 | 120,000 |
+|                        |      CA |      FV |
+|------------------------|--------:|--------:|
+| Inventory              |  80,000 |  90,000 |
+| Plant (cost \$160,000) | 130,000 | 180,000 |
+| Land                   |  60,000 | 120,000 |
 
 The plant had a remaining useful life of 10 years, with benefits to be received evenly over this period.
 
 All the inventory on hand at 1 July 2013 was sold by 30 June 2014.
-Subsidiary Ltd made a profit of \$40,000 for the year ended 30 June 2014. 
+Subsidiary Ltd made a profit of \$40,000 for the year ended 30 June 2014.
 No other changes occurred in equity.
 
 At 1 July 2016, there was \$15,000 profit in the inventories of Parent Ltd from goods acquired from Subsidiary Ltd for \$45,000.
 
-During the year ended 30 June 2017, Subsidiary Ltd sold inventory costing $15,000 to Parent Ltd for \$30,000. 
+During the year ended 30 June 2017, Subsidiary Ltd sold inventory costing \$15,000 to Parent Ltd for \$30,000.
 On 30 June 2017, \$6,000 of inventory was still on hand in Parent's books.
 
 On 1 April 2017, Subsidiary Ltd sold an item of plant with a carrying amount of \$40,000 (cost \$160,000, accumulated depreciation \$120,000) to Parent Ltd for \$60,000.
 The item was still on hand at the end of the year.
 Parent Ltd applied a 20% depreciation rate to this type of plant.
 
+Financial data for the separate accounts as of 30 June 2017 for Parent and Subsidiary are provided in @fig-nci-fs.
+
+![Separate accounts as of 30 June 2017](nci_fs.png){#fig-nci-fs}
+
 **Required**
 
-1. Prepare the acquisition analysis at acquisition date
-2. Prepare the consolidation worksheet entries at acquisition date
-3. Prepare the consolidation worksheet entries for year ended 30 June 2014
-4. Prepare the consolidation worksheet entries for year ended 30 June 2017
-5. Prepare the consolidated financial statements for year ended 30 June 2017
+1.  Prepare the acquisition analysis at acquisition date
+2.  Prepare the consolidation worksheet entries at acquisition date
+3.  Prepare the consolidation worksheet entries for year ended 30 June 2014
+4.  Prepare the consolidation worksheet entries for year ended 30 June 2017
+5.  Prepare the consolidated financial statements for year ended 30 June 2017
 
 *1. Prepare the acquisition analysis at acquisition date*
 
-|                                 |           |   |
-|---------------------------------|----------:|---|
-| Share capital                   | 130 000   |   |
-| General reserve                 | 70 000    | + |
-| Retained earnings - beginning   | 50 000    | + |
-| BCVR                            | 84 000    | + |
-| **FVINA**                       |**334 000**| = |
-|                                 |           |   |
-| Parent's purchase consideration | 300 000   |   |
-| NCI (20\% of 334,000)           | 66 800    | + |
-| **FV of business acquired**     |**366 800**| = |
-|                                 |           |   |
-| FV of business acquired         | 366 800   |   |
-| FVINA                           | 334 000   | --|
-| **Goodwill**                    |**32 800** | = |
+|                                 |             |     |
+|---------------------------------|------------:|-----|
+| Share capital                   |     130 000 |     |
+| General reserve                 |      70 000 | \+  |
+| Retained earnings - beginning   |      50 000 | \+  |
+| BCVR                            |      84 000 | \+  |
+| **FVINA**                       | **334 000** | =   |
+|                                 |             |     |
+| Parent's purchase consideration |     300 000 |     |
+| NCI (20% of 334,000)            |      66 800 | \+  |
+| **FV of business acquired**     | **366 800** | =   |
+|                                 |             |     |
+| FV of business acquired         |     366 800 |     |
+| FVINA                           |     334 000 | --  |
+| **Goodwill**                    |  **32 800** | =   |
 
 *2. Prepare the consolidation worksheet entries at acquisition date*
 
@@ -165,44 +169,46 @@ Total BCVR = \$35,000 + 7,000 + 42,000 = \$84,000.
 
 (2) Elimination of investment in subsidiary
 
-|                                 |  Debit  |  Credit |
-|---------------------------------|--------:|--------:|
-| Share capital                   | 130 000 |         |
-| General reserve	                |  70 000 |         |
-| Retained earnings - beginning   |  50 000 |         |
-| BCVR                            |  84 000 |         |
-| Goodwill                        |  32 800 |         |
-| Shares in Subsidiary		        |         | 300 000 |
-|	NCI	                            |         |  66 800 |
+|                               |   Debit |  Credit |
+|-------------------------------|--------:|--------:|
+| Share capital                 | 130 000 |         |
+| General reserve               |  70 000 |         |
+| Retained earnings - beginning |  50 000 |         |
+| BCVR                          |  84 000 |         |
+| Goodwill                      |  32 800 |         |
+| Shares in Subsidiary          |         | 300 000 |
+| NCI                           |         |  66 800 |
 
 We can analyse this entry into an entry related to the parent and an entry related to NCI.
 
-The *parent* entry includes 80\% of the non-goodwill elements and *all* of the goodwill.
+The *parent* entry includes 80% of the non-goodwill elements and *all* of the goodwill.
 
-|                                 |  Debit  |  Credit |
-|---------------------------------|--------:|--------:|
-| Share capital                   | 104 000 |         |
-| General reserve	                |  56 000 |         |
-| Retained earnings - beginning   |  40 000 |         |
-| BCVR                            |  67 200 |         |
-| Goodwill                        |  32 800 |         |
-| Shares in Subsidiary		        |         | 300 000 |
+|                               |   Debit |  Credit |
+|-------------------------------|--------:|--------:|
+| Share capital                 | 104 000 |         |
+| General reserve               |  56 000 |         |
+| Retained earnings - beginning |  40 000 |         |
+| BCVR                          |  67 200 |         |
+| Goodwill                      |  32 800 |         |
+| Shares in Subsidiary          |         | 300 000 |
 
-The *NCI* entry includes 20\% of the non-goodwill elements and *none* of the goodwill.
+The *NCI* entry includes 20% of the non-goodwill elements and *none* of the goodwill.
 
-|                                 |  Debit  |  Credit |
-|---------------------------------|--------:|--------:|
-| Share capital                   |  26 000 |         |
-| General reserve	                |  14 000 |         |
-| Retained earnings - beginning   |  10 000 |         |
-| BCVR                            |  16 800 |         |
-|	NCI	                            |         |  66 800 |
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Share capital                 | 26 000 |        |
+| General reserve               | 14 000 |        |
+| Retained earnings - beginning | 10 000 |        |
+| BCVR                          | 16 800 |        |
+| NCI                           |        | 66 800 |
+
+We will only use the parent entry for the consolidation process, as we will apply the NCI entry as part of Step 1 of measuring NCI.
 
 *3. Prepare the consolidation worksheet entries for year ended 30 June 2014*
 
- - All the inventory on hand at 1 July 2013 was sold by 30 June 2014.
- - Acquired plant had a remaining useful life of 10 years, with benefits to be received evenly over this period.
- - Subsidiary Ltd made a profit of \$40,000 for the year ended 30 June 2014. No other changes occurred in equity.
+-   All the inventory on hand at 1 July 2013 was sold by 30 June 2014.
+-   Acquired plant had a remaining useful life of 10 years, with benefits to be received evenly over this period.
+-   Subsidiary Ltd made a profit of \$40,000 for the year ended 30 June 2014. No other changes occurred in equity.
 
 (1) BCVR entry
 
@@ -221,40 +227,40 @@ As always, the credit to BCVR for inventory remains at its original \$7,000.
 
 Because nothing has happened to land since acquisition, the associated BCVR entry is unchanged.
 
-|                                  |  Debit | Credit |
-|----------------------------------|-------:|-------:|
-| Acc. dep. -- Plant               | 30 000 |        |
-| Plant                            | 20 000 |        |
-|  Deferred tax liability          |        | 15 000 |
-|  BCVR                            |        | 35 000 |
-|                                  |        |        |
-| Depreciation expense             |  5 000 |        |
-|  Acc. dep. -- Plant              |        |  5 000 |
-|                                  |        |        |
-| Deferred tax liability           |  1 500 |        |
-|  Income tax expense              |        |  1 500 |
-|                                  |        |        |
-| Cost of sales                    | 10 000 |        |
-|  Income tax expense              |        |  3 000 |
-|  BCVR                            |        |  7 000 |
-|                                  |        |        |
-| Land                             | 60 000 |        |
-|  Deferred tax liability          |        | 18 000 |
-|  BCVR                            |        | 42 000 |
+|                         |  Debit | Credit |
+|-------------------------|-------:|-------:|
+| Acc. dep. -- Plant      | 30 000 |        |
+| Plant                   | 20 000 |        |
+|  Deferred tax liability |        | 15 000 |
+|  BCVR                   |        | 35 000 |
+|                         |        |        |
+| Depreciation expense    |  5 000 |        |
+|  Acc. dep. -- Plant     |        |  5 000 |
+|                         |        |        |
+| Deferred tax liability  |  1 500 |        |
+|  Income tax expense     |        |  1 500 |
+|                         |        |        |
+| Cost of sales           | 10 000 |        |
+|  Income tax expense     |        |  3 000 |
+|  BCVR                   |        |  7 000 |
+|                         |        |        |
+| Land                    | 60 000 |        |
+|  Deferred tax liability |        | 18 000 |
+|  BCVR                   |        | 42 000 |
 
 (2) Elimination of investment in subsidiary
 
 This entry is unchanged from that made at acquisition (see above).
 Here we just reiterate the portion related to the parent's investment in the subsidiary.
 
-|                                 |  Debit  |  Credit |
-|---------------------------------|--------:|--------:|
-| Share capital                   | 104 000 |         |
-| General reserve	                |  56 000 |         |
-| Retained earnings - beginning   |  40 000 |         |
-| BCVR                            |  67 200 |         |
-| Goodwill                        |  32 800 |         |
-|  Shares in Subsidiary		        |         | 300 000 |
+|                               |   Debit |  Credit |
+|-------------------------------|--------:|--------:|
+| Share capital                 | 104 000 |         |
+| General reserve               |  56 000 |         |
+| Retained earnings - beginning |  40 000 |         |
+| BCVR                          |  67 200 |         |
+| Goodwill                      |  32 800 |         |
+|  Shares in Subsidiary         |         | 300 000 |
 
 We now prepare the entries related to NCI.
 Because the acquisition was made at the start of the current period, there is not "Step 2" here (i.e., there are not changes in NCI between acquisition date and the start of the current period).
@@ -268,28 +274,30 @@ Because the acquisition-date entry for BCVR applies to the group, there is no se
 However, the BCVR entry we made above also relates to Step 3 because there are effects on current-period income.
 The effects on group income are all connected with the subsidiary in which NCI relates.
 These effects are:
-  
-  - --5,000 (depreciation expense) +1,500 (income tax expense)
-  - --10,000 (cost of sales) +3,000 (income tax expense)
-  
+
+-   --5,000 (depreciation expense) +1,500 (income tax expense)
+-   --10,000 (cost of sales) +3,000 (income tax expense)
+
 Thus the total effect is --10,500, of which 2,100 ($20\% \times -10500$) relates to NCI.
 
-|                                  |  Debit | Credit |
-|----------------------------------|-------:|-------:|
-| NCI                              |  2 100 |        |
-|  NCI share of profit             |        |  2 100 |
- 
-(2') Elimination of NCI at acquisition
+|                      | Debit | Credit |
+|----------------------|------:|-------:|
+| NCI                  | 2 100 |        |
+|  NCI share of profit |       |  2 100 |
+
+(2') "Elimination" of NCI at acquisition[^nci-3]
+
+[^nci-3]: As discussed above, this is not really an "elimination" entry as all accounts involved are equity accounts, with the possible exception of BCVR, which is really a bookkeeping account.
 
 We saw the following entry above.
 
-|                                 |  Debit  |  Credit |
-|---------------------------------|--------:|--------:|
-| Share capital                   |  26 000 |         |
-| General reserve	                |  14 000 |         |
-| Retained earnings - beginning   |  10 000 |         |
-| BCVR                            |  16 800 |         |
-|	NCI	                            |         |  66 800 |
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Share capital                 | 26 000 |        |
+| General reserve               | 14 000 |        |
+| Retained earnings - beginning | 10 000 |        |
+| BCVR                          | 16 800 |        |
+| NCI                           |        | 66 800 |
 
 (3') Recognition of NCI share of change in equity
 
@@ -298,19 +306,16 @@ However, we also need to account for the NCI share of changes in the *reported* 
 We are told above that the only change in the equity of the subsidiary is a profit of \$40,000.
 Of this, \$8,000 ($20\% \times 40000$) is attributable to NCI.
 
-|                                  |  Debit | Credit |
-|----------------------------------|-------:|-------:|
-| NCI share of profit              |  8 000 |        |
-|  NCI                             |        |  8 000 |
+|                     | Debit | Credit |
+|---------------------|------:|-------:|
+| NCI share of profit | 8 000 |        |
+|  NCI                |       |  8 000 |
 
 *4. Prepare the consolidation worksheet entries for year ended 30 June 2017*
 
- - At 1 July 2016, there was \$15,000 profit in the inventories of Parent Ltd Ltd from goods acquired from Subsidiary Ltd for \$45,000.
- - During the year ended 30 June 2017, Subsidiary Ltd sold inventory costing \$15,000 to Parent Ltd for \$30,000.
-On 30 June 2017, \$6,000 of inventory was still on hand in Parent's books.
- - On 1 April 2017, Subsidiary Ltd sold an item of plant with a carrying amount of \$40,000 (cost \$160,000, accumulated depreciation \$120,000) to Parent Ltd for \$60,000.
-The item was still on hand at the end of the year. Parent Ltd applied a 20\% depreciation rate to this type of plant.
-
+-   At 1 July 2016, there was \$15,000 profit in the inventories of Parent Ltd Ltd from goods acquired from Subsidiary Ltd for \$45,000.
+-   During the year ended 30 June 2017, Subsidiary Ltd sold inventory costing \$15,000 to Parent Ltd for \$30,000. On 30 June 2017, \$6,000 of inventory was still on hand in Parent's books.
+-   On 1 April 2017, Subsidiary Ltd sold an item of plant with a carrying amount of \$40,000 (cost \$160,000, accumulated depreciation \$120,000) to Parent Ltd for \$60,000. The item was still on hand at the end of the year. Parent Ltd applied a 20% depreciation rate to this type of plant.
 
 (1) BCVR entry
 
@@ -318,34 +323,33 @@ We can use our BCVR entry for the previous answer as a template..
 
 Again, we reiterate the BCVR entry made at acquisition for plant, but we now supplement it with an entry to recognise depreciation since acquisition.
 With annual depreciation of the fair value increment of \$5,000, we have three years prior to this year plus this year's depreciation (\$15,000).
-These imply a reduction of income tax expense of \$1,500 in the current period and \$4,500 in previous periods (now in *Retained earnings--beginning*)
-The tax amounts are applied to the deferred tax liability created in the acquisition-date BCVR entry.
+These imply a reduction of income tax expense of \$1,500 in the current period and \$4,500 in previous periods (now in *Retained earnings--beginning*) The tax amounts are applied to the deferred tax liability created in the acquisition-date BCVR entry.
 
-As the inventory was all sold in the first year, the debit is entirely to *Retained earnings--beginning*. 
+As the inventory was all sold in the first year, the debit is entirely to *Retained earnings--beginning*.
 
 Because nothing has happened to land since acquisition, the associated BCVR entry is unchanged.
 
-|                                  |  Debit | Credit |
-|----------------------------------|-------:|-------:|
-| Acc. dep. -- Plant               | 30 000 |        |
-| Plant                            | 20 000 |        |
-|  Deferred tax liability          |        | 15 000 |
-|  BCVR                            |        | 35 000 |
-|                                  |        |        |
-| Retained earnings--beginning     | 15 000 |        |
-| Depreciation expense             |  5 000 |        |
-|  Acc. dep. -- Plant              |        | 20 000 |
-|                                  |        |        |
-| Deferred tax liability           |  6 000 |        |
-|  Income tax expense              |        |  1 500 |
-|  Retained earnings--beginning    |        |  4 500 |
-|                                  |        |        |
-| Retained earnings--beginning     |  7 000 |        |
-|  BCVR                            |        |  7 000 |
-|                                  |        |        |
-| Land                             | 60 000 |        |
-|  Deferred tax liability          |        | 18 000 |
-|  BCVR                            |        | 42 000 |
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Acc. dep. -- Plant            | 30 000 |        |
+| Plant                         | 20 000 |        |
+|  Deferred tax liability       |        | 15 000 |
+|  BCVR                         |        | 35 000 |
+|                               |        |        |
+| Retained earnings--beginning  | 15 000 |        |
+| Depreciation expense          |  5 000 |        |
+|  Acc. dep. -- Plant           |        | 20 000 |
+|                               |        |        |
+| Deferred tax liability        |  6 000 |        |
+|  Income tax expense           |        |  1 500 |
+|  Retained earnings--beginning |        |  4 500 |
+|                               |        |        |
+| Retained earnings--beginning  |  7 000 |        |
+|  BCVR                         |        |  7 000 |
+|                               |        |        |
+| Land                          | 60 000 |        |
+|  Deferred tax liability       |        | 18 000 |
+|  BCVR                         |        | 42 000 |
 
 (2) Elimination of investment in subsidiary
 
@@ -356,25 +360,192 @@ This entry is unchanged from that made at acquisition (see above).
 As discussed in @sec-intragroup, for the elimination of intragroup sales of inventory in the current period, we can prepare separate consolidation journal entries for the realised and unrealised portions.
 As we saw in @sec-intragroup, the realised sales require a simple elimination against sales and cost of sales for the amount of intragroup sales realised as external sales ($30000 - 6000$).
 
-|                                  |  Debit | Credit |
-|----------------------------------|-------:|-------:|
-| Sales                            | 24 000 |        |
-|  Cost of sales                   |        | 24 000 |
+|                |  Debit | Credit |
+|----------------|-------:|-------:|
+| Sales          | 24 000 |        |
+|  Cost of sales |        | 24 000 |
 
 (4) Reversal of sales -- unrealised
 
 The remaining inventory in shown in the books of Parent at \$6,000.
 The original cost for this inventory was \$3,000 ($15000 \div 30000 \times 6000$).
-Thus we have \$3,000 in unrealised profit in inventory, which requires the  entry below.
+Thus we have \$3,000 in unrealised profit in inventory, which requires the entry below.
 Eliminating this profit means reducing income tax expense by \$900 ($30\% \times 3000$).
 This reduction gives rise to a deferred tax asset (intuitively, we need to debit *something* to balance the credit to *Income tax expense*).
 
-|                                  |  Debit | Credit |
-|----------------------------------|-------:|-------:|
-| Sales                            |  6 000 |        |
-|  Cost of sales                   |        |  3 000 |
-|  Inventory                       |        |  3 000 |
-|                                  |        |        |
-| Deferred tax asset               |    900 |        |
-|  Income tax expense              |        |    900 |
+|                     | Debit | Credit |
+|---------------------|------:|-------:|
+| Sales               | 6 000 |        |
+|  Cost of sales      |       |  3 000 |
+|  Inventory          |       |  3 000 |
+|                     |       |        |
+| Deferred tax asset  |   900 |        |
+|  Income tax expense |       |    900 |
 
+(5) Elimination of profit in beginning inventory
+
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Retained earnings--beginning  | 15 000 |        |
+|  Cost of sales                |        | 15 000 |
+|                               |        |        |
+| Income tax expense            |  4 500 |        |
+|  Retained earnings--beginning |        |  4 500 |
+
+(6) Reverse effects of intragroup sale of PP&E
+
+|                         |  Debit | Credit |
+|-------------------------|-------:|-------:|
+| Profit on sale of plant | 20 000 |        |
+|  Plant and equipment    |        | 20 000 |
+|                         |        |        |
+| Deferred tax assets     |  6 000 |        |
+|  Income tax expense     |        |  6 000 |
+|                         |        |        |
+| Acc. dep. -- plant      |  1 000 |        |
+|  Income tax expense     |        |  1 000 |
+|                         |        |        |
+| Income tax expense.     |    300 |        |
+|  Deferred tax asset     |        |    300 |
+
+(7) Reverse intragroup dividend
+
+|                  |  Debit | Credit |
+|------------------|-------:|-------:|
+| Dividend revenue | 24 000 |        |
+|  Dividend paid   |        | 24 000 |
+
+(1') BCVR entry -- NCI impact
+
+Looking at (1) above, we see debits to *Retained earnings--beginning* of 15,000 and 7,000 and a credit of 4,500.
+This is a net debit of 17,500 ($15000 + 7000 - 4500$).
+Multiplying this amount by 20% yields 3,500.
+
+|                               | Debit | Credit |
+|-------------------------------|------:|-------:|
+| NCI                           | 3 500 |        |
+|  Retained earnings--beginning |       |  3 500 |
+
+Regarding current period income, we have a debit of 5,000 and a credit of 1,500.
+NCI share of this is 700 ($20\% \times (5000 - 1500)$).
+
+|                      | Debit | Credit |
+|----------------------|------:|-------:|
+| NCI                  |   700 |        |
+|  NCI share of profit |       |    700 |
+
+(2') "Elimination" of NCI at acquisition
+
+We saw the following entry above.
+
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Share capital                 | 26 000 |        |
+| General reserve               | 14 000 |        |
+| Retained earnings - beginning | 10 000 |        |
+| BCVR                          | 16 800 |        |
+| NCI                           |        | 66 800 |
+
+(4') Effect of reversing sales - unrealised on NCI
+
+Here $420 = 20\% \times (6000 - 3000 - 900)$.
+
+|                      | Debit | Credit |
+|----------------------|------:|-------:|
+| NCI                  |   420 |        |
+|  NCI share of profit |       |    420 |
+
+(5') Effect of elimination of profit in beginning inventory on NCI
+
+If you look at (5) above, you can see that there is no net effect on the ending balance of retained earnings.
+This implies that there is no effect on the ending value of NCI and the following entry yields this result.
+Note that $2100 = (15000 - 4500) \times 20\%$.
+
+|                                | Debit | Credit |
+|--------------------------------|------:|-------:|
+| NCI share of profit            | 2 100 |        |
+|  Retained earnings - beginning |       |  2 100 |
+
+Note that an alternative entry would be as follows, but the effect is the same.
+
+|                                | Debit | Credit |
+|--------------------------------|------:|-------:|
+| NCI share of profit            | 2 100 |        |
+|  NCI                           |       |  2 100 |
+|                                |       |        |
+| NCI                            | 2 100 |        |
+|  Retained earnings - beginning |       |  2 100 |
+
+(6') Reverse effects of intragroup sale of PP&E on NCI
+
+We have debits related to income of 20,000 and 300 and credits related to income of 6,000 and 1,000.
+The net of these is 13,300.
+Then $2660 = 20\% \time 13300$.
+
+|                      | Debit | Credit |
+|----------------------|------:|-------:|
+| NCI                  | 2 660 |        |
+|  NCI share of profit |       |  2 660 |
+
+(8') NCI share of changes in Subsidiary's equity
+
+This is Steps 2(b) and 3(b).
+
+For Step 2(b):
+
+-   General reserve has increased by 15,000 ($85000 - 70000$) and 20% of this is 3,000.
+-   Retained earnings has increased by 120,000 ($170000 - 50000$) and 20% of this is 24,000.
+
+For Step 3(b):
+
+-   Profit for the period is \$80,000 and 20% of this is 16,000.
+-   Finally, dividend paid for the period was \$30,000 and 20% of this is 6,000.
+
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| General reserve               |  3 000 |        |
+|  NCI                          |        |  3 000 |
+|                               |        |        |
+| Retained earnings - beginning | 24 000 |        |
+|  NCI                          |        | 24 000 |
+|                               |        |        |
+| NCI share of profit           | 16 000 |        |
+|  NCI                          |        | 16 000 |
+|                               |        |        |
+| NCI                           |  6 000 |        |
+|  Dividend paid                |        |  6 000 |
+
+![Consolidation worksheet for year ended 30 June 2017](nci_cw.png){#fig-nci-cw}
+
+![NCI worksheet for year ended 30 June 2017](nci_nci.png){#fig-nci-nci}
+
+## Direct and indirect interests
+
+AASB 10 defines NCI as "equity in a subsidiary not attributable, directly or indirectly, to a parent." Referring to @fig-nci-indirect, we see that A Ltd has a 12% *direct interest* in C Ltd and an *indirect interest* via its interest in B Ltd, which has an interest in C Ltd.
+
+The percentage interests in B Ltd and C Ltd are calculated as shown in @tbl-indirect.
+In this course, we focus only on direct interests.
+
+## Gains on bargain purchase
+
+Gains on bargain purchase occur when purchase consideration is less than FVINA.
+Generally, we do not expect to see gains on bargain purchase.
+If such gains do arise, there is no impact on calculation of the NCI share of equity.
+The NCI is valued as its share of the fair value of identifiable net assets subsidiary.
+This is analogous to the partial method for goodwill.
+
+
+![Example of indirect interests](nci_indirect.png){#fig-nci-indirect}
+
+| **B Ltd**                            |     |
+|:-------------------------------------|----:|
+| Parent interest                      | 80% |
+| Direct NCI                           | 20% |
+|                                      |     |
+| **C Ltd**                            |     |
+| Direct parent interest               | 12% |
+| Indirect parent interest (80% × 70%) | 56% |
+| Indirect NCI (20% × 70%)             | 14% |
+| Direct NCI                           | 18% |
+
+: Direct and indirect interest {#tbl-indirect}
