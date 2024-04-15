@@ -46,20 +46,20 @@ Because NCI relates to subsidiaries, not the parent, in a two-entity consolidati
 
 In the example below, we will actually implement the three steps above as part of the consolidation process to yield the following processes.
 
-- Prepare the group consolidation journal entries.
+-   Prepare the group consolidation journal entries.
 
     -   This will involve some analysis of NCI as part of the acquisition analysis.
     -   Otherwise, the presence of NCI does not affect this step (see discussion in @sec-group-nci).
 
-- **Step 1.** Prepare the entry for the elimination of NCI in acquisition-date equity.[^nci-2]
+-   **Step 1.** Prepare the entry for the elimination of NCI in acquisition-date equity.[^nci-2]
 
-- **Step 2(a).** Incorporate changes in NCI between acquisition date and the start of the current period arising from changes in the reported equity of the subsidiary.
+-   **Step 2(a).** Incorporate changes in NCI between acquisition date and the start of the current period arising from changes in the reported equity of the subsidiary.
 
-- **Step 2(b).** Analyse consolidation journal entries to identify changes in NCI between acquisition date and the start of the current period.
+-   **Step 2(b).** Analyse consolidation journal entries to identify changes in NCI between acquisition date and the start of the current period.
 
-- **Step 3(a).** Incorporate changes in NCI during the current period arising from changes in the reported equity of the subsidiary.
+-   **Step 3(a).** Incorporate changes in NCI during the current period arising from changes in the reported equity of the subsidiary.
 
-- **Step 3(b).** Analyse consolidation journal entries to identify changes in NCI during the current period.
+-   **Step 3(b).** Analyse consolidation journal entries to identify changes in NCI during the current period.
 
 [^nci-2]: Note that "elimination" here is different in that we are reclassifying equity, not removing an asset from the balance sheet.
     However, the form of the entry is so similar that this terminology seems simpler.
@@ -206,9 +206,9 @@ We will only use the parent entry for the consolidation process, as we will appl
 
 *3. Prepare the consolidation worksheet entries for year ended 30 June 2014*
 
-- All the inventory on hand at 1 July 2013 was sold by 30 June 2014.
-- Acquired plant had a remaining useful life of 10 years, with benefits to be received evenly over this period.
-- Subsidiary Ltd made a profit of \$40,000 for the year ended 30 June 2014. No other changes occurred in equity.
+-   All the inventory on hand at 1 July 2013 was sold by 30 June 2014.
+-   Acquired plant had a remaining useful life of 10 years, with benefits to be received evenly over this period.
+-   Subsidiary Ltd made a profit of \$40,000 for the year ended 30 June 2014. No other changes occurred in equity.
 
 (1) BCVR entry
 
@@ -535,7 +535,6 @@ Generally, we do not expect to see gains on bargain purchase.
 If such gains do arise, there is no impact on calculation of the NCI share of equity.
 The NCI is valued as its share of the fair value of identifiable net assets subsidiary.
 This is analogous to the partial method for goodwill.
-
 
 ![Example of indirect interests](nci_indirect.png){#fig-nci-indirect}
 
