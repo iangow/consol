@@ -519,6 +519,8 @@ For Step 3(b):
 
 ![NCI worksheet for year ended 30 June 2017](nci_nci.png){#fig-nci-nci}
 
+All of the entries above, including the consolidation worksheet with NCI entries can be found [here](https://go.unimelb.edu.au/6id8).
+
 ## Direct and indirect interests
 
 AASB 10 defines NCI as "equity in a subsidiary not attributable, directly or indirectly, to a parent." Referring to @fig-nci-indirect, we see that A Ltd has a 12% *direct interest* in C Ltd and an *indirect interest* via its interest in B Ltd, which has an interest in C Ltd.
