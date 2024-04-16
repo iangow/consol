@@ -200,6 +200,16 @@
     ]
   },
   {
+    "objectID": "nci.html#intragroup-sales-upstream-versus-downstream",
+    "href": "nci.html#intragroup-sales-upstream-versus-downstream",
+    "title": "5  Non-controlling interest",
+    "section": "5.6 Intragroup sales: Upstream versus downstream",
+    "text": "5.6 Intragroup sales: Upstream versus downstream\n\nDownstream sale: Sale by the parent entity to a subsidiary\n\n“Downstream” because the asset moves from a higher to a lower level in the group\n\nUpstream sale: Sale by the subsidiary entity to a parent\n\n“Upstream” because the asset moves from a lower to a higher level in the group\n\n\nIn a simple two-entity group these terms are useful, but in more complex groups the analysis is less straightforward.\nFrom a group perspective, it does not matter whether a sale is upstream or downstream. In either case, unrealized profits on the intragroup sale need to be eliminated.\nHowever, the effect on NCI can differ. With a downstream sale, the elimination relates to profit of the parent, so NCI is unaffected by it. With an upstream sale, the elimination relates to profit of the subsidiary, so NCI needs to adjusted for the elimination. (The demonstration example above involved upstream sales of inventory.)",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Non-controlling interest</span>"
+    ]
+  },
+  {
     "objectID": "nci.html#footnotes",
     "href": "nci.html#footnotes",
     "title": "5  Non-controlling interest",
