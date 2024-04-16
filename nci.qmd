@@ -531,9 +531,25 @@ For Step 3(b):
 
 :::
 
+*5.  Prepare the consolidated financial statements for year ended 30 June 2017*
+
+We can read the relevant numbers off the last column ("Parent") of the worksheet above.
+We reformat the numbers to look more conventional (e.g., current assets at the top) and to remove irrelevant lines (e.g., *Shares in subsidiary* and *Profit on sale of plant*).
+
+::: {.content-visible when-format="pdf"}
+
+![Financial statements for year ended 30 June 2017](nci-fs.pdf){#fig-nci-fs}
 
 
-All of the entries above, including the consolidation worksheet with NCI entries can be found [here](https://go.unimelb.edu.au/5ed8).
+:::
+
+::: {.content-visible when-format="html"}
+
+![Financial statements for year ended 30 June 2017](nci-fs.png){#fig-nci-fs}
+
+:::
+
+All of the entries above and the two worksheets---@fig-nci-cw and @fig-nci-nci---can be found [here](https://go.unimelb.edu.au/5ed8).
 
 ## Direct and indirect interests
 
