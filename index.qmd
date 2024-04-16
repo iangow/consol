@@ -16,7 +16,7 @@ However, the following portions of *Financial Reporting* use approaches inconsis
  - The demonstration problem in Chapter 29
  - Chapter 30: Consolidation: non-controlling interest
  
- The reason for replacing these materials is that they provide a confusing approach to the business combination valuation reserve (BCVR).
+The reason for replacing these materials is that they provide a confusing approach to the business combination valuation reserve (BCVR).
 The approach to BCVR in *Financial Reporting* has two problems.
 
 First, treatment of BCVR is not consistent across chapters.
@@ -25,10 +25,10 @@ In the latter case, goodwill is included in the pre-acquisition entry.
 In contrast, these materials always include goodwill in the pre-acquisition entry.
 
 Second, the amount of BCVR varies from one period to the next.
-In *Financial Reporting*, so revaluation adjustments are moved to the pre-acquisition entry as the associated assets are consumed, even though the total amount of revaluation is unaffected.
+*Financial Reporting* moves (some) revaluation adjustments to the pre-acquisition entry as the associated assets are consumed, even though the total amount of revaluation is unaffected.^[I say "some" because BCVR associated with inventory is moved, but not that associated with partially consumed depreciable assets. In contrast, the materials here use one approach for all cases.]
 As a result, the pre-acquisition entry in *Financial Reporting* needs to change in each period as revaluations are shifted to that entry.
 In contrast, in these materials the amount of revaluation reflected in BCVR does not change (putting aside measurement period adjustments) after the acquisition date.
 Similarly, the pre-acquisition elimination entry also remains the same in each period.
 
-Interested students seeking a more comprehensive set of materials used here should note that some textbooks provide a presentation of consolidation accounting consistent with that used in these materials.
-For example, *Accounting for Corporate Combinations and Associations* (eighth edition) by Neal Arthur, Louise Luff, Peter Keet, Matthew Egan, Bryan Howieson, and Ronita Ram treats BCVR much as we do in these materials.^[The term "BCVR" is not used in *Accounting for Corporate Combinations and Associations*, which instead calls it "fair value adjustment".]
+Interested students seeking a more comprehensive set of materials used here should note that some textbooks provide a presentation of consolidation accounting fairly consistent with that used in these materials.
+For example, *Accounting for Corporate Combinations and Associations* (eighth edition) by Neal Arthur, Louise Luff, Peter Keet, Matthew Egan, Bryan Howieson, and Ronita Ram treats BCVR much as we do in these materials.^[The term "BCVR" is not used in *Accounting for Corporate Combinations and Associations*, which instead calls it "fair value adjustment". However, Arthur et al. does not use consolidation journal entries for NCI items; it uses a NCI memorandum account instead.]
