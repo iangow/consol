@@ -580,3 +580,21 @@ This is analogous to the partial method for goodwill.
 | Direct NCI                           | 18% |
 
 : Direct and indirect interest {#tbl-indirect}
+
+##  Intragroup sales: Upstream versus downstream
+
+- **Downstream sale**: Sale by the parent entity to a subsidiary
+   - "Downstream" because the asset moves from a higher to a lower level in the group
+- **Upstream sale**: Sale by the subsidiary entity to a parent
+   - "Upstream" because the asset moves from a lower to a higher level in the group
+
+In a simple two-entity group these terms are useful, but in more complex groups the analysis is less
+straightforward.
+
+From a group perspective, it does not matter whether a sale is upstream or downstream.
+In either case, unrealized profits on the intragroup sale need to be eliminated.
+
+However, the effect on NCI can differ. 
+With a downstream sale, the elimination relates to profit of the parent, so NCI is unaffected by it.
+With an upstream sale, the elimination relates to profit of the subsidiary, so NCI needs to adjusted for the elimination.
+(The demonstration example above involved upstream sales of inventory.)
