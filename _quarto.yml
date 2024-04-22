@@ -27,6 +27,7 @@ book:
     - wholly-owned.qmd
     - intragroup.qmd
     - "nci.qmd"
+    - equity.qmd
 format:
   html:
     code-link: true

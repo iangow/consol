@@ -1,0 +1,252 @@
+# Accounting for associates {#sec-associates}
+
+An associate is an entity over which the investor has **significant influence** (Para 3 AASB 128).
+Significant influence is the power to participate in the financial and operating policy decisions of the investee, but is not control or joint control over those policies.
+
+Judgement required in determining the existence of significant influence and AASB 128 provides guidance.
+Significant influence is *presumed* to exist if an entity holds, directly or indirectly, 20% or more of the voting power of the investee unless it can be clearly demonstrated that this is not the case (e.g., another entity holds more than 50%).
+Other factors that can indicate significant influence include:
+
+ - Representation on the board of directors or equivalent governing body of the investee
+ - Participation in policy-making processes including participation in decisions about dividends
+ - Material transactions between the entity and its investee
+ - Interchange of managerial personnel or provision of essential technical information
+
+## Equity method of accounting
+
+The equity method of accounting, also referred to as *one-line consolidation*, accounts for an investment in an associate as investor's the share of the (adjusted) equity of the associate.
+A single line item in the income statement for investor's share of profit of current period.
+A single line item in the balance sheet showing carrying amount of investment in the associate.
+
+Paragraph 10 of AASB 128 (IAS 28) says: "Under the equity method, on initial recognition the investment in an associate or a joint venture is recognised at cost, and the carrying amount is increased or decreased to recognise the investor's share of the profit or loss of the investee after the date of acquisition.
+The investor's share of the investee's profit or loss is recognised in the investor's profit or loss. 
+Distributions received from an investee reduce the carrying amount of the investment.
+Adjustments to the carrying amount may also be necessary for changes in the investor's proportionate interest in the investee arising from changes in the investee's other comprehensive income."
+
+Measurement under the equity method:
+
+ - Recognise the initial investment in the investee at cost
+ - Increase or decrease carrying amount of investment by the investor’s share of the profit or loss (and other comprehensive income)
+ - Income adjusted for intra-company sales and effects of fair-value adjustments at time of acquisition.
+ - Reduce the carrying amount of the investment by dividends received
+
+AASB 127 (IAS 27) *Separate Financial Statements* states that investments in subsidiaries, joint ventures and associates are accounted for either at cost or in accordance with AASB 9 (IFRS 9) *Financial Instruments*.
+Under the cost method, dividends from associate are treated as dividend revenue.
+When consolidated financial statements are prepared, the parent converts from the cost method to the equity method.
+When the investor does not prepare consolidated financial statements, equity accounting is done in the books of the investor.
+
+### Elimination of inter-entity transactions
+
+A careful reader will note that paragraph 10 of AASB 128 (IAS 28) says nothing about adjustments to "the profit or loss of the investee" due to transactions between the associate and the investor.
+Under AASB 10 (IFRS 10), the parent and its subsidiaries for an economic entity and the rationale for eliminating unrealised profits on intragroup transactions is clear.
+The rationale for eliminating analogous profits on transactions between the associate and the investor is far from clear, as the associate and its investor do not form a single economic entity.
+
+Nonetheless, AASB 128 (IAS 28) provides a number of clues suggesting that such elimination is required.
+First, paragraph 26 suggests that "many of the procedures that are appropriate for the application of the equity method are similar to the consolidation procedures described in AASB 10."
+Second, paragraph 28 says that "gains and losses resulting from 'upstream' and 'downstream' transactions ... between an entity (including its consolidated subsidiaries) and its associate or joint venture are recognised in the entity's financial statements only to the extent of unrelated investors' interests in the associate or joint venture."
+Implicitly, we can flip this last sentence to conclude that "gains and losses ... are *eliminated* in the entity's financial statements only to the extent of the *affiliated investor's* interests in the associate."
+
+Parsing these statements may seem daunting, but in practice their requirements are straightforward to apply, as can be seen from two straightforward examples in which Investor owns 20% of Associate.
+
+First, suppose that Investor sells inventory to Associate (i.e., a downstream transaction) at a pre-tax profit of \$2,000 and that the tax rate is 30%, giving an after-tax profit of \$1,400, and that all of the inventory remains on hand at Associate at the end of the period.
+Only 20% of the profits need to be eliminated and this can be effected by making an adjustment for the full $1,400 of "inter-entity" profits and then recognizing the 20% of this as part of equity accounting.
+
+Second, suppose that Associate sells inventory to Investor (i.e., an upstream transaction) at a pre-tax profit of \$2,000 and that the tax rate is 30%, giving an after-tax profit of \$1,400, and that all of the inventory remains on hand at Investor at the end of the period.
+Only 20% of the profits need to be eliminated and again this can be effected by making an adjustment for the full $1,400 of "inter-entity" profits and then recognizing the 20% of this as part of equity accounting.
+
+While AASB 128 (IAS 28) distinguishes between "upstream" and "downstream" transactions, the accounting is essentially the same.^[I say "essentially" because the ellipsis in the quote of paragraph 28 above stands in for the words "involving assets that do not constitute a business, as defined in AASB 3". Paragraph 31A holds that "the gain or loss resulting from a downstream transaction involving assets that constitute a business, as defined in AASB 3, between an entity (including its consolidated subsidiaries) and its associate or joint
+venture is recognised in full in the investor’s financial statements."]
+That said, it should be noted that in the first case we are adjusting the profit of the associate even though the unrealised profit is entirely on the books of the investor.
+This approach may seem counter-intuitive, but can be justified on the basis that it delivers the correct results.
+
+# Equity accounting: Example
+
+In the following example, we will initially assume that the Abe is a parent that prepares consolidated financial statements.
+On 1 July 2017, Abe Ltd acquired 30% of the shares of Jason Ltd for \$82,000. 
+The directors of Abe Ltd believe that Abe Ltd exerts 'significant influence' over Jason Ltd. 
+All the identifiable assets and liabilities of Jason Ltd at the date of acquisition were recorded in their books at fair value except for plant with a fair value of \$20,000 in excess of its carrying amount.
+The plant is expected to have a further 5 years of useful life.
+
+
+|                                | 1 July 2017| 30 June 2018| 30 June 2019|
+| ------------------------------ | ----------:| -----------:| ----------:|
+| Share capital                  | 150 000    | 150 000     | 150 000    |
+| Retained earnings              |  60 000    | 130 000     | 290 000    |
+| General reserve                |            |   8 000     |   8 000    |
+| Asset revaluation surplus      |            |  21 000     |            |
+|                                |            |             |            |
+| Profit before tax              |            | 117 000     | 300 000    |
+| Income tax expense             |            |  33 000     |  85 000    |
+| Profit after tax               |            |  84 000     | 215 000    |
+|                                |            |             |            |
+| Retaining earnings – beginning |            |  60 000     | 130 000    |
+| Profit after tax               |            |  84 000     | 215 000    |
+| Dividends paid                 |            |   6 000     |  25 000    |
+| Dividends declared             |            |             |  30 000    |
+| Transfers to general reserve   |            |   8 000     |            |
+| Retained earnings – ending     |            | 130 000     | 290 000    |
+
+: Financial statement data for Jason Ltd {#tbl-jason-fs}
+
+Additional information:
+
+1. Abe Ltd recognises dividends as revenue when declared by its investee companies.
+All dividends are assumed to be paid from current-year profits.
+
+2. On 1 January 2018, Jason Ltd sold an item of equipment to Abe Ltd, carrying amount at date of sale was \$20,000, for \$30,000.
+Abe Ltd depreciates this equipment at 20% per annum.
+
+3. At 30 June 2019, Abe Ltd had unsold inventories costing \$50,000 (2018: \$80,000) which had been purchased from Jason Ltd.
+Jason Ltd has recorded a profit before tax of \$11,000 (2018: \$16,000) in its books for the respective years.
+
+4. Jason Ltd recorded an asset revaluation surplus of \$21,000 (after tax) in the year ended 30 June 2018 and had no additional revaluation in the year ended 30 June 2019.
+
+5. Jason Ltd also transferred \$8,000 from retained earnings to general reserve in the year ended 30 June 2018.
+
+|                                   |          | 
+| --------------------------------- | --------:|
+| Share capital                     | 150 000  |
+| Retained earnings                 |  60 000  |
+| Fair value adjustment             |  14 000  |
+| FVINA                             | 224 000  |
+|                                   |          |
+| Cost of investment                |  82 000  |
+| Investor share of FVINA           |  67 200  |
+| Goodwill                          |  14 800  |
+
+
+
+The after-tax amount of the fair value adjustment is \$14,000 $(20000 \times (1 - 30\%))$. 
+
+Abe's share of FVINA is 20% of \$224,000, or \$67,200.
+Given that the cost of the investment to Abe Ltd was \$82,000, goodwill is \$14,800 $(82000 - 67200)$.
+
+*Adjustment of profit of associate for year ended 30 June 2018*
+
+The fair value adjustment will be amortised over 5 years, reducing adjusted (after-tax) income of Jason Ltd by \$2,800 in each year.
+
+Under AASB 128 (IAS 28) in gain on the sale of equipment by Jason to Abe is eliminated.
+The after-tax profit is \$7,000.
+
+The additional depreciation related this gain is also eliminated.
+As the sale occurred on 1 January 2018, we need to eliminate half a year's worth of depreciation at a rate of 20%, which is \$700 $(7000 \times \frac{1}{2} \times 20\%)$.
+The unrealised profit in ending inventory is \$11,200 $(11000 \times (1 - 30\%))$.
+
+As can be seen in @tbl-jason-aa, these adjustments yield adjusted profit of \$63,700 for the year ended 30 June 2018.
+
+*Adjustment of profit of associate for year ended 30 June 2019*
+
+Additional depreciation continues as discussed above.
+The additional depreciation related to the gain on the sale of equipment in the previous year is again eliminated.
+But we need to eliminate a full year's worth of depreciation at a rate of 20%, which is \$1,400 $(7000 \times 20\%)$.
+
+The unrealised profit in ending inventory is \$7,700 $(16000 \times (1 - 30\%))$.
+The unrealised profit in beginning inventory is realised in the current period.
+We calculated this above as \$11,200.
+
+As can be seen in @tbl-jason-aa, this yields adjusted profit of \$217,100 for the year ended 30 June 2019.
+
+|                                        |30 June 2018| 30 June 2019|
+| -------------------------------------- |-----------:|------------:|
+| Profit after tax                       |    84 000  |    215 000  |
+| Additional depreciation                |    (2 800) |     (2 800) |
+| Unrealised profit on sale of equipment |    (7 000) |             |
+| Realised profit through depreciation   |       700  |      1 400  |
+| Unrealised profit in closing inventory |   (11 200) |     (7 700) |
+| Unrealised profit in opening inventory |            |     11 200  |
+| **Adjusted profit after tax**          |  **63 700**|  **217 100**|
+
+: Adjustment of profit of associate {#tbl-jason-aa}
+
+*Journal entries in books of investor for year ended 30 June 2018*
+
+It is helpful to consider first the journal entries related to the associate (Jason Ltd) that would be made in the books of the investor (Abe Ltd).
+We start with the year ended 30 June 2018, which is the year of investment.
+
+The first entry would be made on the purchase of the stake in Jason Ltd.
+
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Investment in associate       | 82 000 |        |
+|  Cash                         |        | 82 000 |
+
+Later, Abe would recognize the dividends paid by Jason as revenue.
+
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Cash                          |  1 800 |        |
+|  Dividend revenue             |        |  1 800 |
+
+*Consolidation journal entries for year ended 30 June 2018*
+
+Now, we consider the equity journal entries that would be made.
+These might part of the process of preparing consolidation journal entries.
+
+First, we reclassify the dividend received from revenue to a reduction in the investment asset.
+
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Dividend revenue              |  1 800 |        |
+|  Investment in associate      |        |  1 800 |
+
+Second, we recognise the investor's share of the adjusted profit of the associate: $30\% \times 63{\small,}700 = 19{\small,}110$.
+
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Investment in associate       | 19 110 |        |
+|  Share of profit of associate |        | 19 110 |
+
+Third, we recognise the investor's share of the other comprehensive income (OCI) of the associate: $30\% \times 21{\small,}000 = 6{\small,}300$.
+
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Investment in associate       |  6 300 |        |
+|  Gain on revaluation (OCI)    |        |  6 300 |
+
+*Journal entries in books of investor for year ended 30 June 2019*
+
+Abe would recognize the both the dividends paid and the dividends declared by Jason as revenue
+
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Cash                          |  7 500 |        |
+|  Dividend revenue             |        |  7 500 |
+|                               |        |        |
+| Dividends receivable          |  9 000 |        |
+|  Dividend revenue             |        |  9 000 |
+
+*Consolidation journal entries for year ended 30 June 2019*
+
+First, we reclassify the dividends on consolidation.
+
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Dividend revenue              |  7 500 |        |
+|  Investment in associate      |        |  7 500 |
+|                               |        |        |
+| Dividend revenue              |  9 000 |        |
+|  Investment in associate      |        |  9 000 |
+
+Second, we recognise the investor's share of the adjusted profit of the associate: $30\% \times 217{\small,}100 = 65{\small,}130$.
+
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Investment in associate       | 65 130 |        |
+|  Share of profit of associate |        | 65 130 |
+
+Much like we saw in @sec-wholly-owned, consolidation journals have no automatic memory, so we need to recognise cumulative changes in retained earnings from prior periods.
+In this case, we have one prior period in which income was $19,110 and dividends  were \$1,800, which nets to \$17,310.
+We also make a similar adjustment for cumulative OCI (AOCI).
+
+|                                 |  Debit  | Credit |
+|---------------------------------|--------:|-------:|
+| Investment in associate         |  17 310 |        |
+|  Retained earnings -- beginning |         | 17 310 |
+|                                 |         |        |
+| Investment in associate         |   6 300 |        |
+|  AOCI -- beginning AOCI         |         |  6 300 |
+
+Casual inspection of the entries above in the books of the investor (Abe Ltd) is enough to reveal that, apart from the initial entry, none of the entries affect the account *Investment in associate*.
+Thus this account has a value of \$82,000 at the end of both fiscal 2018 and fiscal 2019.
+
+In contrast, the value of *Investment in associate* in the consolidated accounts of the Abe Ltd group is \$105,610 at the end of fiscal 2018 and \$154,240 at the end of fiscal 2019.
