@@ -59,7 +59,7 @@ venture is recognised in full in the investor’s financial statements."]
 That said, it should be noted that in the first case we are adjusting the profit of the associate even though the unrealised profit is entirely on the books of the investor.
 This approach may seem counter-intuitive, but can be justified on the basis that it delivers the correct results.
 
-# Equity accounting: Example
+## Equity accounting: Example
 
 In the following example, we will initially assume that the Abe is a parent that prepares consolidated financial statements.
 On 1 July 2017, Abe Ltd acquired 30% of the shares of Jason Ltd for \$82,000. 
