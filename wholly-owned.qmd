@@ -32,7 +32,19 @@ All identifiable assets and liabilities were recorded in Subsidiary Ltd’s book
  - A transfer to general reserve was made in the year ended 30 June 2018 from pre-acquisition profits.
  - The accounts of Parent and Subsidiary as of 30 June 2018 are shown in @fig-ex-2.
 
-![Books as of 30 June 2018](example_2.pdf){#fig-ex-2 width=6in}
+::: {.content-visible when-format="pdf"}
+
+![Books as of 30 June 2018](assets/example_2.pdf){#fig-ex-2 width=6in}
+
+:::
+
+::: {.content-visible when-format="html"}
+
+![Books as of 30 June 2018](assets/example_2.png){#fig-ex-2 width=6in}
+
+:::
+
+
 
 ### Requirements
 
@@ -291,4 +303,15 @@ These amounts are calculated as the sum of the amounts for Parent and Subsidiary
 As always, debit items decrease and credit items increase amounts related to total liabilities and shareholders' equity (including the income statement amounts, which flow via retained earnings).
 Similarly, debit items increase and credit items decrease amounts related to total assets.
 
-![Consolidation worksheet for year ending 30 June 2018](parent-sub-cws.pdf){#fig-cws fig-align="center" width=7in}
+::: {.content-visible when-format="pdf"}
+
+![Consolidation worksheet for year ending 30 June 2018](assets/parent-sub-cws.pdf){#fig-cws fig-align="center" width=7in}
+
+:::
+
+::: {.content-visible when-format="html"}
+
+![Consolidation worksheet for year ending 30 June 2018](assets/parent-sub-cws.png){#fig-cws fig-align="center" width=7in}
+
+:::
+

@@ -118,7 +118,18 @@ Parent Ltd applied a 20% depreciation rate to this type of plant.
 
 Financial data for the separate accounts as of 30 June 2017 for Parent and Subsidiary are provided in @fig-nci-fs.
 
-![Separate accounts as of 30 June 2017](nci_fs.png){#fig-nci-fs}
+::: {.content-visible when-format="pdf"}
+
+![Separate accounts as of 30 June 2017](assets/nci_fs.png){#fig-nci-fs}
+
+:::
+
+::: {.content-visible when-format="html"}
+
+![Separate accounts as of 30 June 2017](assets/nci_fs.png){#fig-nci-fs}
+
+:::
+
 
 **Required**
 
@@ -517,17 +528,17 @@ For Step 3(b):
 
 ::: {.content-visible when-format="pdf"}
 
-![Consolidation worksheet for year ended 30 June 2017](nci_cw.pdf){#fig-nci-cw}
+![Consolidation worksheet for year ended 30 June 2017](assets/nci_cw.pdf){#fig-nci-cw}
 
-![NCI worksheet for year ended 30 June 2017](nci_nci.pdf){#fig-nci-nci}
+![NCI worksheet for year ended 30 June 2017](assets/nci_nci.pdf){#fig-nci-nci}
 
 :::
 
 ::: {.content-visible when-format="html"}
 
-![Consolidation worksheet for year ended 30 June 2017](nci_cw.png){#fig-nci-cw}
+![Consolidation worksheet for year ended 30 June 2017](assets/nci_cw.png){#fig-nci-cw}
 
-![NCI worksheet for year ended 30 June 2017](nci_nci.png){#fig-nci-nci}
+![NCI worksheet for year ended 30 June 2017](assets/nci_nci.png){#fig-nci-nci}
 
 :::
 
@@ -538,14 +549,14 @@ We reformat the numbers to look more conventional (e.g., current assets at the t
 
 ::: {.content-visible when-format="pdf"}
 
-![Financial statements for year ended 30 June 2017](nci-fs.pdf){#fig-nci-fs}
+![Financial statements for year ended 30 June 2017](assets/nci-fs.pdf){#fig-nci-fs}
 
 
 :::
 
 ::: {.content-visible when-format="html"}
 
-![Financial statements for year ended 30 June 2017](nci-fs.png){#fig-nci-fs}
+![Financial statements for year ended 30 June 2017](assets/nci-fs.png){#fig-nci-fs}
 
 :::
 
@@ -566,7 +577,7 @@ If such gains do arise, there is no impact on calculation of the NCI share of eq
 The NCI is valued as its share of the fair value of identifiable net assets subsidiary.
 This is analogous to the partial method for goodwill.
 
-![Example of indirect interests](nci_indirect.png){#fig-nci-indirect}
+![Example of indirect interests](assets/nci_indirect.png){#fig-nci-indirect}
 
 | **B Ltd**                            |     |
 |:-------------------------------------|----:|

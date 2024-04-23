@@ -7,7 +7,20 @@ But simply summing the accounts Parent and Subsidiary would be problematic.
 First, the books of Parent would include an amount for *Investment in Subsidiary* or something similar.
 Second, the books of Subsidiary would include shareholders' equity, even though there are no outside shareholders in Subsidiary.
 
-![A group comprising a parent and a subsidiary](entity.png){#fig-entity}
+::: {.content-visible when-format="pdf"}
+
+![A group comprising a parent and a subsidiary](assets/entity.pdf){#fig-entity}
+
+:::
+
+::: {.content-visible when-format="html"}
+
+![A group comprising a parent and a subsidiary](assets/entity.png){#fig-entity}
+
+:::
+
+
+
 
 In @sec-wholly-owned, we saw that it is necessary to record an elimination entry as part of the consolidation process.
 But this elimination entry relates to the economic circumstances of the group at the time of acquisition.
@@ -444,7 +457,19 @@ The credit can be thought of as the amount of the deferred tax asset that has be
 As @fig-divs makes clear, nothing has happened from a group perspective.
 No cash has been moved out of the larger (blue) box and, while the equity claim of Petal in Sleet has decreased in value, this equity claim does not appear in the consolidated accounts as it does not represent an interest of parties outside the larger (blue) box.
 
-![Dividends paid](dividends.png){#fig-divs}
+::: {.content-visible when-format="pdf"}
+
+![Dividends paid](assets/dividends.pdf){#fig-divs}
+
+:::
+
+::: {.content-visible when-format="html"}
+
+![Dividends paid](assets/dividends.png){#fig-divs}
+
+:::
+
+
 
 Note that there are no intragroup assets or liabilities related to the dividends at the end of the period, so there is nothing to eliminate on the balance sheet.
 
@@ -489,7 +514,19 @@ This loan gives rise to a financial asset for Petal and a financial liability fo
 Sleet has "a contractual right to receive cash ... from another entity" (Petal), which meets the definition of a financial asset in paragraph 11 of AASB 132 (IAS 32) *Financial Instruments: Disclosure and Presentation*.
 Petal has a "contractual obligation to deliver cash ... to another entity" (Sleet), which meets the definition of a financial liability in paragraph 11 of AASB 132 (IAS 32).
 
-![Intragroup loan](intragroup_loan.png){#fig-loan}
+::: {.content-visible when-format="pdf"}
+
+![Intragroup loan](assets/intragroup_loan.pdf){#fig-loan}
+
+:::
+
+::: {.content-visible when-format="html"}
+
+![Intragroup loan](assets/intragroup_loan.png){#fig-loan}
+
+:::
+
+
 
 However, as is clear in @fig-loan, there is neither a financial asset nor a financial liability from a group perspective.
 There is no "other entity" outside the group to which amounts are owed to or by.

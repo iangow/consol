@@ -30,7 +30,7 @@ Measurement under the equity method:
  - Income adjusted for intra-company sales and effects of fair-value adjustments at time of acquisition.
  - Reduce the carrying amount of the investment by dividends received
 
-AASB 127 (IAS 27) *Separate Financial Statements* states that investments in subsidiaries, joint ventures and associates are accounted for either at cost or in accordance with AASB 9 (IFRS 9) *Financial Instruments*.
+AASB 127 (IAS 27) *Separate Financial Statements* states that, for entities that prepare consolidated financial statements, investments in subsidiaries, joint ventures and associates are accounted for either at cost or in accordance with AASB 9 (IFRS 9) *Financial Instruments*.
 Under the cost method, dividends from associate are treated as dividend revenue.
 When consolidated financial statements are prepared, the parent converts from the cost method to the equity method.
 When the investor does not prepare consolidated financial statements, equity accounting is done in the books of the investor.
@@ -59,11 +59,10 @@ venture is recognised in full in the investor’s financial statements."]
 That said, it should be noted that in the first case we are adjusting the profit of the associate even though the unrealised profit is entirely on the books of the investor.
 This approach may seem counter-intuitive, but can be justified on the basis that it delivers the correct results.
 
-## Equity accounting: Example
+## Equity accounting: Abe Ltd and Jason Ltd
 
-In the following example, we will initially assume that the Abe is a parent that prepares consolidated financial statements.
 On 1 July 2017, Abe Ltd acquired 30% of the shares of Jason Ltd for \$82,000. 
-The directors of Abe Ltd believe that Abe Ltd exerts 'significant influence' over Jason Ltd. 
+The directors of Abe Ltd believe that Abe Ltd exerts *significant influence* over Jason Ltd. 
 All the identifiable assets and liabilities of Jason Ltd at the date of acquisition were recorded in their books at fair value except for plant with a fair value of \$20,000 in excess of its carrying amount.
 The plant is expected to have a further 5 years of useful life.
 
@@ -103,6 +102,19 @@ Jason Ltd has recorded a profit before tax of \$11,000 (2018: \$16,000) in its b
 
 5. Jason Ltd also transferred \$8,000 from retained earnings to general reserve in the year ended 30 June 2018.
 
+### Equity accounting when investor prepares consolidated accounts
+
+For entities that prepare consolidated financial statements under AASB 127 (IAS 27) *Separate Financial Statements*, investments in subsidiaries, joint ventures and associates re accounted for either at cost or in accordance with AASB 9 (IFRS 9) *Financial Instruments*.
+Under the cost method, dividends from associate are treated as dividend revenue in the investor's separate financial accounts.
+When consolidated financial statements are prepared, the parent converts from the cost method to the equity method.
+
+In the following analysis, we assume that the Abe is a parent that prepares consolidated financial statements.
+We can calculate the after-tax amount of the fair value adjustment as \$14,000 $(20000 \times (1 - 30\%))$. 
+From the analysis of the investment in @tbl-jason-aa, we see that the FVINA is \$224,000.
+
+Abe's share of FVINA is 20% of \$224,000, or \$67,200.
+Given that the cost of the investment to Abe Ltd was \$82,000, goodwill is \$14,800 $(82000 - 67200)$.
+
 |                                   |          | 
 | --------------------------------- | --------:|
 | Share capital                     | 150 000  |
@@ -114,21 +126,16 @@ Jason Ltd has recorded a profit before tax of \$11,000 (2018: \$16,000) in its b
 | Investor share of FVINA           |  67 200  |
 | Goodwill                          |  14 800  |
 
-
-
-The after-tax amount of the fair value adjustment is \$14,000 $(20000 \times (1 - 30\%))$. 
-
-Abe's share of FVINA is 20% of \$224,000, or \$67,200.
-Given that the cost of the investment to Abe Ltd was \$82,000, goodwill is \$14,800 $(82000 - 67200)$.
+: Acquisition analysis for investment in Jason Ltd {#tbl-jason-aa}
 
 *Adjustment of profit of associate for year ended 30 June 2018*
 
 The fair value adjustment will be amortised over 5 years, reducing adjusted (after-tax) income of Jason Ltd by \$2,800 in each year.
 
-Under AASB 128 (IAS 28) in gain on the sale of equipment by Jason to Abe is eliminated.
-The after-tax profit is \$7,000.
+Under AASB 128 (IAS 28) in unrealised gain on the sale of equipment by Jason to Abe is eliminated.
+The after-tax profit to be eliminated is \$7,000.
 
-The additional depreciation related this gain is also eliminated.
+The additional depreciation related to this gain is also eliminated.
 As the sale occurred on 1 January 2018, we need to eliminate half a year's worth of depreciation at a rate of 20%, which is \$700 $(7000 \times \frac{1}{2} \times 20\%)$.
 The unrealised profit in ending inventory is \$11,200 $(11000 \times (1 - 30\%))$.
 
@@ -250,3 +257,101 @@ Casual inspection of the entries above in the books of the investor (Abe Ltd) is
 Thus this account has a value of \$82,000 at the end of both fiscal 2018 and fiscal 2019.
 
 In contrast, the value of *Investment in associate* in the consolidated accounts of the Abe Ltd group is \$105,610 at the end of fiscal 2018 and \$154,240 at the end of fiscal 2019.
+
+A spreadsheet with the calculations above can be found [here](https://go.unimelb.edu.au/55d8).^[If you want to change the numbers and you are logged into Google, then you could select `File` then `Make a copy` from the menu to make a copy. Alternatively, you could select `File` then `Download` to get a version in a format that works for you.]
+
+### Equity accounting in books of investor
+
+As discussed above, when the investor does not prepare consolidated financial statements, AASB 127 (IAS 27) *Separate Financial Statements* requires that equity accounting be done in the books of the investor.
+A spreadsheet applying equity accounting in the books of Abe Ltd under the assumption that it does not prepare consolidated financial statements can be found [here](https://go.unimelb.edu.au/55d8).
+
+## Applied issues
+
+### Impairment of investments in associates
+
+Para 40: If carrying amount exceeds the recoverable amount, then an impairment loss must be recognised
+
+|                               |  Debit | Credit |
+|-------------------------------|-------:|-------:|
+| Impairment loss               |    XXX |        |
+|  Investment in associate      |        |    XXX |
+
+Because goodwill related to investment in an associate is not separately recognised, it is not tested for impairment separately under AASB 136 (IAS 36) *Impairment of Assets* (paragraph 42).
+Instead, the entire carrying amount of the investment is tested for impairment as a single asset. 
+Any impairment loss recognised is not allocated to any asset, including goodwill, that forms part of the carrying amount of the net investment in the associate.
+
+### Losses of associates
+
+Under the equity method, losses decrease the carrying amount of the investment in associate.
+Paragraph 38 of AASB 128 (IAS 28) says that "if an entity's share of losses of an associate ... equals or exceeds its interest in the associate."
+This means an investor cannot have a negative investment, which is appropriate if limited liability applies.^[Paragraph 39 suggests that "to the extent that the entity has incurred legal or constructive obligations or made payments on behalf of the associate", additional losses may be appropriate.]
+Paragraph 39 of AASB 128 (IAS 28) prescribes that "If the associate or joint venture subsequently reports profits, the entity resumes recognising its share of those profits only after its share of the profits equals the share of losses not recognised."
+
+### Disclosure requirements
+
+AASB 128 (IAS 28) requires an entity with associated to disclose information that enables users of its financial statements to evaluate 
+ 
+ - The nature, extent and financial effects of its interests in associates
+ - The nature of, and changes in the risks associated with its interest in associates
+ - The nature of the associate and principal place of business
+ - The nature of the relationship (e.g. the nature of the associate's activities and whether they are strategic to the entity's activities)
+ - Proportion of ownership and voting rights
+ - Fair value of the investment
+ - Share of any contingent liabilities of the associate
+ - Summarised financial information (aggregated amounts of assets, liabilities, revenues & profit or loss)
+ - Explanations for why 20% or more voting control was not deemed to give significant influence (or why deemed the entity is deemed to have significant influence with less than 20% voting control)
+ - Investor's share of profits or losses in such associates, the carrying amount of those investments, and the investor's share of discontinued operations of such associates shall be separately disclosed
+ - Unrecognised share of losses
+
+## Control versus significant influence
+
+::: {.content-visible when-format="pdf"}
+
+![Control versus significant influence](assets/control-sig-infl.pdf){#fig-control-sig-infl}
+
+:::
+
+::: {.content-visible when-format="html"}
+
+![Control versus significant influence](assets/control-sig-infl.png){#fig-control-sig-infl}
+
+:::
+
+### Control 
+
+ - Power over the investee – that is, rights that give it the ability to direct activities that significantly affect the  investee’s returns
+ - Exposure to, or rights to, variable returns from its involvement  with the investee; and
+ - The ability to use its power over the investee to affect the amount of the investor’s returns
+
+The third element above provides the link between the first two elements.
+
+Power arises from substantive rights including voting rights.
+Holding more than 50% of voting rights, whether directly or indirectly, normally gives power to the investor.
+If the investors share of voting rights is less than 50%, we need to examine the potential actions of the other shareholders.
+
+In evaluating power, one must consider potential voting rights and whether those potential rights are substantial.
+To help analyse these issues, PwC provides the flowchart seen in @fig-sub-rights.^[See [here](https://www.pwc.com/ng/en/assets/pdf/combined-and-carved-out-financial-statements.pdf).]
+
+**Power** includes the right to appoint, reassign or remove key management personnel, right to appoint or remove another entity that participates in management decisions, right to direct the investee to enter into, or block any changes, to transactions that affect the investee's returns.
+
+Power can be gained via:
+
+ - Ownership of the largest block of voting rights in a situation where the remaining rights are widely dispersed (**de facto control**) (B42-B45)
+ - Potential voting rights (must be substantive) (B47)
+ - Contractual arrangements with other vote holders (B39) or other rights (B40)
+ - A combination of the above
+
+De facto control may arise because the investor has the power to unilaterally direct the investee unless a sufficient number of dispersed investors act together.
+Such coordination may be difficult to organise if doing so requires a large number of investors.
+
+::: {.content-visible when-format="pdf"}
+
+![Flowchart for determining where rights are substantive](assets/sub_rights.pdf){#fig-sub-rights}
+
+:::
+
+::: {.content-visible when-format="html"}
+
+![Flowchart for determining where rights are substantive](assets/sub_rights.png){#fig-sub-rights}
+
+:::
