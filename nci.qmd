@@ -414,9 +414,9 @@ This reduction gives rise to a deferred tax asset (intuitively, we need to debit
 |  Income tax expense     |        |  6 000 |
 |                         |        |        |
 | Acc. dep. -- plant      |  1 000 |        |
-|  Income tax expense     |        |  1 000 |
+|  Depreciation expense   |        |  1 000 |
 |                         |        |        |
-| Income tax expense.     |    300 |        |
+| Income tax expense      |    300 |        |
 |  Deferred tax asset     |        |    300 |
 
 (7) Reverse intragroup dividend
