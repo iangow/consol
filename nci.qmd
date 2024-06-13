@@ -494,7 +494,7 @@ Note that an alternative entry would be as follows, but the effect is the same.
 
 We have debits related to income of 20,000 and 300 and credits related to income of 6,000 and 1,000.
 The net of these is 13,300.
-Then $2660 = 20\% \time 13300$.
+Then $2660 = 20\% \times 13300$.
 
 |                      | Debit | Credit |
 |----------------------|------:|-------:|
