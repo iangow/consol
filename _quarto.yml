@@ -22,11 +22,12 @@ book:
   date-format: "DD MMM YYYY"
   description: "Course materials for consolidations module of *Corporate Reporting*"
   chapters:
-    - "index.qmd"
+    - index.qmd
+    - taxes.qmd
     - bus-combs.qmd
     - wholly-owned.qmd
     - intragroup.qmd
-    - "nci.qmd"
+    - nci.qmd
     - equity.qmd
 format:
   html:
