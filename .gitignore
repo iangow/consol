@@ -6,3 +6,5 @@
 Consolidation-accounting.tex
 *_files
 docs
+
+**/*.quarto_ipynb

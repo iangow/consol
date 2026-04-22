@@ -10,17 +10,11 @@ book:
   - name: Ian D. Gow
     id: idg
     orcid: 0000-0002-6243-8409
-    email: ian.gow@unimelb.edu.au
-    affiliation:
-    - id: unimelb
-      name: University of Melbourne
-      city: Melbourne
-      state: Victoria
-      country: Australia
+    email: iandgow@gmail.com
   language: en-GB
   date: today
   date-format: "DD MMM YYYY"
-  description: "Course materials for consolidations module of *Corporate Reporting*"
+  description: "Course materials for a consolidations module"
   chapters:
     - index.qmd
     - taxes.qmd
