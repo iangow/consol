@@ -1,5 +1,10 @@
 # Accounting for income tax {#sec-tax}
 
+::: {.callout-caution collapse="true"}
+## Draft chapter
+I think this chapter was an initial draft that was never fully developed.
+:::
+
 This chapter introduces the accounting for **income taxes**.
 The relevant accounting standard is [AASB 112](https://www.aasb.gov.au/admin/file/content105/c9/AASB112_08-15_COMPfeb2018_01-19.pdf) (IAS 12) *Income taxes*.
 
